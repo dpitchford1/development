@@ -1,0 +1,33 @@
+
+Directories
+- index.php
+
+
+- docs
+	- case-studies
+	- resources
+- media
+	- fonts
+	- css
+	- js
+	- img
+		- patterns
+		- icons
+
+- work
+	- Corporate
+		- Connected
+		- Connected for Business
+		- Target
+		- Portal
+		- player-card
+
+	- Projects
+		- Azure
+		- FOF
+		- Portfolio
+		- Kwest
+
+- template
+
+- resources
