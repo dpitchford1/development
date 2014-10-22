@@ -1,0 +1,529 @@
+/* = IMPORTANT GLOBALS = only to be used as trailing class (the last class) on elements..
+- .no-ss === no small screen === display none for small screens
+- .no-ws === no wide screen === display none for wide screens
+- target browsers: IE9+ FF6+ Chrome 11+ Safari5+ Opera11+
+*/
+/* TEMPLATE
+0.0 Document setup
+0.1 Accessibility & Usability
+0.2 Images, Media & Embedded content
+0.3 Common Layout
+0.4 Site Structure - Basic
+0.5 Headers - Navigations - Footers
+0.6 Custom Content Structure
+
+---------------------------------------------- */
+
+/* 1.5 Headings & Titles 
+======================================================================
+====================================================================== */
+/* 
+Global Headings setup
+---------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+font-family: "regular", "Helvetica", Arial, sans-serif;
+font-style: normal;
+/*font-size: 80%;*/
+text-transform: none;
+}
+
+/* Primary Heading selectors setup 
+---------------------------------------------- */
+.h-xb {
+    font-family: "extrabold", "Helvetica", Arial, sans-serif;
+    letter-spacing: -1px;
+    }
+
+.h-b {
+    font-family: "bold", "Helvetica", Arial, sans-serif;
+    }
+
+.h-sb {
+    font-family: "semibold", "Helvetica", Arial, sans-serif;
+    }
+
+.h-r {
+    font-family: "regular", "Helvetica", Arial, sans-serif;
+    }
+
+.h-reverse {
+    color: #fff;
+    }
+
+/* Heading sizes setup
+---------------------------------------------- */
+.size-XLG {
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: .4em;
+    }
+.size-LG {
+    font-size: 38px;
+    font-size: 2.375rem;
+    line-height: 1.1;
+    }
+.size-LG2 {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: .3em;
+    }
+.size-L {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin-bottom: .7em;
+    }
+.size-L2 {
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin-bottom: .7em;
+    }
+.size-L3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin-bottom: .7em;
+    }
+.size-L4 {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin-bottom: .7em;
+    }
+.size-M {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: normal;
+    }
+.size-M-alt {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    margin-bottom: .3em;
+    }
+.size-S {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: normal;
+    }
+.size-SM {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: normal;
+    margin-bottom: .5em;
+    }
+.size-XSM {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: normal;
+    }
+
+
+@media (max-width: 51.25em) {
+/* Headings & Titles
+---------------------------------------------- */
+    .size-LG {
+        font-size: 32px;
+        font-size: 2rem;
+        }
+    .size-L {
+        font-size: 26px;
+        font-size: 1.625rem;
+        line-height: normal;
+        letter-spacing: -1px;
+        margin-bottom: .7em;
+        }
+    .size-L2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+        line-height: normal;
+        letter-spacing: -1px;
+        margin-bottom: .7em;
+        }
+    .size-L3 {
+        font-size: 22px;
+        font-size: 1.375rem;
+        line-height: normal;
+        letter-spacing: -1px;
+        margin-bottom: .7em;
+        }
+    .size-L4 {
+        font-size: 20px;
+        font-size: 1.25rem;
+        line-height: normal;
+        letter-spacing: -1px;
+        margin-bottom: .7em;
+        }
+}
+
+
+/* Heading Styling modifiers 
+---------------------------------------------- */
+.uc-center {
+    text-transform: uppercase;
+    text-align: center;
+    }
+.uc {
+    text-transform: uppercase;
+    }
+
+.w-ul {
+    border-bottom: 1px solid #adb0af;
+    padding-bottom: .3em;
+    }
+.lg-m {
+    margin-bottom: 1.8em;
+    }
+
+
+/* Messaging & Copy
+---------------------------------------------- */
+.copy--L {
+    font-size: 22px;
+    font-size: 1.375rem;
+    }
+
+.copy--LG {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    }
+
+.copy-size-M {
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin: .3em 0 1.8em;
+    }
+
+.copy-size-M2 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin: .3em 0 1.3em;
+    }
+
+.copy-size-S {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin: 0;
+    }
+
+/* legal footnotes */
+.footnote {
+    font-size: 11px;
+    font-size: 0.6875rem;
+    padding-top: 3em;
+    margin-top: .5em;
+    }
+
+
+/* Links & Cursors
+====================================================================== */
+/* Cursors 
+---------------------------------------------- */
+label, select, .pointer, button, html input[type="button"], .submit, input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    }
+
+/* Links
+---------------------------------------------- */
+a {
+    background: transparent;
+    text-decoration: none;
+    color: #1c85c2;
+    }
+
+a:hover {
+    text-decoration: underline;
+    }
+
+a:focus {
+    text-decoration: underline;
+    outline: none;
+    color: #ee0000;
+    }
+
+a:active {
+    color: inherit;
+    background-color: transparent;
+    }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    display: block;
+    color: #434a4f;
+    text-decoration: none;
+    }
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #ee0000;
+    }
+
+/* If needed, modifier selector for callout colour
+---------------------------------------------- */
+.cc {
+    color: #ee0000;
+    }
+
+/* $ 0.0 Document setup
+====================================================================== */
+html {
+    text-rendering: optimizeLegibility;
+    }
+
+/* tweaks */
+@media (max-width: 33.333333em) {
+    /* 480px */
+    html {
+        -webkit-overflow-scrolling: touch;
+        -webkit-tap-highlight-color: #ebebeb;
+        }
+}
+
+body {
+    min-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 0;
+    }
+
+
+/* $ 0.1 Accessibility & Usability
+====================================================================== */
+/* hidden text */
+.hide-text {
+    position: absolute;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 1px;
+    margin: -1px;
+    width: 1px;
+    }
+
+.hide-divider {
+    border: 0 none;
+    height: 0 !important;
+    margin: 0;
+    padding: 0;
+    }
+
+.quick-links {
+    background-color: #333;
+    color: #fff;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    left: 10px;
+    padding: 5px 10px;
+    position: absolute;
+    text-decoration: none;
+    top: -100%;
+    -webkit-transition: top 200ms ease-in-out 0s;
+    transition: top 200ms ease-in-out 0s;
+    z-index: 11;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    }
+
+.quick-links:focus {
+    top: 0;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    }
+
+::-moz-selection {
+    background: #ddd;
+    color: #333;
+    text-shadow: none;
+    }
+
+/* style selected text */
+::-moz-selection {
+    background: #ddd;
+    color: #333;
+    text-shadow: none;
+    }
+::selection {
+    background: #ddd;
+    color: #333;
+    text-shadow: none;
+    }
+
+/* style selected text */
+/* $ 0.2 Images, Media & Embedded content
+====================================================================== */
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    width: 100%;
+    }
+
+figcaption {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    }
+
+/* $ 0.3 Common Layout
+====================================================================== */
+/* Global Setup
+---------------------------------------------- */
+div, header, footer, aside, nav, section, article {
+    overflow: hidden;
+    position: relative;
+    }
+
+/* main site wrapper = default to 980px for small desktop and IE 7 & 8 */
+.site-wrapper {
+    margin: 0 auto;
+    padding: 0 1.15%;
+    width: 100%;
+    }
+
+/* Fluid wrapper for main content - identical to site wrapper - fine grained adjustments for responsive breakpoints */
+.fluid {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 1.15%;
+    }
+
+/* all purpose wrappers */
+.wrapper{ width: 100%; }
+
+.region{
+    margin-bottom: 3em;
+    border-bottom: 3px dotted #aaa;
+    width: 100%;
+    }
+
+/* all purpose wrapper == padding top, margin bottom */
+.content-wrapper {
+    padding-top: 0;
+    padding-bottom: 1.563em;
+    width: 100%;
+    }
+
+/* Clear fix
+---------------------------------------------- */
+.cf:before, .cf:after {
+    content: "";
+    display: table;
+    }
+
+.cf:after {
+    clear: both;
+    }
+
+/* List - No Bullets
+---------------------------------------------- */
+
+/* gets rid of bullets */
+.no-bullet{
+    list-style: none; 
+    list-style-image: none; 
+    margin-left: 0;
+    padding-left: 0; 
+    }
+/* gets rid of bullets on child ul */
+.no-bullet .no-bullet{
+    margin-left: 15px !important; 
+    padding-left: 10px; 
+    }                   
+
+
+/* List - Inline display, set margin, fix boxmodel
+---------------------------------------------- */
+.inline-list{
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden;
+    }                                           
+.inline-list li{
+    float: left;
+    margin: 0 1em 0 0;
+    list-style: none outside none;
+    }   
+.inline-list a{
+    display: block;
+    float: left;
+    margin: 0;
+    }
+
+/* List - automatic numbered list (based on number of items)
+---------------------------------------------- */
+.counted-list{
+    counter-reset: item;
+    list-style-type: none;
+    padding-left: 15px;
+    }
+.counted-list li { counter-increment: item; }
+.counted-list li:before  { content: counters(item, ".") ". "; }
+.counted-list .count-heading, .counted-list .count-title, .counted-list a{
+    display: inline;
+    }
+.counted-list .counted-list{
+    padding-left: 7px;
+    }
+
+/* List - change bullets to alpha or roman = <ul class="alpha-list">
+---------------------------------------------- */
+.alpha-list     { list-style-type: lower-alpha; } /* display ol list as letters a, b, c */
+.roman-list     { list-style-type: lower-roman; } /* display ol list as roman i, ii, iii */
+
+
+/* List - display inline with bullets
+---------------------------------------------- */
+.inline-bullet{
+    margin: 0 0 2em;
+    overflow: hidden;
+    padding: 0;
+    }
+.inline-bullet li{
+    float: left;
+    margin-bottom: 0;
+    padding-right: 1.562500em;
+    }
+.inline-bullet li:first-child{
+    list-style: none;
+    }
+
+
+
+
+
+br, .clear      { clear: both; }                /*clears floats*/
+.float-l        { float: left; }                /*floats left*/
+.float-r        { float: right !important; }     /*floats right*/
+.visible, .show { display: block !important; }           /*displays as block, turns ON*/
+.block          { display: block !important; }           /*displays as block, turns ON*/
+.inline         { display: inline; }           /*displays as block, turns ON*/
+.hidden         { display: none !important; }      /*displays as hidden, turns OFF*/
+.no-bg          { background: 0 none !important; }           /*Removes Background*/
+.no-border      { border: 0 none !important; }               /*Removes Border*/
+hr              { clear: both; overflow: hidden; }
+
+/*fonts*/
+.text-left  { text-align: left; }
+.text-right { text-align: right; }
+.text-center{ text-align: center; }
+.bold       { font-weight: bold; }
+.italic     { font-style: italic; }
+.underline  { border-bottom: 1px solid; }
+.caption    { list-style: none; font-style: normal; font-size: 11px; line-height: normal; }
+.uppercase  { text-transform: uppercase; }
+.lowercase  { text-transform: lowercase; }
+
+.no-m{ margin: 0; }

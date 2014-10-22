@@ -1,0 +1,18 @@
+.site-header{
+	background-color: #0d243c;
+	padding: 2em 0 1em;
+	margin-bottom: 2em;
+	}
+.logo{
+	background: url("http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/sportsnet.svg") no-repeat scroll 0 0;
+	background-size: 100% auto;
+	float: left;
+	text-indent: -100%;
+	height: 50px;
+	width: 300px;
+	}
+.brand-title{
+	float: right;
+	font-size: 24px;
+	color: #fff;
+	}
