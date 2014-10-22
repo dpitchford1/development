@@ -1,0 +1,179 @@
+
+/* START PLAYER CARDS
+====================================================================== */
+.card-wrapper{
+	background-color: #2a2a2a;
+	font-family: $plainFont;
+	overflow: hidden;
+	width: 100%;
+	}
+.card-table{
+	color: #fff;
+	text-transform: uppercase;
+	}
+
+.card-heading{
+	color: #fff;
+	clear: none;
+	display: table;
+	font-family: $plainFont;
+	font-weight: normal;
+	overflow: hidden;
+	margin: 0;
+	table-layout: auto;
+	text-transform: uppercase;
+	}
+.card-name{ 
+	border-left: 1px solid #fff; 
+	display: table-cell; 
+	padding: 0 8px 0 8px; 
+	font-size: 18px;
+	line-height: 1;
+	height: 51px;
+	vertical-align: middle;
+	}
+.card-table, .card-table td, .card-table th{
+	padding:0;
+	}
+
+
+/* general styling */
+.card-season-stats th, .card-salary-stats th{ font-weight: normal; }
+
+.card-team-img{ background-size: 90%; float: left; height: 162px; width: 149px;  }
+.card-player-photo{ border-left: 1px solid #fff; float: left; height: 162px; width:149px; position: relative; overflow: hidden; }
+.card-player-photo img{  left: -75px;
+    max-width: none;
+    position: absolute;
+    top: 10px;
+    width: 200%; }
+
+// Season stats table
+.card-season-stats{
+	border-top: 1px solid #fff;
+	}
+.card-season-stats td, .card-season-stats th{
+	border-left: 1px solid #fff;
+	}
+.card-season-stats thead{
+	border-bottom: 1px solid #fff;
+	}
+.card-season-stats thead th{
+	padding: 10px 8px;
+	text-align: left;
+	}
+.card-season-stats{
+	text-align: center;
+	}
+.card-season-stats th{
+	width:200px;
+	}
+.card-stats-body th, .card-stats-body td{ padding: 10px 0 7px; text-align: center; }
+
+
+.card-salary-stats{ border-top: 1px solid #fff; clear: both; width: 100%; }
+.card-salary-stats th{ text-align: left; width: 265px; }
+.card-salary-stats, .card-salary-stats td, .card-salary-stats th{
+	border-bottom: 1px solid #fff;
+	padding: 7px 17px 5px;
+	}
+.card-salary-stats td{
+	border-left: 1px solid #fff;
+	font-weight: bold;
+	}
+.card-salary-stats tr:nth-child(odd){
+	background-color: #404040;
+	}
+
+.card-payraise	{ color: #4dba79; }
+.card-paycut	{ color: #f82859; }
+
+.card-analysis{
+    color: #fff;
+    padding: 13px 17px 5px;
+    }
+.card-analysis-head{ font-size: 14px; margin-bottom: .8em; }
+.card-analysis-foot{
+	margin-bottom: .3em;
+	}
+.is--staff{
+	background: url('/wp-content/themes/sportsnet/images/logos/logo-inline-28x16.png') no-repeat 0 0;
+	border-right: 1px solid #fff;
+	padding-right: 8px;
+	padding-left: 40px;
+	margin-right: 5px;
+	}
+.has--twitter:before{
+	background: url("sprites/icons.png") no-repeat -159px -8px;
+	content: '';
+	height: 25px;
+	width: 20px;
+	padding: 10px 31px 10px 0;
+	}
+
+.card-ratings{ background-color: #eee; color: $darkBlue; padding: .3em; }
+
+
+/* START MQ'S -- uncomment the media queries needed only
+====================================================================== */
+@if $includeMediaQueries == 'true' {
+	// /* start media query */
+	//@media screen and (min-width: 1024px) {}
+
+	// /* start media query */
+	//@media screen and (max-width: 1023px) {}
+
+	// /* start media query */
+	//@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+	// /* start media query */
+	//@media screen and (min-width: 769px) {}
+
+	// /* start media query */
+	@media screen and (max-width: 768px) {
+		.card-player-photo	{ display: none; }
+		.card-salary-stats th{ width: auto; }
+	}
+
+	// /* start media query */
+	//@media screen and (min-width: 600px) and (max-width: 1023px) {}
+
+	// /* start media query */
+	//@media screen and (max-width: 600px) {}
+
+	// /* start media query */
+	@media screen and (max-width: 599px) {
+		
+	}
+
+	// /* start media query */
+	//@media screen and (min-width: 480px) and (max-width: 599px) {}
+
+	// /* start media query */
+	//@media screen and (max-width: 479px) {}
+
+	// /* start media query */
+	@media screen and (max-width: 360px) {
+		
+		.card-name{ border-left: 0 none; font-size: 16px; height: 64px; }
+		.card-team-img{ background-size: 70% auto; height: 64px; width: 93px; }
+
+		.card-eason-stats{
+			clear: both;
+			}
+		.card-season-stats td:first-child, .card-season-stats th:first-child{
+			border-left: 0 none;
+			}
+		.card-salary-stats, .card-salary-stats td, .card-salary-stats th{
+			font-size: 12px;
+			padding: 10px 6px 8px;
+			vertical-align: middle;
+			}
+		.card-analysis{
+		    padding: 20px 10px;
+		    }
+	}
+
+}
+/* END MQ'S
+====================================================================== */

@@ -1,0 +1,166 @@
+/* LEAGUES AND TEAMS UTILITIES AND VARIABLES
+====================================================================== */
+
+/* PATHS AND IMAGES
+---------------------------------------------- */
+$imgTeamPath: /wp-content/themes/sportsnet/images/team_logos;
+
+$size25: 25x25;
+$size59: 59x59;
+$size90: 90x590;
+$size170: 170x170;
+$size200: 200x200;
+
+
+/* NHL TEAMS BASE COLORS
+---------------------------------------------- */
+//$nhl-anh: #000; 	// anaheim
+$nhl-anh: #91764B; 	// anaheim
+//$nhl-anh: #EF5225; 	// anaheim
+
+$nhl-ari: #8E0028; 	// Arizona Coyotes
+
+//$nhl-bos: #000; 	// boston
+$nhl-bos: #FFC422; 	// boston
+//$nhl-bos: #fff; 	// boston
+
+$nhl-buf: #002E62; 	// Buffalo Sabres
+//$nhl-buf: #FDBB2F; 	// Buffalo Sabres
+//$nhl-buf: #AEB6B9; 	// Buffalo Sabres
+//$nhl-buf: #fff; 	// Buffalo Sabres
+
+$nhl-cgy: #E03A3E; 	// Calgary Flames
+//$nhl-cgy: #FFC758; 	// Calgary Flames
+//$nhl-cgy: #000; 	// Calgary Flames
+//$nhl-cgy: #fff; 	// Calgary Flames
+
+$nhl-car: #E03A3E; 	// Carolina Hurricanes
+//$nhl-car: #000; 	// Carolina Hurricanes
+//$nhl-car: #8E8E90; 	// Carolina Hurricanes
+//$nhl-car: #fff; 	// Carolina Hurricanes
+
+$nhl-chi: #E3263A; 	// Chicago Blackhawks
+//$nhl-chi: #000; 	// Chicago Blackhawks
+//$nhl-chi: #fff; 	// Chicago Blackhawks
+
+$nhl-col: #8B2942; 	// Colorado Avalanche
+//$nhl-col: #01548A; 	// Colorado Avalanche
+//$nhl-col: #000; 	// Colorado Avalanche
+//$nhl-col: #A9B0B8; 	// Colorado Avalanche
+//$nhl-col: #fff; 	// Colorado Avalanche
+
+$nhl-cls: #00285C; 	// Columbus Blue Jackets
+//$nhl-cls: #E03A3E; 	// Columbus Blue Jackets
+//$nhl-cls: #A9B0B8; 	// Columbus Blue Jackets
+//$nhl-cls: #fff; 	// Columbus Blue Jackets
+
+$nhl-dal: #006A4E; 	// Dallas Stars
+//$nhl-dal: #000; 	// Dallas Stars
+//$nhl-dal: #fff; 	// Dallas Stars
+//$nhl-dal: #C0C0C0; 	// Dallas Stars
+
+$nhl-det: #EC1F26; 	// Detroit Redwings
+//$nhl-det: #fff; 	// Detroit Redwings
+
+$nhl-edm: #003777; 	// Edmonton Oilers
+//$nhl-edm: #E66A20; 	// Edmonton Oilers
+//$nhl-edm: #fff; 	// Edmonton Oilers
+
+$nhl-fla: #C8213F; 	// Florida Panthers
+//$nhl-fla: #002E5F; 	// Florida Panthers
+//$nhl-fla: #D59C05; 	// Florida Panthers
+//$nhl-fla: #fff; 	// Florida Panthers
+
+//$nhl-la: #000; 	// Los Angeles Kings
+//$nhl-la: #fff; 	// Los Angeles Kings
+$nhl-la: #AFB7BA; 	// Los Angeles Kings
+
+$nhl-min: #025736; 	// Minnesota Wild
+//$nhl-min: #BF2B37; 	// Minnesota Wild
+//$nhl-min: #EFB410; 	// Minnesota Wild
+//$nhl-min: #EEE3C7; 	// Minnesota Wild
+//$nhl-min: #fff; 	// Minnesota Wild
+
+$nhl-mon: #BF2F38; 	// Montreal Canadiens
+//$nhl-mon: #fff; 	// Montreal Canadiens
+//$nhl-mon: #213770; 	// Montreal Canadiens
+
+//$nhl-nsh: #FDBB2F; 	// Nashville Predators
+$nhl-nsh: #002E62; 	// Nashville Predators
+//$nhl-nsh: #fff; 	// Nashville Predators
+
+$nhl-nj: #E03A3E; 	// New Jersey Devils
+//$nhl-nj: #000; 	// New Jersey Devils
+//$nhl-nj: #fff; 	// New Jersey Devils
+
+$nhl-nyi: #00529B; 	// New York Islanders
+//$nhl-nyi: #F57D31; 	// New York Islanders
+//$nhl-nyi: #fff; 	// New York Islanders
+
+$nhl-nyr: #0161AB; 	// New York Rangers
+//$nhl-nyr: #E6393F; 	// New York Rangers
+//$nhl-nyr: #fff; 	// New York Rangers
+
+$nhl-ott: #E4173E; 	// Ottawa Senators
+//$nhl-ott: #000; 	// Ottawa Senators
+//$nhl-ott: #D69F0F; 	// Ottawa Senators
+//$nhl-ott: #fff; 	// Ottawa Senators
+
+$nhl-phi: #F47940; 	// Philadelphia Flyers
+//$nhl-phi: #000; 	// Philadelphia Flyers
+//$nhl-phi: #fff; 	// Philadelphia Flyers
+
+$nhl-pho: #8E0028; 	// Phoenix Coyotes
+//$nhl-pho: #000; 	// Phoenix Coyotes
+//$nhl-pho: #EFE1C6; 	// Phoenix Coyotes
+//$nhl-pho: #fff; 	// Phoenix Coyotes
+
+//$nhl-pit: #000; 	// Pittsburgh Penguins
+$nhl-pit: #D1BD80; 	// Pittsburgh Penguins
+//$nhl-pit: #fff; 	// Pittsburgh Penguins
+
+$nhl-sj: #05535D; 	// San Jose Sharks
+//$nhl-sj: #F38F20; 	// San Jose Sharks
+//$nhl-sj: #000; 	// San Jose Sharks
+//$nhl-sj: #fff; 	// San Jose Sharks
+
+$nhl-stl: #0546A0; 	// St Louis Blues
+//$nhl-stl: #FFC325; 	// St Louis Blues
+//$nhl-stl: #101F48; 	// St Louis Blues
+//$nhl-stl: #fff; 	// St Louis Blues
+
+$nhl-tb: #013E7D; 	// Tampa Bay Lightning
+//$nhl-tb: #fff; 	// Tampa Bay Lightning
+//$nhl-tb: #000; 	// Tampa Bay Lightning
+//$nhl-tb: #C0C0C0; 	// Tampa Bay Lightning
+
+$nhl-tor: #003777; 	// Toronto Maple Leafs
+//$nhl-tor: #fff; 	// Toronto Maple Leafs
+
+$nhl-van: #07346F; 	// Vancouver Canucks
+//$nhl-van: #047A4A; 	// Vancouver Canucks
+//$nhl-van: #A8A9AD; 	// Vancouver Canucks
+//$nhl-van: #fff; 	// Vancouver Canucks
+
+$nhl-was: #CF132B; 	// Washington Capitals
+//$nhl-was: #00214E; 	// Washington Capitals
+//$nhl-was: #fff; 	// Washington Capitals
+//$nhl-was: #000; 	// Washington Capitals
+
+$nhl-wpg: #002E62; 	// Winnipeg Jets
+//$nhl-wpg: #fff; 	// Winnipeg Jets
+//$nhl-wpg: #0168AB; 	// Winnipeg Jets
+//$nhl-wpg: #A8A9AD; 	// Winnipeg Jets
+
+
+
+
+
+
+
+
+
+
+
+
+
