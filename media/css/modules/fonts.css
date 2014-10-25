@@ -1,0 +1,175 @@
+.font-block{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 1.5em;
+	padding-bottom: .8em;
+	}
+.font-block p{
+	font-size: 1.6rem;
+	margin-bottom: 0;
+	}
+.font{
+	font-size: 2.2rem;
+	margin-bottom: 0;
+	}
+
+
+
+/* Avenir Light
+---------------------------------------------- */
+@font-face{
+	font-family:"Avenir LT W01 35 Light";
+	src:url("/resources/media/fonts/Avenir Light/Avenir LT W01 35 Light.eot?#iefix");
+	src:url("/resources/media/fonts/Avenir Light/Avenir LT W01 35 Light?#iefix") format("eot"),
+	url("/resources/media/fonts/Avenir Light/Avenir LT W01 35 Light.woff") format("woff"),
+	url("/resources/media/fonts/Avenir Light/Avenir LT W01 35 Light.ttf") format("truetype"),
+	url("/resources/media/fonts/Avenir Light/Avenir LT W01 35 Light.svg#ca038835-1be3-4dc5-ba25-be1df6121499") format("svg");
+	}
+	
+
+/* Avenir Light
+---------------------------------------------- */
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('/resources/media/fonts/Bebas Neue/BebasNeue-webfont.eot');
+    src: url('/resources/media/fonts/Bebas Neue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/resources/media/fonts/Bebas Neue/BebasNeue-webfont.woff') format('woff'),
+         url('/resources/media/fonts/Bebas Neue/BebasNeue-webfont.ttf') format('truetype'),
+         url('/resources/media/fonts/Bebas Neue/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+
+/* Franchise
+---------------------------------------------- */
+@font-face{
+	font-family:"Franchise Bold";
+	src:url("/resources/media/fonts/Franchise/franchise-bold.eot?#iefix");
+	src:url("/resources/media/fonts/Franchise/franchise-bold?#iefix") format("eot"),
+	url("/resources/media/fonts/Franchise/franchise-bold.woff") format("woff"),
+	url("/resources/media/fonts/Franchise/franchise-bold.ttf") format("truetype"),
+	url("/resources/media/fonts/Franchise/franchise-bold.svg#franchise-bold") format("svg");
+	}
+
+
+/* Futura
+---------------------------------------------- */
+/* futura bold */
+@font-face{
+	font-family:"Futura W01 Bold";
+	src:url("/resources/media/fonts/Futura/Futura W01 Bold.eot?iefix") format("eot");
+	}
+@font-face{
+	font-family:"Futura W01 Bold";
+	src:url("/resources/media/fonts/Futura/Futura W01 Bold.eot?iefix");
+	src:url("/resources/media/fonts/Futura/Futura W01 Bold.woff") format("woff"),
+	url("/resources/media/fonts/Futura/Futura W01 Bold.ttf") format("truetype"),
+	url("/resources/media/fonts/Futura/Futura W01 Bold.svg#2a371030-ff67-40ac-8307-082c1fccf151") format("svg");
+	}
+@font-face{
+	font-family:"Futura W01 Bold Oblique";
+	src:url("/resources/media/fonts/Futura/Futura W01 Bold Oblique.eot?iefix") format("eot");
+	}
+@font-face{
+	font-family:"Futura W01 Bold Oblique";
+	src:url("/resources/media/fonts/Futura/Futura W01 Bold Oblique.eot?iefix");
+	src:url("/resources/media/fonts/Futura/Futura W01 Bold Oblique.woff") format("woff"),
+	url("/resources/media/fonts/Futura/Futura W01 Bold Oblique.ttf") format("truetype"),
+	url("/resources/media/fonts/Futura/Futura W01 Bold Oblique.svg#504b662f-9558-41e7-ad31-da7a33a5d4d8") format("svg");
+	}
+	
+	
+/* futura book */
+@font-face{
+	font-family:"Futura W01 Book";
+	src:url("/resources/media/fonts/Futura book/Futura W01 Book.eot?iefix") format("eot");
+	}
+@font-face{
+	font-family:"Futura W01 Book";
+	src:url("/resources/media/fonts/Futura book/Futura W01 Book.eot?iefix");
+	src:url("/resources/media/fonts/Futura book/Futura W01 Book.woff") format("woff"),
+	url("/resources/media/fonts/Futura book/Futura W01 Book.ttf") format("truetype"),
+	url("/resources/media/fonts/Futura book/Futura W01 Book.svg#15c556fc-4608-4b01-8a0d-9c8631c8bd74") format("svg");
+	}
+@font-face{
+	font-family:"Futura W01 Book Oblique";
+	src:url("/resources/media/fonts/Futura book/Futura W01 Book Oblique.eot?iefix") format("eot");
+	}
+@font-face{
+	font-family:"Futura W01 Book Oblique";
+	src:url("/resources/media/fonts/Futura book/Futura W01 Book Oblique.eot?iefix");
+	src:url("/resources/media/fonts/Futura book/Futura W01 Book Oblique.woff") format("woff"),
+	url("/resources/media/fonts/Futura book/Futura W01 Book Oblique.ttf") format("truetype"),
+	url("/resources/media/fonts/Futura book/Futura W01 Book Oblique.svg#c8dbed6c-5c46-48bf-ac93-386f24720591") format("svg");
+	}
+
+/* futura heavy */
+@font-face{
+	font-family:"Futura W01 Heavy";
+	src:url("/resources/media/fonts/Futura heavy/Futura W01 Heavy.eot?#iefix");
+	src:url("/resources/media/fonts/Futura heavy/Futura W01 Heavy.eot?#iefix") format("eot"),
+	url("/resources/media/fonts/Futura heavy/Futura W01 Heavy.woff") format("woff"),
+	url("/resources/media/fonts/Futura heavy/Futura W01 Heavy.ttf") format("truetype"),
+	url("/resources/media/fonts/Futura heavy/Futura W01 Heavy.svg#e23b4b94-7fc3-4dba-8b18-ec8ae6f0563f") format("svg");
+	}
+
+
+/* futura light */
+@font-face{
+	font-family:"Futura W02 Light";
+	src:url("/resources/media/fonts/Futura light/Futura W02 Light.eot?iefix") format("eot");}
+@font-face{
+	font-family:"Futura W02 Light";
+	src:url("/resources/media/fonts/Futura light/Futura W02 Light.eot?iefix");
+	src:url("/resources/media/fonts/Futura light/Futura W02 Light.woff") format("woff"),
+	url("/resources/media/fonts/Futura light/Futura W02 Light.ttf") format("truetype"),
+	url("/resources/media/fonts/Futura light/Futura W02 Light.svg#ff86acda-0d1f-4f82-96be-91b0d94bad49") format("svg");
+	}
+
+
+/* futura medium */
+@font-face{
+	font-family:"Futura W02 Medium";
+	src:url("/resources/media/fonts/Futura medium/Futura W02 Medium.eot?iefix") format("eot");}
+@font-face{
+	font-family:"Futura W02 Medium";
+	src:url("/resources/media/fonts/Futura medium/Futura W02 Medium.eot?iefix");
+	src:url("/resources/media/fonts/Futura medium/Futura W02 Medium.woff") format("woff"),
+	url("/resources/media/fonts/Futura medium/Futura W02 Medium.ttf") format("truetype"),
+	url("/resources/media/fonts/Futura medium/Futura W02 Medium.svg#f3818821-bb07-46d0-81ff-b2f6559f71be") format("svg");
+	}
+
+
+
+
+/* Helvetica Neue
+---------------------------------------------- */
+/* 35 Thin */
+@font-face{
+	font-family:"Neue Helvetica 35 Thin";
+	src:url("/resources/media/fonts/Helvetica Neue/Neue Helvetica 35 Thin.eot?iefix") format("eot");}
+@font-face{
+	font-family:"Neue Helvetica 35 Thin";
+	src:url("/resources/media/fonts/Helvetica Neue/Neue Helvetica 35 Thin.eot?iefix");
+	src:url("/resources/media/fonts/Helvetica Neue/Neue Helvetica 35 Thin.woff") format("woff"),
+	url("/resources/media/fonts/Helvetica Neue/Neue Helvetica 35 Thin.ttf") format("truetype"),
+	url("/resources/media/fonts/Helvetica Neue/Neue Helvetica 35 Thin.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg");
+	}
+
+
+
+/* Helvetica Rounded
+---------------------------------------------- */
+/* bold */
+@font-face{
+	font-family:"HelveticaW01-RoundedBd";
+	src:url("/resources/media/fonts/Helvetica Rounded Bold/HelveticaW01-RoundedBd.eot?iefix") format("eot");}
+@font-face{
+	font-family:"HelveticaW01-RoundedBd";
+	src:url("/resources/media/fonts/Helvetica Rounded Bold/HelveticaW01-RoundedBd.eot?iefix");
+	src:url("/resources/media/fonts/Helvetica Rounded Bold/HelveticaW01-RoundedBd.woff") format("woff"),
+	url("/resources/media/fonts/Helvetica Rounded Bold/HelveticaW01-RoundedBd.ttf") format("truetype"),
+	url("/resources/media/fonts/Helvetica Rounded Bold/HelveticaW01-RoundedBd.svg#5e9b82e3-aa53-4064-b984-f49aa751081d") format("svg");
+	}
+
+

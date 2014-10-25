@@ -1,0 +1,21 @@
+.pat{
+	display: block;
+	height: 5em;
+	width: 5em;
+	}
+
+.pattern-across{ background:url('/resources/media/patterns/colourpatternpack/across.jpg') repeat 0 0; }
+
+.pattern-arrows{ background:url('/resources/media/patterns/colourpatternpack/arrows.jpg') repeat 0 0; }
+
+.pattern-bridge{ background:url('/resources/media/patterns/colourpatternpack/bridge.jpg') repeat 0 0; }
+
+.pattern-cross{ background:url('/resources/media/patterns/colourpatternpack/cross.jpg') repeat 0 0; }
+
+.pattern-face{ background:url('/resources/media/patterns/colourpatternpack/face.jpg') repeat 0 0; }
+
+.pattern-fish{ background:url('/resources/media/patterns/colourpatternpack/fish.jpg') repeat 0 0; }
+
+.pattern-heart{ background:url('/resources/media/patterns/colourpatternpack/heart.jpg') repeat 0 0; }
+
+.pattern-uparrow{ background:url('/resources/media/patterns/colourpatternpack/uparrow.jpg') repeat 0 0; }
