@@ -1,0 +1,420 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+
+/* --------------------------------------------------------
+Title: 	mattmcnaught.com
+Author: Matt MacNaught
+Date: 	Sept 2013 
+-------------------------------------------------------- */
+
+/* --------------------------------------------------------
+FILE INFO
+Last updated:   2013/08/02
+Browsers:		simple normalize 
+-------------------------------------------------------- */
+
+/* --------------------------------------------------------
+LEGEND
+
+COLOUR REFERENCES
+BODY BG:	#FFF
+BODY FONT:	"HelveticaNeueW01-55Roma", "Helvetica Neue", Helvetica, Arial, sans-serif
+BODY COLOR:	#333
+LINKS:		#666 -- default link colour
+LINK:HOVER: #333
+HEADINGS & TITLES: #333, #666, #999
+	- Section Headings:	Helv
+	- Content Titles:	Helv
+
+CALLOUT RED: 	#940000
+
+
+BG IMAGES == most images have been converted to base64, but if need be, can be found in the IE stylesheet.
+-------------------------------------------------------- */
+
+/* In this file:
+
+	1.1  Font Embed
+	1.2  Browser setup / nomalize
+		 1.2.1 html5 structure setup
+	1.3  Document Setup
+	1.4  General Typography
+	1.5  Headings & Titles
+		 1.5.1 Global setup
+		 1.5.2 Specific Additions
+	1.6  Links & Cursors
+	1.7  Images, Media & Embedded content
+	1.8  Lists
+	1.9  General
+	2.0  COMMON HELPER CLASSES
+	
+*/
+
+/* 1.1 FONT EMBED
+======================================================================
+====================================================================== */
+@media only screen{
+
+	@font-face {
+	  	font-family: 'HelveticaNeueW01-55Roma';
+	  	src: url('/*libs/fonts/helvetica/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff') format('woff'), 
+	  	url('/*libs/fonts/helvetica/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf') format('truetype');
+	  	font-weight:normal; 
+	  	font-style:normal;
+		}
+	@font-face{
+		font-family:"HelveticaNeueW01-56It";
+		src: url('/*libs/fonts/helvetica/2c056da8-4920-4e20-8c69-8a6b315458a9.woff') format("woff"),
+		url('/*libs/fonts/helvetica/2381d918-136d-444f-8391-db0cba6da388.ttf') format("truetype");
+		font-weight:normal; 
+		font-style:normal;
+		}
+	@font-face{
+		font-family:"HelveticaNeueW01-75Bold";
+		src: url('/*libs/fonts/helvetica/14ff6081-326d-4dae-b778-d7afa66166fc.woff') format("woff"),
+		url('/*libs/fonts/helvetica/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf') format("truetype");
+		font-weight:normal; 
+		font-style:normal; 
+		}
+	@font-face{
+		font-family:"HelveticaNeueW01-85Heav";
+		src: url('/*libs/fonts/helvetica/a0d9d2cb-f057-4e8d-a957-27853630f58e.woff') format("woff"),
+		url('/*libs/fonts/helvetica/54085041-5049-4b91-939c-49980c66abab.ttf') format("truetype");
+		font-weight:normal; 
+		font-style:normal; 
+		}
+}
+
+/* 1.2 Browser setup / nomalize
+======================================================================
+====================================================================== */
+
+	body, iframe, fieldset, form, legend{ margin:0; padding:0; }
+	
+	/* Html5 structure
+	---------------------------------------------- */
+	/*
+	 * Corrects `block` display not defined in IE 8/9.
+	 */
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, main{ display:block; }
+	
+/* 1.3 Document setup
+======================================================================
+====================================================================== */
+
+	html{ background-color:#fff; font-family: Arial, sans-serif; }
+	html {
+	    font-size: 100%;
+	    -webkit-text-size-adjust: 1em;
+	    -ms-text-size-adjust: 1em;
+		}
+	body{ 
+		color:#333;  
+		line-height:1.5;
+		z-index: 0;
+		}
+
+/* 1.4 General Typography
+======================================================================
+====================================================================== */
+
+	/* Addresses `h1` font sizes within `section` and `article` in Firefox 4+, Safari 5, and Chrome. */
+	h1 { font-size: 2em; }
+
+	/* shared type styles */
+	address, caption, cite						{ font-style:normal; font-weight:normal; font-size:12px; font-size:.75rem; text-transform:none; vertical-align:middle; }
+	abbr, acronym								{ font-size:85%; text-transform:uppercase; letter-spacing:.1em; }
+	abbr[title], acronym[title], dfn[title]		{ border-bottom:1px dotted black; cursor:help; }
+	sup, sub									{ font-size: 75%; line-height:0; position: relative; }
+	sup											{ vertical-align:super; top: -0.3125em; }
+	sub											{ vertical-align:sub; bottom: -0.25em; }
+	caption, cite, dfn, em, i					{ font-style:italic; }
+	b, strong, th, thead, legend				{ font-weight:bold; }
+	p											{ margin-top:0; word-spacing:0.125em; }
+	i, em										{ /*font-family: "HelveticaNeueW01-56It", "Helvetica Neue", Helvetica, Arial, sans-serif;*/ }
+	
+	
+	code{
+		font-family: "Courier New", Courier, monospace, sans-serif;
+		text-align: left;
+		}
+	pre, code {
+		color: #777;
+		}
+	pre {
+		padding: 1rem 0.5em 0.3em 0.7em;
+		border-left: 11px solid #888;
+		background-color: #eee;
+		margin: 1.7em 0 1.7em 0.3em;
+		overflow: auto;
+		width: 93%;
+		white-space: pre-wrap;
+		}
+	
+	/*q { quotes: "\201C" "\201D" "\2018" "\2019"; }*/
+	
+	/* blockquotes */
+	blockquote{ 
+		font-size:18px; font-size:1.125rem;
+		line-height:1.3; 
+		margin:0.6667em 0; 
+		padding:0 2.2222em 0.6667em 0; /* 40px 12px */
+		float:left; 
+		width:33%; 
+		}
+	blockquote p{ margin-top:0.3333em; margin-bottom:0.6667em; }
+	
+	
+	/* general font classes
+	---------------------------------------------- */
+	/* primary font */
+	/*.pf{ font-family: "HelveticaNeueW01-55Roma", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	.pf-i{ font-family: "HelveticaNeueW01-56It", "Helvetica Neue", Helvetica, Arial, sans-serif; }*/
+	
+	/* secondary font */
+	/*.sf{ font-family:"HelveticaNeueW01-75Bold","Helvetica Neue",Helvetica,Arial,sans-serif; }*/
+	
+	/* tertiary font */
+	/*.tf{ font-family: "HelveticaNeueW01-85Heav","Helvetica Neue",Helvetica,Arial,sans-serif; }*/
+	
+	
+/* 1.5 Headings & Titles 
+======================================================================
+====================================================================== */
+
+	/* 1.5.1 Global setup
+	---------------------------------------------- */
+	h1, h2, h3, h4, h5, h6{ margin-top:0; /*margin-bottom: 0;*/ font-weight:normal; }
+	
+	
+	/* Section Headings -- 85Heav
+	---------------------------------------------- */
+	.section-heading{
+		font-family: "HelveticaNeueW01-85Heav","Helvetica Neue",Helvetica,Arial,sans-serif;
+		/*text-transform: lowercase;*/
+		line-height: .8;
+		}
+	.size-XLG{
+		font-size: 96px; font-size: 6rem; 
+		letter-spacing: -.04em;
+		margin-bottom: .3em; 
+		}
+	
+	/* sizes for Section Headings - adjust to suit */
+	.size-LG	{ font-size:48px; font-size:3rem; margin-bottom: .3em; }
+	.size-L		{ font-size:30px; font-size:1.875rem; }
+	.size-M		{ font-size:24px; font-size:1.5rem; margin-bottom:.6em; }
+	.size-S		{ font-size:18px; font-size:1.125rem; margin-bottom:.6em; }
+	.size-SM	{ font-size:16px; font-size:1rem; margin-bottom:.6em; }
+	
+	
+	/* Headings & Titles using the body font
+	---------------------------------------------- */
+	.body-title{ 
+		/*font-weight: bold;*/
+		text-transform:lowercase;
+		}
+	
+	/* sizes for body Headings - adjust to suit */
+	.body-XLG	{ font-size:26px; font-size:1.625rem; }
+	.body-L		{ font-size:22px; font-size:1.375rem; }
+	.body-M		{ font-size:18px; font-size:1.125rem; }
+	.body-S		{ font-size:16px; font-size:1rem; }
+	.body-SM	{ font-size:12px; font-size:.75rem; }
+	
+	
+	/* Content titles
+	---------------------------------------------- */
+	.content-title, .content-title-alt{
+		font-family: "HelveticaNeueW01-75Bold", "Arial Bold", Arial, Helvetica, sans-serif;
+		/*text-transform: lowercase;*/
+		}
+	
+	.sizes-XLG{
+		font-size:48px; font-size:3rem;
+		letter-spacing:-1px;
+		line-height: 1; 
+		margin-bottom: .2em;
+		}
+	.sizes-LG	{ font-size:42px; font-size:2.625rem; line-height: 1; margin-bottom:.3em; }
+	.sizes-L	{ font-size:30px; font-size:1.875rem; line-height: .8; margin-bottom:.4em; }
+	.sizes-M	{ font-size:24px; font-size:1.5rem; line-height:1.1; margin-bottom: .5em; }
+	.sizes-S	{ font-size:20px; font-size:1.25rem; line-height:1.125; margin-bottom: .4em; }
+	.sizes-SM	{ font-size:16px; font-size:1rem; margin-bottom: .2em; }
+	.sizes-XSM	{ font-size:12px; font-size:.75rem; margin-bottom: .2em; }
+
+	
+	.content-title-alt, .content-title-alt a{
+		color: #940000;
+		}
+	.content-title-alt a:hover, .content-title-alt a:focus{
+		text-decoration: underline;
+		}
+	.content-title-alt a:focus{
+		outline: none;
+		}
+
+
+/* 1.6 Links & Cursors
+======================================================================
+====================================================================== */
+
+	/* Addresses `outline` inconsistency between Chrome and other browsers. */
+	a:focus {
+	    outline: thin dotted;
+		}
+	
+	/* Improves readability when focused and also mouse hovered in all browsers. */
+	/*a:active, a:hover {
+	    outline: 0;
+		}*/
+	
+	/* cursors */
+	a, label, select, .pointer, button, .button, html input[type="button"], #submit, .submit, input[type="reset"], input[type="submit"]{ cursor:pointer; }
+	
+	
+	/* links */
+	a			{ color:#000; text-decoration:none; }
+	a:visited	{ text-decoration:none; }
+	a:hover		{ color:#940000; }
+	a:hover, a:active{ outline:none; }
+	
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{ color:#333; text-decoration:none; }
+	h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{ color:#940000; }
+	h1 a:focus, h2 a:focus, h3 a:focus, h4 a:focus, h5 a:focus, h6 a:focus{ color:#940000; text-decoration: underline; outline: none; }
+	
+	/* callout colour - red */
+	.cc			{ color:#940000; text-transform: lowercase; }
+	.cc:hover	{ text-decoration: underline; }
+	.cc:focus	{ outline: none; text-decoration: underline; }
+
+
+
+
+/* 1.7 Images, Media & Embedded content 
+======================================================================
+====================================================================== */
+
+	/* Removes border when inside `a` element in IE 8/9. */
+	img{ border:0; color:#c00; height: auto; vertical-align:top; /*max-width: 100%;*/ /* Give it some text styles to offset alt text */ }
+	
+	/* Corrects overflow displayed oddly in IE 9. */
+	svg:not(:root) { overflow: hidden; }
+	
+	figure{ margin:0 0 .9375em; overflow: hidden; padding:0; }
+	figcaption{
+		font-size:14px; font-size:.875rem;
+		font-weight:normal;
+		margin-bottom: 1.5625em;
+		overflow: hidden;
+		}
+	object, embed, video{ max-width:100%; height:auto; } /* flash & video */
+	
+
+/* 1.9 Lists
+======================================================================
+====================================================================== */
+
+	ul, ol, dl		{ margin-top:0; margin-bottom:1.8em; }
+	ul				{ padding:0; margin-left:35px; list-style-type:disc; }
+	ul li, ol li	{ margin-bottom:1em; }
+	ol				{ padding:0; margin-left:35px; list-style-type:decimal; list-style-position:outside; }
+	
+	/* nested lists */
+	ul ul, ul ol, ol ol, ol ul	{ margin-bottom:0; padding-left:25px; }
+
+	/*definition lists*/
+	dl dd			{ margin:0 0 0.3125em; }
+	dialog dd		{ margin-bottom:.5em; line-height:normal; }
+	ul dl, ol dl	{ margin:0 0 0 .625em; }
+
+
+/* 1.10  Tables
+======================================================================
+====================================================================== */
+	
+	table			{ border-collapse:collapse; border-spacing:0; margin-bottom:.625em; }
+	th summary		{ font-weight:normal; margin:0 0 .625em 0; }
+	td				{ padding:0 10px .625em 0; }
+
+
+/* 2.0 COMMON HELPER CLASSES 
+======================================================================
+====================================================================== */
+
+	br, .clear 	{ clear:both; } 							/*clears floats*/
+	.float-left { display:inline; float:left; } 			/*floats left*/
+	.float-right{ display:inline; float:right !important; } /*floats right*/
+	.block 		{ display:block; } 							/*displays as block, turns ON*/
+	.hidden		{ display:none; } 							/*displays as hidden, turns OFF*/
+	.no-bg		{ background:0 none !important; }			/*Removes Background*/
+	.no-border	{ border:0 none !important; }				/*Removes Border*/
+	.no-margin	{ margin-bottom: 0 !important; }
+	hr			{ overflow: hidden; }
+	.pb			{ padding-bottom: 2em; }
+	
+	.img-centre{ display:block; margin:0 auto; }
+	.img-left  { display:inline; float:left; margin:0 7px 0 0; }	/* Float image LEFT and give it some margin */
+	.img-right { display:inline; float:right; margin:0 0 0 10px; }	/* Float image to the RIGHT and give it some margin */
+	
+	/*fonts*/
+	.text-left 	{ text-align:left; }
+	.text-right	{ text-align:right; }
+	.text-center{ text-align:center; }
+	.bold     	{ font-weight:bold; }
+	.italic   	{ font-style:italic; }
+	.underline	{ border-bottom:1px solid; }
+	.uppercase	{ text-transform:uppercase; }
+	.lowercase	{ text-transform:lowercase; }
+	
+	
+	
+	
+	
+/* Style Guide Patterns
+================================================================================ */
+/* block wrapper for each section */
+.sg-pattern {
+    margin-bottom: 2em;
+    overflow: hidden;
+	}
+/*.style-menu-1{}*/
+.style-menu-1 a	{ color: #940000; }
+.style-menu-2	{ border-bottom: 1px dotted #940000; }
+.style-menu-2 li{ margin-bottom: .5em; }
+
+/* style guide colors structure */
+.sg-colors		{ overflow: hidden; margin: 0 0 1.5em 0; }
+.sg-colors li	{ float: left; width: 5em; }
+.sg-colors li{
+    border: 1px solid #ddd;
+    margin: 0 0.2em 0.2em 0;
+    overflow: hidden;
+    padding: 0.3em;
+	}
+/* color swatches */
+.sg-swatch{
+    height: 5em;
+    margin-bottom: 0.2em;
+    width: 100%;
+	}
+.sg-swatch	{ display: block; }
+.sg-label	{ font-size: 12px; line-height: 1; }
+
+/* Style Guide Headings */
+.sg-heading, .sg-subheading{
+	margin-bottom: .9375em;
+	padding: .2em 0 .2em .5em;
+	text-transform: uppercase;
+	}
+.sg-heading{
+	background-color: #c36415;
+	border-radius: 5px;
+	font-size: 14px; font-size: .875rem;
+	color: #fff;
+	}
+.sg-subheading{
+	font-size: 12px; font-size: .75rem;
+	color: #940000;
+	border-bottom: 1px dotted #940000;
+	}	
