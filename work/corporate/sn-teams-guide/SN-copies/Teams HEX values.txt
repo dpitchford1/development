@@ -1,0 +1,590 @@
+/* NHL TEAMS BASE COLORS
+---------------------------------------------- */
+
+// -------- Anaheim Ducks
+$nhl-anh: #000; 	
+$nhl-anh: #91764B;
+$nhl-anh: #EF5225;
+
+
+// -------- Boston Bruins
+$nhl-bos: #000; 	
+$nhl-bos: #FFC422;
+$nhl-bos: #fff;
+
+
+// -------- Buffalo Sabres
+$nhl-buf: #002E62; 	
+$nhl-buf: #FDBB2F;
+$nhl-buf: #AEB6B9;
+$nhl-buf: #fff;
+
+
+// -------- Calgary Flames
+$nhl-cgy: #E03A3E; 	
+$nhl-cgy: #FFC758;
+$nhl-cgy: #000;
+$nhl-cgy: #fff;
+
+
+// -------- Carolina Hurricanes
+$nhl-car: #E03A3E; 	
+$nhl-car: #000;
+$nhl-car: #8E8E90;
+$nhl-car: #fff;
+
+
+// -------- Chicago Blackhawks
+$nhl-chi: #E3263A; 	
+$nhl-chi: #000;
+$nhl-chi: #fff;
+
+
+// -------- Colorado Avalanche
+$nhl-col: #8B2942; 	
+$nhl-col: #01548A;
+$nhl-col: #000;
+$nhl-col: #A9B0B8;
+$nhl-col: #fff;
+
+
+// -------- Columbus Blue Jackets
+$nhl-cls: #00285C; 	
+$nhl-cls: #E03A3E;
+$nhl-cls: #A9B0B8;
+$nhl-cls: #fff;
+
+
+// -------- Dallas Stars
+$nhl-dal: #006A4E; 	
+$nhl-dal: #000;
+$nhl-dal: #fff;
+$nhl-dal: #C0C0C0;
+
+
+// -------- Detroit Redwings
+$nhl-det: #EC1F26; 	
+$nhl-det: #fff;
+
+
+// -------- Edmonton Oilers
+$nhl-edm: #003777; 	
+$nhl-edm: #E66A20;
+$nhl-edm: #fff;
+
+
+// -------- Florida Panthers
+$nhl-fla: #C8213F; 	
+$nhl-fla: #002E5F;
+$nhl-fla: #D59C05;
+$nhl-fla: #fff;
+
+
+// -------- Los Angeles Kings
+$nhl-la: #000; 	
+$nhl-la: #fff;
+$nhl-la: #AFB7BA;
+
+
+// -------- Minnesota Wild
+$nhl-min: #025736; 	
+$nhl-min: #BF2B37;
+$nhl-min: #EFB410;
+$nhl-min: #EEE3C7;
+$nhl-min: #fff;
+
+// -------- Montreal Canadiens
+$nhl-mon: #BF2F38; 	
+$nhl-mon: #fff;
+$nhl-mon: #213770;
+
+
+// -------- Nashville Predators
+$nhl-nsh: #FDBB2F; 	
+$nhl-nsh: #002E62;
+$nhl-nsh: #fff;
+
+
+// -------- New Jersey Devils
+$nhl-nj: #E03A3E; 	
+$nhl-nj: #000;
+$nhl-nj: #fff;
+
+
+// -------- New York Islanders
+$nhl-nyi: #00529B; 	
+$nhl-nyi: #F57D31;
+$nhl-nyi: #fff;
+
+
+// -------- New York Rangers
+$nhl-nyr: #0161AB; 	
+$nhl-nyr: #E6393F;
+$nhl-nyr: #fff;
+
+
+// -------- Ottawa Senators
+$nhl-ott: #E4173E; 	
+$nhl-ott: #000;
+$nhl-ott: #D69F0F;
+$nhl-ott: #fff;
+
+
+// -------- Philadelphia Flyers
+$nhl-phi: #F47940; 	
+$nhl-phi: #000;
+$nhl-phi: #fff;
+
+
+//  -------- Phoenix Coyotes
+$nhl-pho: #8E0028;
+$nhl-pho: #000;
+$nhl-pho: #EFE1C6;
+$nhl-pho: #fff;
+
+
+// -------- Pittsburgh Penguins
+$nhl-pit: #000; 	
+$nhl-pit: #D1BD80;
+$nhl-pit: #fff;
+
+
+// -------- San Jose Sharks
+$nhl-sj: #05535D; 	
+$nhl-sj: #F38F20;
+$nhl-sj: #000;
+$nhl-sj: #fff;
+
+
+// -------- St Louis Blues
+$nhl-stl: #0546A0; 	
+$nhl-stl: #FFC325;
+$nhl-stl: #101F48;
+$nhl-stl: #fff; 
+
+
+// -------- Tampa Bay Lightning
+$nhl-tb: #013E7D; 	
+$nhl-tb: #fff;
+$nhl-tb: #000;
+$nhl-tb: #C0C0C0;
+
+
+// -------- Toronto Maple Leafs
+$nhl-tor: #003777; 	
+$nhl-tor: #fff;
+
+
+// -------- Vancouver Canucks
+$nhl-van: #07346F; 	
+$nhl-van: #047A4A;
+$nhl-van: #A8A9AD;
+$nhl-van: #fff;
+
+
+// -------- Washington Capitals
+$nhl-was: #CF132B; 	
+$nhl-was: #00214E;
+$nhl-was: #fff;
+$nhl-was: #000;
+
+
+// -------- Winnipeg Jets
+$nhl-wpg: #002E62; 	
+$nhl-wpg: #fff;
+$nhl-wpg: #0168AB;
+$nhl-wpg: #A8A9AD;
+
+
+
+
+/* MLB TEAMS BASE COLORS
+---------------------------------------------- */
+
+// -------- Arizona Diamondbacks
+$mlb-ari: #A71930;
+$mlb-ari: #000;
+$mlb-ari: #DBCEAC;
+$mlb-ari: #fff;
+
+
+// -------- Atlanta Braves
+$mlb-atl: #002F5F;
+$mlb-atl: #B71234;
+$mlb-atl: #fff;
+
+
+// -------- Baltimore Orioles
+$mlb-bal: #ed4c09;
+$mlb-bal: #000;
+$mlb-bal: #fff;
+
+
+// -------- Boston Red Sox
+$mlb-bos: #C60C30;
+$mlb-bos: #002244;
+$mlb-bos: #fff;
+
+
+// -------- Chicago Cubs
+$mlb-chc: #003279;
+$mlb-chc: #CC0033;
+$mlb-chc: #fff;
+
+
+// -------- Chicago White Sox
+$mlb-cws: #000;
+$mlb-cws: #C0C0C0;
+$mlb-cws: #fff;
+
+
+// -------- Cincinnati Reds
+$mlb-cin: #C6011F;
+$mlb-cin: #fff;
+$mlb-cin: #000;
+
+
+// -------- Cleveland Indians
+$mlb-cle: #003366;
+$mlb-cle: #d30335;
+$mlb-cle: #fff;
+
+
+// -------- Colorado Rockies
+$mlb-col: #000;
+$mlb-col: #333366;
+$mlb-col: #C0C0C0;
+$mlb-col: #fff;
+
+
+// -------- Detroit Tigers
+$mlb-det: #001742;
+$mlb-det: #fff;
+$mlb-det: #DE4406;
+
+
+// -------- Houston Astros
+$mlb-hou: #072854;
+$mlb-hou: #FF7F00;
+$mlb-hou: #fff;
+
+
+// -------- Kansas City Royals
+$mlb-kc: #15317E;
+$mlb-kc: #74B4FA;
+$mlb-kc: #fff;
+
+
+// -------- Los Angeles Angels of Anaheim
+$mlb-laa: #B71234;
+$mlb-laa: #002244;
+$mlb-laa: #fff;
+
+
+// -------- Los Angeles Dodgers
+$mlb-lad: #083C6B;
+$mlb-lad: #fff;
+
+
+// -------- Miami Marlins
+$mlb-mia: #000;
+$mlb-mia: #F9423A;
+$mlb-mia: #8A8D8F;
+$mlb-mia: #0077C8;
+$mlb-mia: #FFD100;
+$mlb-mia: #fff;
+
+
+// -------- Milwaukee Brewers
+$mlb-mil: #182B49;
+$mlb-mil: #92754C;
+$mlb-mil: #fff;
+
+
+// -------- Minnesota Twins
+$mlb-min: #072754;
+$mlb-min: #C6011F;
+$mlb-min: #fff;
+
+
+// -------- New York Mets
+$mlb-nym: #002C77;
+$mlb-nym: #FB4F14;
+$mlb-nym: #fff;
+
+
+// -------- New York Yankees
+$mlb-nyy: #1C2841;
+$mlb-nyy: #fff;
+$mlb-nyy: #808080;
+
+
+// -------- Oakland Athletics
+$mlb-oak: #003831;
+$mlb-oak: #FFD800;
+$mlb-oak: #fff;
+
+
+// -------- Philadelphia Phillies
+$mlb-phi: #BA0C2F;
+$mlb-phi: #fff;
+$mlb-phi: #003087;
+
+
+// -------- Pittsburgh Pirates
+$mlb-pit: #000;
+$mlb-pit: #fdb829;
+$mlb-pit: #fff;
+
+
+// -------- San Diego Padres
+$mlb-sd: #002147;
+$mlb-sd: #fff;
+$mlb-sd: #B4A76C;
+
+
+// -------- San Francisco Giants
+$mlb-sf: #000;
+$mlb-sf: #F2552C;
+$mlb-sf: #FFFDD0;
+
+
+// -------- Seattle Mariners
+$mlb-sea: #0C2C56;
+$mlb-sea: #005C5C;
+$mlb-sea: #C0C0C0;
+$mlb-sea: #fff;
+
+
+// -------- St. Louis Cardinals
+$mlb-stl: #c41e3a;
+$mlb-stl: #0A2252;
+$mlb-stl: #fff;
+
+
+// -------- Tampa Bay Rays
+$mlb-tb: #00285D;
+$mlb-tb: #9ECEEE;
+$mlb-tb: #fff;
+$mlb-tb: #ffd700;
+
+
+// -------- Texas Rangers
+$mlb-tex: #BD1021;
+$mlb-tex: #fff;
+$mlb-tex: #003279;
+
+
+// -------- Toronto Blue Jays
+$mlb-tor: #003DA5;
+$mlb-tor: #041E42;
+$mlb-tor: #fff;
+$mlb-tor: #DA291C;
+
+
+// -------- Washington Nationals
+$mlb-was: #BA122B;
+$mlb-was: #11225B;
+$mlb-was: #fff;
+
+
+
+/* NBA TEAMS BASE COLORS
+---------------------------------------------- */
+
+// -------- Atlanta Hawks
+$nba-atl: #000080;
+$nba-atl: #FF0000;
+$nba-atl: #C0C0C0;
+
+
+// -------- Boston Celtics 
+$nba-bos: #009E60;
+$nba-bos: #fff;
+$nba-bos: #000;
+$nba-bos: #EFE196;
+
+
+// -------- Brooklyn Nets (previously the New Jersey Nets)
+$nba-bkn: #000;
+$nba-bkn: #fff;
+
+
+// -------- Charlotte Bobcats
+$nba-cha: #002B5C;
+$nba-cha: #5191CD;
+$nba-cha: #F26531;
+$nba-cha: #A1A1A4;
+$nba-cha: #fff;
+
+
+// -------- Chicago Bulls
+$nba-chi: #D4001F;
+$nba-chi: #000;
+$nba-chi: #fff;
+
+
+// -------- Cleveland Cavaliers
+$nba-cle: #b3121d;
+$nba-cle: #FFD700;
+$nba-cle: #000080;
+$nba-cle: #fff;
+
+
+// -------- Dallas Mavericks
+$nba-dal: #0b60ad;
+$nba-dal: #072156;
+$nba-dal: #A9A9A9;
+$nba-dal: #fff;
+
+
+// -------- Denver Nuggets
+$nba-den: #4b90cd;
+$nba-den: #fdb827;
+$nba-den: #fff;
+$nba-den: #002D62;
+
+
+// -------- Detroit Pistons
+$nba-det: #00519a;
+$nba-det: #EB003C;
+$nba-det: #041e40;
+$nba-det: #fff;
+
+
+// -------- Golden State Warriors
+$nba-gs: #04529c;
+$nba-gs: #FFCC33;
+
+
+// -------- Houston Rockets
+$nba-hou: #CE1138;
+$nba-hou: #ccc;
+$nba-hou: #000;
+
+
+// -------- Indiana Pacers
+$nba-ind: #092c57;
+$nba-ind: #ffc322;
+$nba-ind: #C0C0C0;
+
+
+// -------- LA Clippers
+$nba-lac: #EE2944;
+$nba-lac: #146AA2;
+$nba-lac: #fff;
+
+
+// -------- LA Lakers
+$nba-lal: #4A2583;
+$nba-lal: #F5AF1B;
+$nba-lal: #fff;
+
+
+// -------- Memphis Grizzlies
+$nba-mem: #001F70;
+$nba-mem: #7399C6;
+$nba-mem: #BED4E9;
+$nba-mem: #FDB927;
+
+
+// -------- Miami Heat
+$nba-mia: #000;
+$nba-mia: #B62630;
+$nba-mia: #fff;
+$nba-mia: #FF9F00;
+
+
+// -------- Milwaukee Bucks
+$nba-mil: #003614;
+$nba-mil: #E32636;
+$nba-mil: #C0C0C0;
+$nba-mil: #fff;
+
+
+// -------- Minnesota Timberwolves
+$nba-min: #0F4D92;
+$nba-min: #000;
+$nba-min: #8c92ac;
+$nba-min: #50c878;
+
+
+// -------- New Orleans Pelicans (previously the Hornets)
+$nba-no: #002b5c;
+$nba-no: #b4975a;
+$nba-no: #e31836;
+$nba-no: #fff;
+
+
+// -------- New York Knicks
+$nba-ny: #0953a0;
+$nba-ny: #FF7518;
+$nba-ny: #C0C0C0;
+
+
+// -------- Oklahoma City Thunder
+$nba-okc: #007DC3;
+$nba-okc: #F05133;
+$nba-okc: #FDBB30;
+$nba-okc: #002D62;
+
+
+// -------- Orlando Magic
+$nba-orl: #0047AB;
+$nba-orl: #000;
+$nba-orl: #708090;
+$nba-orl: #fff;
+
+
+// -------- Philadelphia Sixers
+$nba-phi: #0046AD;
+$nba-phi: #D0103A;
+$nba-phi: #fff;
+
+
+// -------- Phoenix Suns
+$nba-pho: #1c105e;
+$nba-pho: #e65f20;
+$nba-pho: #000;
+$nba-pho: #fff;
+$nba-pho: #b1b3b3;
+
+
+// -------- Portland Trail Blazers
+$nba-por: #F0163A;
+$nba-por: #B6BFBF;
+$nba-por: #000;
+$nba-por: #fff;
+
+
+// -------- Sacramento Kings
+$nba-sac: #753BBD;
+$nba-sac: #000;
+$nba-sac: #8A8D8F;
+$nba-sac: #fff;
+
+
+// -------- San Antonio Spurs
+$nba-sa: #000;
+$nba-sa: #BEC8C9;
+$nba-sa: #fff;
+
+
+// -------- Toronto Raptors
+$nba-tor: #B31B1B;
+$nba-tor: #000;
+$nba-tor: #708090;
+
+
+// -------- Utah Jazz
+$nba-uta: #00275D;
+$nba-uta: #FF9100;
+$nba-uta: #0D4006;
+$nba-uta: #B5B5B5;
+
+
+// -------- Washington Wizards
+$nba-was: #C60C30;
+$nba-was: #fff;
+$nba-was: #002244;
+$nba-was: #BCC4CC;
