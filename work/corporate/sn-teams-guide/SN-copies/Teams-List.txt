@@ -3,36 +3,36 @@ Alphabetical listings of Teams and Leagues
 --------------------------------------------------
 NHL
 --------------------------------------------------
-Anaheim Ducks = anaheim-ducks = 
-Boston Bruins = boston-bruins = 
-Buffalo Sabres =  = 
-Calgary Flames =  = 
-Carolina Hurricanes =  = 
-Chicago Blackhawks =  = 
-Colorado Avalanche =  = 
-Columbus Blue Jackets =  = 
-Dallas Stars =  = 
-Detroit Red Wings =  = 
-Edmonton Oilers =  = 
-Florida Panthers =  = 
-Los Angeles Kings =  = 
-Minnesota Wild =  = 
-Montreal Canadiens =  = 
-Nashville Predators =  = 
-New Jersey Devils =  = 
-New York Islanders =  = 
-New York Rangers =  = 
-Ottawa Senators =  = 
-Philadelphia Flyers =  = 
-Phoenix Coyotes =  = 
-Pittsburgh Penguins =  = 
-San Jose Sharks =  = 
-St. Louis Blues =  = 
-Tampa Bay Lightning =  = 
-Toronto Maple Leafs =  = 
-Vancouver Canucks =  = 
-Washington Capitals =  = 
-Winnipeg Jets =  = 
+Anaheim Ducks = anaheim-ducks = anh
+Boston Bruins = boston-bruins = bos
+Buffalo Sabres = buffalo-sabres = buf
+Calgary Flames = calgary-flames = cgy
+Carolina Hurricanes = carolina-hurricanes = car
+Chicago Blackhawks = chicago-blackhawks = chi
+Colorado Avalanche = colorado-avalanche = col
+Columbus Blue Jackets = columbus-blue-jackets = cls
+Dallas Stars = dallas-stars = dal
+Detroit Red Wings = detroit-red-wings = det
+Edmonton Oilers = edmonton-oilers = edm
+Florida Panthers = florida-panthers = fla
+Los Angeles Kings = los-angeles-kings = la
+Minnesota Wild = minnesota-wild = min
+Montreal Canadiens = montreal-canadiens = mon
+Nashville Predators = nashville-predators = nsh
+New Jersey Devils = new-jersey-devils = nj
+New York Islanders = new-york-islanders = nyi
+New York Rangers = new-york-rangers = nyr
+Ottawa Senators = ottawa-senators = ott
+Philadelphia Flyers = philadelphia-flyers = phi
+Phoenix Coyotes = phoenix-coyotes = pho
+Pittsburgh Penguins = pittsburgh-penguins = pit
+San Jose Sharks = san-jose-sharks = sj
+St. Louis Blues = st-louis-blues = stl
+Tampa Bay Lightning = tampa-bay-lightning = tb
+Toronto Maple Leafs = toronto-maple-leafs = tor
+Vancouver Canucks = vancouver-canucks = van
+Washington Capitals = washington-capitals = was
+Winnipeg Jets = winnipeg-jets = wpg
 
 
 =======================================================================================

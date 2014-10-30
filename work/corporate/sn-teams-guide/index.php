@@ -3,13 +3,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Teams Guide</title>
-<!-- <link rel="stylesheet" href="/*libs/css/normalize2.css" type="text/css"> -->
-<link rel="stylesheet" href="css/base.css" type="text/css">
+<title>Sportsnet Teams and Leagues reference guide</title>
+
+<link rel="stylesheet" href="css/normalize.3.0.2" type="text/css">
+
+<!-- <link rel="stylesheet" href="css/base.css" type="text/css">
 <link rel="stylesheet" href="css/base-layout.css" type="text/css">
 <link rel="stylesheet" href="css/brand-layout.css" type="text/css">
 <link rel="stylesheet" href="css/guides.css" type="text/css">
-<link rel="stylesheet" href="css/teams.css" type="text/css">
+<link rel="stylesheet" href="css/teams.css" type="text/css"> -->
 <style>
 
 body{ 
@@ -19,6 +21,9 @@ body{
 	}
 
 </style>
+
+ <link rel="shortcut icon" type="image/x-icon" href="http://www.sportsnet.ca/sn_favicon.ico">
+
 </head>
 
 <body>
