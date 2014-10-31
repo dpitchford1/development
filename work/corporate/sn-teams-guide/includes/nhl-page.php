@@ -6,14 +6,16 @@
 	echo "</pre>";
 */ ?>
 
-<h2>Choose a Team:</h2>
-<form>
-	<select onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value">
-		<option value="" selected>Select a Team</option>
-	<?php foreach ($nhl as $teams => $values) { ?>
-		<option value="#<?=$values['LongName']?>"><?=$values['FullName']?></option>
-	<?php } ?>
-	</select>
+<form class="content-wrapper cf">
+	<label class="form-label" for="nhl-nav">Choose a Team:</label>
+	<div class="fancy-select fancy-select-lg">
+		<select onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value" id="nhl-nav">
+			<option value="" selected>Select a Team</option>
+		<?php foreach ($nhl as $teams => $values) { ?>
+			<option value="#<?=$values['LongName']?>"><?=$values['FullName']?></option>
+		<?php } ?>
+		</select>
+	</div>
 </form>
 
 <?php /** START TEAM */ ?>
