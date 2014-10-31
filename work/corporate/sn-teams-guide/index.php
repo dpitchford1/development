@@ -11,69 +11,75 @@
 <link rel="stylesheet" href="css/theme.css" type="text/css">
 <!-- <link rel="stylesheet" href="css/teams.css" type="text/css"> -->
 
-<style>
-
-/*body{ 
-	color: #818286;  
-	line-height: 1.5;
-	z-index: 0;
-	}*/
-
-</style>
-
  <link rel="shortcut icon" type="image/x-icon" href="http://www.sportsnet.ca/sn_favicon.ico">
 
 </head>
 
 <body>
-<header class="wrapper site-header">
+<header class="site-wrapper site-header" role="banner">
 	<div class="site-wrapper fluid">
 		<div class="logo">Sportsnet</div>
-		<h1 class="brand-title">Sportsnet Teams and Leagues reference guide</h1>
+		<h1 class="brand-title">Sportsnet Teams and Leagues Reference Guide</h1>
 	</div>
 </header>
 
-<div class="site-wrapper fluid">
+<main class="site-wrapper fluid" id="main-content" role="main">
+	
+	<?php /* STYLE GUIDE PATTERN ### COLOURS */ ?>
+	<nav class="wrapper">
+		<h2>Choose a League:</h2>
+		<ul class="inline-bullet">
+			<li><a href="#nhl">NHL</a></li>
+			<li><a href="#nba">NBA</a></li>
+			<li><a href="#mlb">MLB</a></li>
+			
+			<li><a href="#nfl">NFL</a></li>
+			<li><a href="#ahl">AHL</a></li>
+			<li><a href="#chl">CHL</a></li>
+			<li><a href="#ohl">OHL</a></li>
+			<li><a href="#whl">WHL</a></li>
+			<li><a href="#qmjhl">QMJHL</a></li>
+		</ul>
+
+	</nav>
+	<section class="region" id="nhl">
+		<h2 class="sg-heading">NHL - Colours and Logos</h2>
+
+		<?php include "includes/nhl-page.php"; ?>
+		
+		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+	</section>
+
+	<section class="region" id="nba">
+		<h2 class="sg-heading">NBA - Colours and Logos</h2>
+
+		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+	</section>
+
+	<section class="region" id="mlb">
+		<h2 class="sg-heading">MLB - Colours and Logos</h2>
+
+		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+	</section>
+
 	
 
-	<?php /* STYLE GUIDE PATTERN ### COLOURS */ ?>
-	<div class="region sg-pattern" id="colours">
-		<nav>
-			<h2>Choose a League:</h2>
-			<ul class="inline-bullet">
-				<li><a href="#nhl">NHL</a></li>
-				<li><a href="#mlb">MLB</a></li>
-				<li><a href="#nba">NBA</a></li>
+</main>	
 
-				<li><a href="#nfl">NFL</a></li>
-				<li><a href="#ahl">AHL</a></li>
-				<li><a href="#chl">CHL</a></li>
-				<li><a href="#ohl">OHL</a></li>
-				<li><a href="#whl">WHL</a></li>
-				<li><a href="#qmjhl">QMJHL</a></li>
-			</ul>
-
-		</nav>
-		<section class="region" id="nhl">
-			<h2 class="sg-heading">NHL - Colours and Logos</h2>
-
-			<?php include "includes/nhl-page.php"; ?>
-			
-
-		</section>
-
-
-
-		<section class="region" id="mlb">
-			<h2 class="sg-heading">MLB - Colours and Logos</h2>
-
-		</section>
-
-		<section class="region" id="nba">
-			<h2 class="sg-heading">NBA - Colours and Logos</h2>
-
-		</section>
+<footer class="site-wrapper site-footer" role="contentinfo">
+	<div class="site-wrapper fluid">
+		<div class="logo">Sportsnet</div>
+		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
 	</div>
+</footer>
+
+<script>
+function toggler(id) {
+	var e = document.getElementById(id);
+	e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+
+}
+</script>
 
 <!--
 --------------------------------------------------
@@ -320,6 +326,6 @@ Val-d'Or Foreurs
 Victoriaville Tigres
 
 -->
-</div>
+
 </body>
 </html>
