@@ -378,6 +378,27 @@
 				)		
 			),
 
+		"logo" => array(
+			"FullName" => "NHL Logo",
+			"LongName" => "nhl",
+			"ShortName" => "nhl-logo",
+			"HeadingColour" => "#002E62"
+			),
+
+		"east" => array(
+			"FullName" => "Eastern Conference",
+			"LongName" => "eastern-conference",
+			"ShortName" => "nhl-east",
+			"HeadingColour" => "#002E62"	
+			),
+
+		"west" => array(
+			"FullName" => "Western Conference",
+			"LongName" => "western-conference",
+			"ShortName" => "nhl-west",
+			"HeadingColour" => "#002E62"	
+			),
+
 	);
 
 ?>

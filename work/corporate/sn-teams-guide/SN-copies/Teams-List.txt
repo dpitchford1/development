@@ -79,36 +79,36 @@ Washington Nationals =  =
 --------------------------------------------------
 NBA
 --------------------------------------------------
-Atlanta Hawks =  = 
-Boston Celtics  =  = 
-Brooklyn Nets (previously the New Jersey Nets) =  = 
-Charlotte Bobcats =  = 
-Chicago Bulls =  = 
-Cleveland Cavaliers =  = 
-Dallas Mavericks =  = 
-Denver Nuggets =  = 
-Detroit Pistons =  = 
-Golden State Warriors =  = 
-Houston Rockets =  = 
-Indiana Pacers =  = 
-LA Clippers =  = 
-LA Lakers =  = 
-Memphis Grizzlies =  = 
-Miami Heat =  = 
-Milwaukee Bucks =  = 
-Minnesota Timberwolves =  = 
-New Orleans Pelicans (previously the Hornets) =  = 
-New York Knicks =  = 
-Oklahoma City Thunder =  = 
-Orlando Magic =  = 
-Philadelphia Sixers =  = 
-Phoenix Suns =  = 
-Portland Trail Blazers =  = 
-Sacramento Kings =  = 
-San Antonio Spurs =  = 
-Toronto Raptors =  = 
-Utah Jazz =  = 
-Washington Wizards =  = 
+Atlanta Hawks = atlanta-hawks = atl
+Boston Celtics  = boston-celtics = bos
+Brooklyn Nets = brooklyn-nets = bkn
+Charlotte Bobcats = charlotte-bobcats = cha
+Chicago Bulls = chicago-bulls = chi
+Cleveland Cavaliers = cleveland-cavaliers = cle
+Dallas Mavericks = dallas-mavericks = dal
+Denver Nuggets = denver-nuggets = den
+Detroit Pistons = detroit-pistons = det
+Golden State Warriors = golden-state-warriors = gs
+Houston Rockets = houston-rockets = hou
+Indiana Pacers = indiana-pacers = ind
+LA Clippers = los-angeles-clippers = lac
+LA Lakers = los-angeles-lakers = lal
+Memphis Grizzlies = memphis-grizzlies = mem
+Miami Heat = miami-heat = mia
+Milwaukee Bucks = milwaukee-bucks = mil
+Minnesota Timberwolves = minnesota-timberwolves = min
+New Orleans Pelicans = new-orleans-pelicans = no
+New York Knicks = new-york-knicks = ny
+Oklahoma City Thunder = oklahoma-city-thunder = okc
+Orlando Magic = orlando-magic = orl
+Philadelphia Sixers = philadelphia-76ers = phi
+Phoenix Suns = phoenix-suns = pho
+Portland Trail Blazers = portland-trail-blazers = por
+Sacramento Kings = sacramento-kings = sac
+San Antonio Spurs = san-antonio-spurs = sa
+Toronto Raptors = toronto-raptors = tor
+Utah Jazz = utah-jazz = uta
+Washington Wizards = washington-wizards = was
 
 
 =======================================================================================
