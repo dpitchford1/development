@@ -202,9 +202,9 @@
 			"FullName" => "Minnesota Twins",
 			"LongName" => "minnesota-twins",
 			"ShortName" => "mlb-min",
-			"HeadingColour" => "#FDBB2F",
+			"HeadingColour" => "#072754",
 			"TeamColours" => array(
-				colour1 => "#FDBB2F",
+				colour1 => "#072754",
 				colour2 => "#C6011F",
 				colour3 => "#fff"
 				)		
@@ -401,110 +401,3 @@
 	);
 
 ?>
-
-<?php /*
-
-Full Names
-
-Anaheim Ducks
-Boston Bruins
-Buffalo Sabres
-Calgary Flames
-Carolina Hurricanes
-Chicago Blackhawks
-Colorado Avalanche
-Columbus Blue Jackets
-Dallas Stars
-Detroit Red Wings
-Edmonton Oilers
-Florida Panthers
-Los Angeles Kings
-Minnesota Wild
-Montreal Canadiens
-Nashville Predators
-New Jersey Devils
-New York Islanders
-New York Rangers
-Ottawa Senators
-Philadelphia Flyers
-Phoenix Coyotes
-Pittsburgh Penguins
-San Jose Sharks
-St. Louis Blues
-Tampa Bay Lightning
-Toronto Maple Leafs
-Vancouver Canucks
-Washington Capitals
-Winnipeg Jets
-
-
-
-Long Names
-
-anaheim-ducks
-boston-bruins
-buffalo-sabres
-calgary-flames
-carolina-hurricanes
-chicago-blackhawks
-colorado-avalanche
-columbus-blue-jackets
-dallas-stars
-detroit-redwings
-edmonton-oilers
-florida-panthers
-los-angeles-kings
-minnesota-wild
-montreal-canadiens
-nashville-predators
-new-jersey-devils
-new-york-islanders
-new-york-rangers
-ottawa-senators
-philadelphia-flyers
-phoenix-coyotes
-pittsburgh-penguins
-san-jose-sharks
-st-louis-blues
-tampa-bay-lightning
-toronto-maple-leafs
-vancouver-canucks
-washington-capitals
-winnipeg-jets
-
-
-Short Names
-
-mlb-anh
-mlb-bos
-mlb-buf
-mlb-cgy
-mlb-car
-mlb-chi
-mlb-col
-mlb-cls
-mlb-dal
-mlb-det
-mlb-edm
-mlb-fla
-mlb-la
-mlb-min
-mlb-mon
-mlb-nsh
-mlb-nj
-mlb-nyi
-mlb-nyr
-mlb-ott
-mlb-phi
-mlb-pho
-mlb-pit
-mlb-sj
-mlb-stl
-mlb-tb
-mlb-tor
-mlb-van
-mlb-was
-mlb-wpg
-*/ ?>
-
-

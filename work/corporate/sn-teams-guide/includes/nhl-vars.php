@@ -210,7 +210,7 @@
 			"FullName" => "Nashville Predators",
 			"LongName" => "nashville-predators",
 			"ShortName" => "nhl-nsh",
-			"HeadingColour" => "#FDBB2F",
+			"HeadingColour" => "#002E62",
 			"TeamColours" => array(
 				colour1 => "#FDBB2F",
 				colour2 => "#002E62",
@@ -384,7 +384,7 @@
 			"FullName" => "NHL Logo",
 			"LongName" => "nhl",
 			"ShortName" => "nhl-logo",
-			"HeadingColour" => "#002E62",
+			"HeadingColour" => "#2C2A29",
 			"TeamColours" => array(
 				colour1 => "#2C2A29",
 				colour2 => "#7C8897",
@@ -397,11 +397,12 @@
 			"FullName" => "Special Teams East",
 			"LongName" => "east-east-all-stars",
 			"ShortName" => "nhl-ste",
-			"HeadingColour" => "#002E62",
+			"HeadingColour" => "#D10013",
 			"TeamColours" => array(
 				colour1 => "#D10013",
 				colour2 => "#A4131E",
-				colour3 => "#fff"
+				colour3 => "#fff",
+				colour4 => "#D0D3D4"
 				)	
 			),
 
@@ -409,11 +410,12 @@
 			"FullName" => "Special Teams West",
 			"LongName" => "west-west-all-stars",
 			"ShortName" => "nhl-stw",
-			"HeadingColour" => "#002E62",
+			"HeadingColour" => "#4D8BE1",
 			"TeamColours" => array(
 				colour1 => "#4D8BE1",
 				colour2 => "#053396",
-				colour3 => "#fff"
+				colour3 => "#fff",
+				colour4 => "#D0D3D4"
 				)	
 			),
 
@@ -448,110 +450,3 @@
 	);
 
 ?>
-
-<?php /*
-
-Full Names
-
-Anaheim Ducks
-Boston Bruins
-Buffalo Sabres
-Calgary Flames
-Carolina Hurricanes
-Chicago Blackhawks
-Colorado Avalanche
-Columbus Blue Jackets
-Dallas Stars
-Detroit Red Wings
-Edmonton Oilers
-Florida Panthers
-Los Angeles Kings
-Minnesota Wild
-Montreal Canadiens
-Nashville Predators
-New Jersey Devils
-New York Islanders
-New York Rangers
-Ottawa Senators
-Philadelphia Flyers
-Phoenix Coyotes
-Pittsburgh Penguins
-San Jose Sharks
-St. Louis Blues
-Tampa Bay Lightning
-Toronto Maple Leafs
-Vancouver Canucks
-Washington Capitals
-Winnipeg Jets
-
-
-
-Long Names
-
-anaheim-ducks
-boston-bruins
-buffalo-sabres
-calgary-flames
-carolina-hurricanes
-chicago-blackhawks
-colorado-avalanche
-columbus-blue-jackets
-dallas-stars
-detroit-redwings
-edmonton-oilers
-florida-panthers
-los-angeles-kings
-minnesota-wild
-montreal-canadiens
-nashville-predators
-new-jersey-devils
-new-york-islanders
-new-york-rangers
-ottawa-senators
-philadelphia-flyers
-phoenix-coyotes
-pittsburgh-penguins
-san-jose-sharks
-st-louis-blues
-tampa-bay-lightning
-toronto-maple-leafs
-vancouver-canucks
-washington-capitals
-winnipeg-jets
-
-
-Short Names
-
-nhl-anh
-nhl-bos
-nhl-buf
-nhl-cgy
-nhl-car
-nhl-chi
-nhl-col
-nhl-cls
-nhl-dal
-nhl-det
-nhl-edm
-nhl-fla
-nhl-la
-nhl-min
-nhl-mon
-nhl-nsh
-nhl-nj
-nhl-nyi
-nhl-nyr
-nhl-ott
-nhl-phi
-nhl-pho
-nhl-pit
-nhl-sj
-nhl-stl
-nhl-tb
-nhl-tor
-nhl-van
-nhl-was
-nhl-wpg
-*/ ?>
-
-

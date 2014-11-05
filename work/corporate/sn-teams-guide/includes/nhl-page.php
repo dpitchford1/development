@@ -73,7 +73,7 @@
 	<p class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25">Some text to show bg on a paragraph</p>
 	<p class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><a href="">Text to show bg on a paragraph with a link</a></p>
 
-	<h4 class="sg-tileheading">Logos - Inline &mdash; with BG color</h4>
+	<h4 class="sg-tileheading">Logos - Inline</h4>
 	<ul class="sg-logos <?=$values['ShortName']?>">
 		<li class="logo-59">
 			<img src="img/team_logos/59x59/hockey/nhl/<?=$values['LongName']?>.png" alt="">
@@ -93,7 +93,7 @@
 		</li>
 	</ul>
 
-	<h4 class="sg-tileheading">Logos - As Backgrounds &mdash; with BG color</h4>
+	<h4 class="sg-tileheading">Logos - As Backgrounds</h4>
 	<ul class="sg-logos <?=$values['ShortName']?>">
 		<li class="logo-59">
 			<span class="ico-59 ico <?=$values['ShortName']?>--59x59"></span>
