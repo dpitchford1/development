@@ -34,12 +34,12 @@
 			<li><a href="#nba">NBA</a></li>
 			<li><a href="#mlb">MLB</a></li>
 			
-			<li><a href="#nfl">NFL</a></li>
+			<!-- <li><a href="#nfl">NFL</a></li>
 			<li><a href="#ahl">AHL</a></li>
 			<li><a href="#chl">CHL</a></li>
 			<li><a href="#ohl">OHL</a></li>
 			<li><a href="#whl">WHL</a></li>
-			<li><a href="#qmjhl">QMJHL</a></li>
+			<li><a href="#qmjhl">QMJHL</a></li> -->
 		</ul>
 
 	</nav>
@@ -62,7 +62,9 @@
 	<section class="region" id="mlb">
 		<h2 class="sg-heading">MLB - Colours and Logos</h2>
 
-		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+		<?php include "includes/mlb-page.php"; ?>
+
+		<!-- <p class="top-of-page"><a href="#main-content">Top of page</a></p> -->
 	</section>
 
 	

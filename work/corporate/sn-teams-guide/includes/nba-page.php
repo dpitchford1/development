@@ -59,7 +59,6 @@
 
 	<?php if ($values['TeamColours']) { ?>
 	<h3 class="sg-tileheading">Team Colours</h3>
-	
 
 	<ul class="sg-colors">
 		<?php foreach ($values['TeamColours'] as $colors => $color_value) {	?>
@@ -69,9 +68,7 @@
 		</li>
 		<?php }	?>
 	</ul>
-
 	<?php } ?>
-	
 
 	<p class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25">Some text to show bg on a paragraph</p>
 	<p class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><a href="">Text to show bg on a paragraph with a link</a></p>

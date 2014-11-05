@@ -41,37 +41,41 @@ Winnipeg Jets = winnipeg-jets = wpg
 --------------------------------------------------
 MLB
 --------------------------------------------------
-Arizona Diamondbacks =  = 
-Atlanta Braves =  = 
-Baltimore Orioles =  = 
-Boston Red Sox =  = 
-Chicago Cubs =  = 
-Chicago White Sox =  = 
-Cincinnati Reds =  = 
-Cleveland Indians =  = 
-Colorado Rockies =  = 
-Detroit Tigers =  = 
-Houston Astros =  = 
-Kansas City Royals =  = 
-Los Angeles Angels of Anaheim =  = 
-Los Angeles Dodgers =  = 
-Miami Marlins =  = 
-Milwaukee Brewers =  = 
-Minnesota Twins =  = 
-New York Mets =  = 
-New York Yankees =  = 
-Oakland Athletics =  = 
-Philadelphia Phillies =  = 
-Pittsburgh Pirates =  = 
-San Diego Padres =  = 
-San Francisco Giants =  = 
-Seattle Mariners =  = 
-St. Louis Cardinals =  = 
-Tampa Bay Rays =  = 
-Texas Rangers =  = 
-Toronto Blue Jays =  = 
-Washington Nationals =  = 
+Arizona Diamondbacks = arizona-diamondbacks = ari
+Atlanta Braves = atlanta-braves = atl
+Baltimore Orioles = baltimore-orioles = bal
+Boston Red Sox = boston-red-sox = bos
+Chicago Cubs = chicago-cubs = chc
+Chicago White Sox = chicago-white-sox = cws
+Cincinnati Reds = cincinnati-reds = cin
+Cleveland Indians = cleveland-indians = cle
+Colorado Rockies = colorado-rockies = col
+Detroit Tigers = detroit-tigers = det
+Houston Astros = houston-astros = hou
+Kansas City Royals = kansas-city-royals = kc
+Los Angeles Angels of Anaheim = los-angeles-angels = laa
+Los Angeles Dodgers = los-angeles-dodgers = lad
+Miami Marlins = miami-marlins = mia
+Milwaukee Brewers = milwaukee-brewers = mil
+Minnesota Twins = minnesota-twins = min
+New York Mets = new-york-mets = nym
+New York Yankees = new-york-yankees = nyy
+Oakland Athletics = oakland-athletics = oak
+Philadelphia Phillies = philadelphia-phillies = phi
+Pittsburgh Pirates = pittsburgh-pirates = pit
+San Diego Padres = san-diego-padres = sd
+San Francisco Giants = san-francisco-giants = sf
+Seattle Mariners = seattle-mariners = sea
+St. Louis Cardinals = st-louis-cardinals = stl
+Tampa Bay Rays = tampa-bay-rays = tb
+Texas Rangers = texas-rangers = tex
+Toronto Blue Jays = toronto-blue-jays = tor
+Washington Nationals = washington-nationals = was
 
+MLB Logo = mlb-logo = mlb
+American League = american-league = als
+National League = national-league = nls
+TBD = tbd-tbd = tbd
 
 =======================================================================================
 =======================================================================================
@@ -149,6 +153,39 @@ St. Louis Rams =  =
 Tampa Bay Buccaneers =  = 
 Tennessee Titans =  = 
 Washington Redskins =  = 
+
+Arizona Cardinals:  #B10339 (red)  |  #FFC40D (gold)  |  #000000 (black)
+Atlanta Falcons:  #000000 (black)  |  #231F20 (red)
+Baltimore Ravens:  #2B025B (purple)  |  #F5A329 (gold)
+Buffalo Bills:  #00133F (dark blue)  |  #EE2F2B (red)
+Carolina Panthers:  #0097C6 (teal)  |  #101B24 (black)  |  #A2A7AB (silver)
+Chicago Bears:  #00133F (dark blue)  |  #FF652B (orange)
+Cincinnati Bengals:  #FF2700 (orange)  |  #101B24 (black)
+Cleveland Browns:  #4C230E (brown)  |  #FF652B (orange)
+Dallas Cowboys:  #002E4D (dark blue)  |  #FFFFFF (white)
+Denver Broncos:  #002E4D (dark blue)  |  #FF652B (orange)
+Detroit Lions:  #006EA1 (light blue)  |  #F6F6F6 (white)  |  #EFF4F8 (black)
+Green Bay Packers:  #294239 (green)  |  #FFBF00 (gold)
+Houston Texans:  #00133F (dark blue)  |  #D6303A (red)
+Indianapolis Colts:  #00417E (blue)  |  #FFFFFF (white)
+Jacksonville Jaguars:  #00839C (teal)  |  #101B24 (black)  |  #FFFFFF (white)
+Kansas City Chiefs:  #C60024 (red)  |  #000000 (black)
+Miami Dolphins:  #006B79 (teal)  |  #FF642A (orange)
+Minnesota Vikings:  #240A67 (purple)  |  #FFAC2C (gold)
+New England Patriots:  #00295B (dark blue)  |  #EE2F2B (red)  |  #C7CACC (silver)
+New Orleans Saints:  #C6A876 (light gold)  |  #000B17 (black)
+New York Giants:  #003155 (dark blue)  |  #FFFFFF (white)
+New York Jets:  #174032 (green)  |  #FFFFFF (white)
+Oakland Athletics:  #000000 (black)  |  #B5BBBD (silver)  |  #FFFFFF (white)
+Philadelphia Eagles:  #002F30 (green)  |  #EFEFEF (silver)
+Pittsburgh Steelers:  #000000 (black)  |  #FFBF00 (gold)
+San Diego Chargers:  #05173C (blue)  |  #0F83B8 (light blue)  |  #FFBF00 (gold)
+San Francisco 49ers:  #940029 (red)  |  #D99E77 (light gold)
+Seattle Seahawks:  #030F1F (dark blue)  |  #283E67 (light blue)
+St. Louis Rams:  #00295B (dark blue)  |  #C1A05B (gold)
+Tampa Bay Buccaneers:  #665C50 (tan)  |  #D6303A (red)
+Tennessee Titans:  #002C4B (dark blue)  |  #EE2F2B (red)  |  #0080C0 (light blue)
+Washington Redskins:  #8C001A (dark red)  |  #FFBF00 (gold)
 
 
 

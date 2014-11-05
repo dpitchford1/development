@@ -10,8 +10,23 @@
 			"TeamColours" => array(
 				colour1 => "#000",
 				colour2 => "#91764B",
-				colour3 => "#EF5225"
+				colour3 => "#EF5225",
+				colour4 => "#fff",
+				colour5 => "#848484"
 				)
+			),
+
+		"ari" => array(
+			"FullName" => "Arizona Coyotes",
+			"LongName" => "arizona-coyotes",
+			"ShortName" => "nhl-ari",
+			"HeadingColour" => "#8E0028",
+			"TeamColours" => array(
+				colour1 => "#8E0028",
+				colour2 => "#000",
+				colour3 => "#EFE1C6",
+				colour4 => "#fff"
+				)		
 			),
 
 		"bos" => array(
@@ -264,19 +279,6 @@
 				)		
 			),
 
-		"pho" => array(
-			"FullName" => "Phoenix Coyotes",
-			"LongName" => "phoenix-coyotes",
-			"ShortName" => "nhl-pho",
-			"HeadingColour" => "#8E0028",
-			"TeamColours" => array(
-				colour1 => "#8E0028",
-				colour2 => "#000",
-				colour3 => "#EFE1C6",
-				colour4 => "#fff"
-				)		
-			),
-
 		"pit" => array(
 			"FullName" => "Pittsburgh Penguins",
 			"LongName" => "pittsburgh-penguins",
@@ -382,21 +384,65 @@
 			"FullName" => "NHL Logo",
 			"LongName" => "nhl",
 			"ShortName" => "nhl-logo",
-			"HeadingColour" => "#002E62"
+			"HeadingColour" => "#002E62",
+			"TeamColours" => array(
+				colour1 => "#2C2A29",
+				colour2 => "#7C8897",
+				colour3 => "#D0D3D4",
+				colour4 => "#fff"
+				)
+			),
+
+		"logo-east" => array(
+			"FullName" => "Special Teams East",
+			"LongName" => "east-east-all-stars",
+			"ShortName" => "nhl-ste",
+			"HeadingColour" => "#002E62",
+			"TeamColours" => array(
+				colour1 => "#D10013",
+				colour2 => "#A4131E",
+				colour3 => "#fff"
+				)	
+			),
+
+		"logo-west" => array(
+			"FullName" => "Special Teams West",
+			"LongName" => "west-west-all-stars",
+			"ShortName" => "nhl-stw",
+			"HeadingColour" => "#002E62",
+			"TeamColours" => array(
+				colour1 => "#4D8BE1",
+				colour2 => "#053396",
+				colour3 => "#fff"
+				)	
 			),
 
 		"east" => array(
 			"FullName" => "Eastern Conference",
 			"LongName" => "eastern-conference",
 			"ShortName" => "nhl-east",
-			"HeadingColour" => "#002E62"	
+			"HeadingColour" => "#a6192e",
+			"TeamColours" => array(
+				colour1 => "#a6192e",
+				colour2 => "#2d2926",
+				colour3 => "#808b97",
+				colour4 => "#d0d3d4",
+				colour5 => "#fff"
+				)	
 			),
 
 		"west" => array(
 			"FullName" => "Western Conference",
 			"LongName" => "western-conference",
 			"ShortName" => "nhl-west",
-			"HeadingColour" => "#002E62"	
+			"HeadingColour" => "#00205b",
+			"TeamColours" => array(
+				colour1 => "#00205b",
+				colour2 => "#2d2926",
+				colour3 => "#808b97",
+				colour4 => "#d0d3d4",
+				colour5 => "#fff"
+				)
 			),
 
 	);

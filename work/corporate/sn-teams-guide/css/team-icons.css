@@ -53,7 +53,7 @@
 .nhl-anh--170x170 { background-image: url("../img/team_logos/170x170/hockey/nhl/anaheim-ducks.png") }
 .nhl-anh--200x200 { background-image: url("../img/team_logos/200x200/hockey/nhl/anaheim-ducks.png") }
 
-.nhl-anh .bgcolor{ background-color: $nhl-anh; }
+.nhl-anh .bgcolor{ background-color: #EF5225; }
 
 /* Arizona */
 .nhl-ari--25x25 { background-image: url("../img/team_logos/25x25/hockey/nhl/arizona-coyotes.png") }
@@ -62,7 +62,7 @@
 .nhl-ari--170x170 { background-image: url("../img/team_logos/170x170/hockey/nhl/arizona-coyotes.png") }
 .nhl-ari--200x200 { background-image: url("../img/team_logos/200x200/hockey/nhl/arizona-coyotes.png") }
 
-.nhl-ari .bgcolor{ background-color: $nhl-ari; }
+.nhl-ari .bgcolor{ background-color: #EFE1C6; }
 
 /* boston */
 .nhl-bos--25x25 { background-image: url("../img/team_logos/25x25/hockey/nhl/boston-bruins.png") }
@@ -71,7 +71,7 @@
 .nhl-bos--170x170 { background-image: url("../img/team_logos/170x170/hockey/nhl/boston-bruins.png") }
 .nhl-bos--200x200 { background-image: url("../img/team_logos/200x200/hockey/nhl/boston-bruins.png") }
 
-.nhl-bos .bgcolor{ background-color: $nhl-bos; }
+.nhl-bos .bgcolor{ background-color: #000; }
 
 /* buffalo */
 .nhl-buf--25x25 { background-image: url("../img/team_logos/25x25/hockey/nhl/buffalo-sabres.png") }
@@ -80,7 +80,7 @@
 .nhl-buf--170x170 { background-image: url("../img/team_logos/170x170/hockey/nhl/buffalo-sabres.png") }
 .nhl-buf--200x200 { background-image: url("../img/team_logos/200x200/hockey/nhl/buffalo-sabres.png") }
 
-.nhl-buf .bgcolor{ background-color: $nhl-buf; }
+.nhl-buf .bgcolor{ background-color: #AEB6B9; }
 
 /* calgary */
 .nhl-cgy--25x25 { background-image: url("../img/team_logos/25x25/hockey/nhl/calgary-flames.png") }
@@ -89,7 +89,7 @@
 .nhl-cgy--170x170 { background-image: url("../img/team_logos/170x170/hockey/nhl/calgary-flames.png") }
 .nhl-cgy--200x200 { background-image: url("../img/team_logos/200x200/hockey/nhl/calgary-flames.png") }
 
-.nhl-cgy .bgcolor{ background-color: $nhl-cgy; }
+.nhl-cgy .bgcolor{ background-color: #E03A3E; }
 
 /* carolina */
 .nhl-car--25x25 { background-image: url("../img/team_logos/25x25/hockey/nhl/carolina-hurricanes.png") }
@@ -243,15 +243,6 @@
 .nhl-phi--200x200 { background-image: url("../img/team_logos/200x200/hockey/nhl/philadelphia-flyers.png") }
 
 .nhl-phi .bgcolor{ background-color: $nhl-phi; }
-
-/* phoenix */
-.nhl-pho--25x25 { background-image: url("../img/team_logos/25x25/hockey/nhl/phoenix-coyotes.png") }
-.nhl-pho--59x59 { background-image: url("../img/team_logos/59x59/hockey/nhl/phoenix-coyotes.png") }
-.nhl-pho--90x90 { background-image: url("../img/team_logos/90x90/hockey/nhl/phoenix-coyotes.png") }
-.nhl-pho--170x170 { background-image: url("../img/team_logos/170x170/hockey/nhl/phoenix-coyotes.png") }
-.nhl-pho--200x200 { background-image: url("../img/team_logos/200x200/hockey/nhl/phoenix-coyotes.png") }
-
-.nhl-pho .bgcolor{ background-color: $nhl-pho; }
 
 /* pittsburg */
 .nhl-pit--25x25 { background-image: url("../img/team_logos/25x25/hockey/nhl/pittsburgh-penguins.png") }
@@ -671,3 +662,312 @@
 .nba-west--200x200 { background-image: url("../img/team_logos/200x200/basketball/nba/west-west-all-stars.png") }
 
 .nba-west .bgcolor{ background-color: $nba-west; }
+
+
+
+/* Arizona Diamondbacks */
+.mlb-ari--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/arizona-diamondbacks.png") }
+.mlb-ari--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/arizona-diamondbacks.png") }
+.mlb-ari--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/arizona-diamondbacks.png") }
+.mlb-ari--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/arizona-diamondbacks.png") }
+.mlb-ari--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/arizona-diamondbacks.png") }
+
+.mlb-ari .bgcolor{ background-color: $mlb-ari; }
+
+/* Atlanta Braves */
+.mlb-atl--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/atlanta-braves.png") }
+.mlb-atl--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/atlanta-braves.png") }
+.mlb-atl--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/atlanta-braves.png") }
+.mlb-atl--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/atlanta-braves.png") }
+.mlb-atl--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/atlanta-braves.png") }
+
+.mlb-atl .bgcolor{ background-color: $mlb-bos; }
+
+/* Baltimore Orioles */
+.mlb-bal--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/baltimore-orioles.png") }
+.mlb-bal--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/baltimore-orioles.png") }
+.mlb-bal--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/baltimore-orioles.png") }
+.mlb-bal--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/baltimore-orioles.png") }
+.mlb-bal--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/baltimore-orioles.png") }
+
+.mlb-bal .bgcolor{ background-color: $mlb-bkn; }
+
+/* Boston Red Sox */
+.mlb-bos--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/boston-red-sox.png") }
+.mlb-bos--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/boston-red-sox.png") }
+.mlb-bos--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/boston-red-sox.png") }
+.mlb-bos--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/boston-red-sox.png") }
+.mlb-bos--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/boston-red-sox.png") }
+
+.mlb-bos .bgcolor{ background-color: $mlb-cha; }
+
+/* Chicago Cubs */
+.mlb-chc--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/chicago-cubs.png") }
+.mlb-chc--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/chicago-cubs.png") }
+.mlb-chc--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/chicago-cubs.png") }
+.mlb-chc--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/chicago-cubs.png") }
+.mlb-chc--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/chicago-cubs.png") }
+
+.mlb-chc .bgcolor{ background-color: $mlb-chi; }
+
+/* Chicago White Sox */
+.mlb-cws--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/chicago-white-sox.png") }
+.mlb-cws--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/chicago-white-sox.png") }
+.mlb-cws--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/chicago-white-sox.png") }
+.mlb-cws--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/chicago-white-sox.png") }
+.mlb-cws--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/chicago-white-sox.png") }
+
+.mlb-cws .bgcolor{ background-color: $mlb-cle; }
+
+/* Cincinnati Reds */
+.mlb-cin--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/cincinnati-reds.png") }
+.mlb-cin--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/cincinnati-reds.png") }
+.mlb-cin--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/cincinnati-reds.png") }
+.mlb-cin--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/cincinnati-reds.png") }
+.mlb-cin--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/cincinnati-reds.png") }
+
+.mlb-cin .bgcolor{ background-color: $mlb-dal; }
+
+/* Cleveland Indians */
+.mlb-cle--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/cleveland-indians.png") }
+.mlb-cle--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/cleveland-indians.png") }
+.mlb-cle--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/cleveland-indians.png") }
+.mlb-cle--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/cleveland-indians.png") }
+.mlb-cle--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/cleveland-indians.png") }
+
+.mlb-cle .bgcolor{ background-color: $mlb-den; }
+
+/* Colorado Rockies */
+.mlb-col--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/colorado-rockies.png") }
+.mlb-col--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/colorado-rockies.png") }
+.mlb-col--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/colorado-rockies.png") }
+.mlb-col--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/colorado-rockies.png") }
+.mlb-col--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/colorado-rockies.png") }
+
+.mlb-col .bgcolor{ background-color: $mlb-det; }
+
+/* Detroit Tigers */
+.mlb-det--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/detroit-tigers.png") }
+.mlb-det--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/detroit-tigers.png") }
+.mlb-det--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/detroit-tigers.png") }
+.mlb-det--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/detroit-tigers.png") }
+.mlb-det--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/detroit-tigers.png") }
+
+.mlb-det .bgcolor{ background-color: $mlb-gs; }
+
+/* Houston Astros */
+.mlb-hou--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/houston-astros.png") }
+.mlb-hou--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/houston-astros.png") }
+.mlb-hou--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/houston-astros.png") }
+.mlb-hou--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/houston-astros.png") }
+.mlb-hou--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/houston-astros.png") }
+
+.mlb-hou .bgcolor{ background-color: $mlb-hou; }
+
+/* Kansas City Royals */
+.mlb-kc--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/kansas-city-royals.png") }
+.mlb-kc--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/kansas-city-royals.png") }
+.mlb-kc--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/kansas-city-royals.png") }
+.mlb-kc--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/kansas-city-royals.png") }
+.mlb-kc--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/kansas-city-royals.png") }
+
+.mlb-kc .bgcolor{ background-color: $mlb-ind; }
+
+/* Los Angeles Angels of Anaheim */
+.mlb-laa--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/los-angeles-angels.png") }
+.mlb-laa--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/los-angeles-angels.png") }
+.mlb-laa--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/los-angeles-angels.png") }
+.mlb-laa--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/los-angeles-angels.png") }
+.mlb-laa--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/los-angeles-angels.png") }
+
+.mlb-laa .bgcolor{ background-color: $mlb-lac; }
+
+/* Los Angeles Dodgers */
+.mlb-lad--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/los-angeles-dodgers.png") }
+.mlb-lad--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/los-angeles-dodgers.png") }
+.mlb-lad--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/los-angeles-dodgers.png") }
+.mlb-lad--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/los-angeles-dodgers.png") }
+.mlb-lad--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/los-angeles-dodgers.png") }
+
+.mlb-lad .bgcolor{ background-color: $mlb-lal; }
+
+/* Miami Marlins */
+.mlb-mia--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/miami-marlins.png") }
+.mlb-mia--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/miami-marlins.png") }
+.mlb-mia--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/miami-marlins.png") }
+.mlb-mia--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/miami-marlins.png") }
+.mlb-mia--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/miami-marlins.png") }
+
+.mlb-mia .bgcolor{ background-color: $mlb-mem; }
+
+/* Milwaukee Brewers */
+.mlb-mil--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/milwaukee-brewers.png") }
+.mlb-mil--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/milwaukee-brewers.png") }
+.mlb-mil--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/milwaukee-brewers.png") }
+.mlb-mil--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/milwaukee-brewers.png") }
+.mlb-mil--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/milwaukee-brewers.png") }
+
+.mlb-mil .bgcolor{ background-color: $mlb-mia; }
+
+/* Minnesota Twins */
+.mlb-min--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/minnesota-twins.png") }
+.mlb-min--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/minnesota-twins.png") }
+.mlb-min--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/minnesota-twins.png") }
+.mlb-min--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/minnesota-twins.png") }
+.mlb-min--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/minnesota-twins.png") }
+
+.mlb-min .bgcolor{ background-color: $mlb-mil; }
+
+/* New York Mets */
+.mlb-nym--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/new-york-mets.png") }
+.mlb-nym--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/new-york-mets.png") }
+.mlb-nym--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/new-york-mets.png") }
+.mlb-nym--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/new-york-mets.png") }
+.mlb-nym--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/new-york-mets.png") }
+
+.mlb-nym .bgcolor{ background-color: $mlb-min; }
+
+/* New York Yankees */
+.mlb-nyy--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/new-york-yankees.png") }
+.mlb-nyy--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/new-york-yankees.png") }
+.mlb-nyy--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/new-york-yankees.png") }
+.mlb-nyy--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/new-york-yankees.png") }
+.mlb-nyy--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/new-york-yankees.png") }
+
+.mlb-nyy .bgcolor{ background-color: $mlb-no; }
+
+/* Oakland Athletics */
+.mlb-oak--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/oakland-athletics.png") }
+.mlb-oak--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/oakland-athletics.png") }
+.mlb-oak--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/oakland-athletics.png") }
+.mlb-oak--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/oakland-athletics.png") }
+.mlb-oak--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/oakland-athletics.png") }
+
+.mlb-oak .bgcolor{ background-color: $mlb-ny; }
+
+/* Philadelphia Phillies */
+.mlb-phi--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/philadelphia-phillies.png") }
+.mlb-phi--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/philadelphia-phillies.png") }
+.mlb-phi--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/philadelphia-phillies.png") }
+.mlb-phi--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/philadelphia-phillies.png") }
+.mlb-phi--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/philadelphia-phillies.png") }
+
+.mlb-phi .bgcolor{ background-color: $mlb-okc; }
+
+/* Pittsburgh Pirates */
+.mlb-pit--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/pittsburgh-pirates.png") }
+.mlb-pit--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/pittsburgh-pirates.png") }
+.mlb-pit--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/pittsburgh-pirates.png") }
+.mlb-pit--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/pittsburgh-pirates.png") }
+.mlb-pit--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/pittsburgh-pirates.png") }
+
+.mlb-pit .bgcolor{ background-color: $mlb-orl; }
+
+/* San Diego Padres */
+.mlb-sd--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/san-diego-padres.png") }
+.mlb-sd--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/san-diego-padres.png") }
+.mlb-sd--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/san-diego-padres.png") }
+.mlb-sd--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/san-diego-padres.png") }
+.mlb-sd--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/san-diego-padres.png") }
+
+.mlb-sd .bgcolor{ background-color: $mlb-phi; }
+
+/* San Francisco Giants */
+.mlb-sf--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/san-francisco-giants.png") }
+.mlb-sf--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/san-francisco-giants.png") }
+.mlb-sf--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/san-francisco-giants.png") }
+.mlb-sf--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/san-francisco-giants.png") }
+.mlb-sf--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/san-francisco-giants.png") }
+
+.mlb-sf .bgcolor{ background-color: $mlb-pho; }
+
+/* Seattle Mariners */
+.mlb-sea--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/seattle-mariners.png") }
+.mlb-sea--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/seattle-mariners.png") }
+.mlb-sea--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/seattle-mariners.png") }
+.mlb-sea--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/seattle-mariners.png") }
+.mlb-sea--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/seattle-mariners.png") }
+
+.mlb-sea .bgcolor{ background-color: $mlb-por; }
+
+/* St. Louis Cardinals */
+.mlb-stl--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/st-louis-cardinals.png") }
+.mlb-stl--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/st-louis-cardinals.png") }
+.mlb-stl--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/st-louis-cardinals.png") }
+.mlb-stl--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/st-louis-cardinals.png") }
+.mlb-stl--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/st-louis-cardinals.png") }
+
+.mlb-stl .bgcolor{ background-color: $mlb-sac; }
+
+/* Tampa Bay Rays */
+.mlb-tb--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/tampa-bay-rays.png") }
+.mlb-tb--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/tampa-bay-rays.png") }
+.mlb-tb--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/tampa-bay-rays.png") }
+.mlb-tb--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/tampa-bay-rays.png") }
+.mlb-tb--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/tampa-bay-rays.png") }
+
+.mlb-tb .bgcolor{ background-color: $mlb-sa; }
+
+/* Texas Rangers */
+.mlb-tex--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/texas-rangers.png") }
+.mlb-tex--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/texas-rangers.png") }
+.mlb-tex--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/texas-rangers.png") }
+.mlb-tex--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/texas-rangers.png") }
+.mlb-tex--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/texas-rangers.png") }
+
+.mlb-tex .bgcolor{ background-color: $mlb-tor; }
+
+/* Toronto Blue Jays */
+.mlb-tor--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/toronto-blue-jays.png") }
+.mlb-tor--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/toronto-blue-jays.png") }
+.mlb-tor--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/toronto-blue-jays.png") }
+.mlb-tor--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/toronto-blue-jays.png") }
+.mlb-tor--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/toronto-blue-jays.png") }
+
+.mlb-tor .bgcolor{ background-color: $mlb-uta; }
+
+/* Washington Nationals */
+.mlb-was--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/washington-nationals.png") }
+.mlb-was--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/washington-nationals.png") }
+.mlb-was--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/washington-nationals.png") }
+.mlb-was--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/washington-nationals.png") }
+.mlb-was--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/washington-nationals.png") }
+
+.mlb-was .bgcolor{ background-color: $mlb-was; }
+
+
+/* MLB Logo */
+.mlb-logo--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/mlb.png") }
+.mlb-logo--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/mlb.png") }
+.mlb-logo--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/mlb.png") }
+.mlb-logo--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/mlb.png") }
+.mlb-logo--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/mlb.png") }
+
+.mlb-logo .bgcolor{ background-color: $mlb-wpg; }
+
+/* American League */
+.mlb-als--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/american-league.png") }
+.mlb-als--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/american-league.png") }
+.mlb-als--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/american-league.png") }
+.mlb-als--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/american-league.png") }
+.mlb-als--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/american-league.png") }
+
+.mlb-als .bgcolor{ background-color: $mlb-east; }
+
+/* National League */
+.mlb-nls--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/national-league.png") }
+.mlb-nls--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/national-league.png") }
+.mlb-nls--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/national-league.png") }
+.mlb-nls--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/national-league.png") }
+.mlb-nls--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/national-league.png") }
+
+.mlb-nls .bgcolor{ background-color: $mlb-west; }
+
+/* MLB Logo */
+.mlb-tbd--25x25 { background-image: url("../img/team_logos/25x25/baseball/mlb/tbd-tbd.png") }
+.mlb-tbd--59x59 { background-image: url("../img/team_logos/59x59/baseball/mlb/tbd-tbd.png") }
+.mlb-tbd--90x90 { background-image: url("../img/team_logos/90x90/baseball/mlb/tbd-tbd.png") }
+.mlb-tbd--170x170 { background-image: url("../img/team_logos/170x170/baseball/mlb/tbd-tbd.png") }
+.mlb-tbd--200x200 { background-image: url("../img/team_logos/200x200/baseball/mlb/tbd-tbd.png") }
+
+.mlb-tbd .bgcolor{ background-color: $mlb-wpg; }
