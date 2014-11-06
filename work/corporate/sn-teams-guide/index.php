@@ -9,8 +9,13 @@
 <link rel="stylesheet" href="css/base-layout.css" type="text/css">
 <link rel="stylesheet" href="css/style-guide.css" type="text/css">
 <link rel="stylesheet" href="css/theme.css" type="text/css">
-<!-- <link rel="stylesheet" href="css/team-icons.css" type="text/css"> -->
-<!-- <link rel="stylesheet" href="css/teams.css" type="text/css"> -->
+<link rel="stylesheet" href="css/team-icons.css" type="text/css">
+<link rel="stylesheet" href="css/team-icons-svg.css" type="text/css">
+
+<!-- OLD IE CSS and html5 structure -->
+<!--[if (lte IE 8)&(!IEMobile 7)]>
+<link rel="stylesheet" href="css/oldIE.css" type="text/css">
+<![endif]-->   
 
  <link rel="shortcut icon" type="image/x-icon" href="http://www.sportsnet.ca/sn_favicon.ico">
 
@@ -54,7 +59,8 @@
 	<section class="region" id="nba">
 		<h2 class="sg-heading">NBA - Colours and Logos</h2>
 
-		<?php include "includes/nba-page.php"; ?>
+		<?php include "includes/nba-page-svg.php"; ?>
+		<?php /* include "includes/nba-page.php"; */ ?>
 
 		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
 	</section>

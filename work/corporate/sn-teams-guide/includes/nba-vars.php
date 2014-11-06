@@ -51,19 +51,19 @@
 				)		
 			),
 
-		"chab" => array(
-			"FullName" => "Charlotte Bobcats",
-			"LongName" => "charlotte-bobcats",
-			"ShortName" => "nba-chab",
-			"HeadingColour" => "#002B5C",
-			"TeamColours" => array(
-				colour1 => "#002B5C",
-				colour2 => "#5191CD",
-				colour3 => "#F26531",
-				colour4 => "#A1A1A4",
-				colour5 => "#fff"
-				)		
-			),
+		// "chab" => array(
+		// 	"FullName" => "Charlotte Bobcats",
+		// 	"LongName" => "charlotte-bobcats",
+		// 	"ShortName" => "nba-chab",
+		// 	"HeadingColour" => "#002B5C",
+		// 	"TeamColours" => array(
+		// 		colour1 => "#002B5C",
+		// 		colour2 => "#5191CD",
+		// 		colour3 => "#F26531",
+		// 		colour4 => "#A1A1A4",
+		// 		colour5 => "#fff"
+		// 		)		
+		// 	),
 
 		"chi" => array(
 			"FullName" => "Chicago Bulls",

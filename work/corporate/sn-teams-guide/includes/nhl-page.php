@@ -1,5 +1,4 @@
 <?php require_once "nhl-vars.php"; ?>
-<link rel="stylesheet" href="css/team-icons.css" type="text/css">
 <?php /*
 	echo "<pre>";
 	print_r($nhl);
