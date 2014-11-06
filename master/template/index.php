@@ -6,7 +6,7 @@
 	<title>Home - Resources Archive</title>
 	
 	<?php include "includes/head.php"; ?>
-	<link rel="stylesheet" href="/development/media/css/patterns.css" media="only screen and (min-width: 10em)" type="text/css">
+	<link rel="stylesheet" href="/development/media/css/modules/patterns.css" media="only screen and (min-width: 10em)" type="text/css">
 </head>
 <body class="page-body development" id="page-body" lang="en">
 

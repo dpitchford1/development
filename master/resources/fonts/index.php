@@ -1,17 +1,28 @@
-<?php ?>
+<?php
+$root = $_SERVER['DOCUMENT_ROOT'] . "/development/init.php";
+?>
+
+
 <!DOCTYPE HTML>
 <html dir="ltr" lang="en-CA">
 <!--[if IE]><![endif]-->
 <head>
 	<title>Font Face fonts - Resources Archive</title>
-	
-	<?php include "../includes/head.php"; ?>
-	<link rel="stylesheet" href="/development/media/css/fonts.css" media="only screen and (min-width: 10em)" type="text/css">
+	<?php /* include "/development/includes/head.php"; */ ?>
+	<?php include $path_inc . "/head.php"; ?>
+	<?php /* include $_SERVER['HTTP_HOST']."/development/master/includes/head.php"; */ ?>
+
+	<link rel="stylesheet" href="<?php echo $mediaDIR.'css/modules/fonts.css'; ?>" media="only screen and (min-width: 10em)" type="text/css">
 
 </head>
 <body class="page-body development" id="page-body" lang="en">
 
 <div class="site-wrapper">
+
+<?php echo $root; ?><br>
+<?php echo $path_inc; ?><br>
+<?php echo $mediaDIR; ?>
+
 
 	<?php /* site header start */ ?>
 	<?php include "../includes/header.php"; ?>	

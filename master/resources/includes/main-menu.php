@@ -5,8 +5,8 @@
 		<li>Design</li>
 		<li>Development</li>
 		<li>Docs &amp; Reading</li>
-		<li>Fonts</li>
-		<li>PS & Illustrator Templates</li>
+		<li><a href="fonts/">Fonts</a></li>
+		<li>PS &amp; Illustrator Templates</li>
 		<li>Vectors</li>
 		<li>CMS</li>
 		<li>Case Studies</li>

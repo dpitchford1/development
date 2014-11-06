@@ -3,10 +3,10 @@
 <meta http-equiv="imagetoolbar" content="false" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta http-equiv="cleartype" content="on" />
 <![endif]-->
  
-<meta name="HandheldFriendly" content="true" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1">
  
-<link rel="stylesheet" href="/development/media/css/libs/normalize.2.css" media="screen" type="text/css">
+<link rel="stylesheet" href="/development/media/css/libs/normalize.3.0.2.css" media="screen" type="text/css">
 <link rel="stylesheet" href="/development/media/css/layouts/base-layout.css" media="only screen and (min-width: 10em)" type="text/css">
 
 <!--<link rel="stylesheet" href="/connected/media/css/dev/debug.css" media="screen" />-->
