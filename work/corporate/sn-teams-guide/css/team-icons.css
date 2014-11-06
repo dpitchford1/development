@@ -11,6 +11,7 @@
 .ico-200{ display: block; height: 200px; width: 200px; }
 
 .ico-25-inline {
+    background-size: 25px auto;
     padding-bottom: 5px;
     padding-left: 32px;
     padding-top: 5px;

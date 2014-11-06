@@ -56,7 +56,17 @@ img {
     }
 
 
-/* Style Guide Brnad Theme
+.main-menu a{
+    /*border-bottom: 4px solid transparent;*/
+    transition: color 0.5s ease-in-out;
+    font-weight: bold;
+    /*color: #3d4142;*/
+    }
+    .main-menu a:hover,  .main-menu .is-selected{ /*color: #aeb0af;*/ }
+    /*.menu--secondary a:focus { background-color: #fff; color: #000; }
+    .menu--secondary a:active{ background-color: #eee; }*/
+
+/* Style Guide Brand Theme
 ======================================================================
 ====================================================================== */
 

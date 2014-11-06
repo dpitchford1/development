@@ -54,8 +54,8 @@
 <?php /** START TEAM */ ?>
 
 <?php foreach ($nba as $teams => $values) { ?>
-<article class="wrapper">
-	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>" id="<?=$values['LongName']?>"><?=$values['FullName']?></h3>
+<article class="wrapper" id="<?=$values['LongName']?>">
+	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>"><?=$values['FullName']?></h3>
 
 	<?php if ($values['TeamColours']) { ?>
 	<h3 class="sg-tileheading">Team Colours</h3>

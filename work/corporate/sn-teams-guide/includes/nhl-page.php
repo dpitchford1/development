@@ -53,8 +53,8 @@
 <?php /** START TEAM */ ?>
 
 <?php foreach ($nhl as $teams => $values) { ?>
-<article class="wrapper">
-	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>" id="<?=$values['LongName']?>"><?=$values['FullName']?></h3>
+<article class="wrapper" id="<?=$values['LongName']?>">
+	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>"><?=$values['FullName']?></h3>
 
 	<?php if ($values['TeamColours']) { ?>
 	<h3 class="sg-tileheading">Primary Colours</h3>
@@ -74,19 +74,19 @@
 
 	<h4 class="sg-tileheading">Logos - Inline</h4>
 	<ul class="sg-logos <?=$values['ShortName']?>">
-		<li class="logo-59">
+		<li>
 			<img src="img/team_logos/59x59/hockey/nhl/<?=$values['LongName']?>.png" alt="">
 			<p class="sg-label">59x59</p>
 		</li>
-		<li class="logo-90">
+		<li>
 			<img src="img/team_logos/90x90/hockey/nhl/<?=$values['LongName']?>.png" alt="">
 			<p class="sg-label">90x90</p>
 		</li>
-		<li class="logo-170">
+		<li>
 			<img class="bgcolor" src="img/team_logos/170x170/hockey/nhl/<?=$values['LongName']?>.png" alt="">
 			<p class="sg-label">170x170</p>
 		</li>
-		<li class="logo-200">
+		<li>
 			<img src="img/team_logos/200x200/hockey/nhl/<?=$values['LongName']?>.png" alt="">
 			<p class="sg-label">200x200</p>
 		</li>
@@ -94,19 +94,19 @@
 
 	<h4 class="sg-tileheading">Logos - As Backgrounds</h4>
 	<ul class="sg-logos <?=$values['ShortName']?>">
-		<li class="logo-59">
+		<li>
 			<span class="ico-59 ico <?=$values['ShortName']?>--59x59"></span>
 			<p class="sg-label">59x59</p>
 		</li>
-		<li class="logo-90">
+		<li>
 			<span class="ico-90 ico <?=$values['ShortName']?>--90x90"></span>
 			<p class="sg-label">90x90</p>
 		</li>
-		<li class="logo-170">
+		<li>
 			<span class="ico-170 ico <?=$values['ShortName']?>--170x170"></span>
 			<p class="sg-label">170x170</p>
 		</li>
-		<li class="logo-200">
+		<li>
 			<span class="bgcolor ico-200 ico <?=$values['ShortName']?>--200x200"></span>
 			<p class="sg-label">200x200</p>
 		</li>

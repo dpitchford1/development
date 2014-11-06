@@ -15,7 +15,9 @@
 <!-- OLD IE CSS and html5 structure -->
 <!--[if (lte IE 8)&(!IEMobile 7)]>
 <link rel="stylesheet" href="css/oldIE.css" type="text/css">
-<![endif]-->   
+<![endif]-->
+
+<!-- <script type="text/javascript" src="includes/func.js"></script> -->
 
  <link rel="shortcut icon" type="image/x-icon" href="http://www.sportsnet.ca/sn_favicon.ico">
 
@@ -34,7 +36,7 @@
 	<?php /* STYLE GUIDE PATTERN ### COLOURS */ ?>
 	<nav class="wrapper">
 		<h2>Choose a League:</h2>
-		<ul class="inline-bullet">
+		<ul class="inline-bullet main-menu">
 			<li><a href="#nhl">NHL</a></li>
 			<li><a href="#nba">NBA</a></li>
 			<li><a href="#mlb">MLB</a></li>
