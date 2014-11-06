@@ -1,0 +1,62 @@
+<html>
+  <head>
+  	<title>Telus Clock</title>
+  	<link rel="stylesheet" href="css/flipclock.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/moment-tz.js"></script>
+  </head>
+
+  <body>
+    <!-- <span id="date"></span><br><br>
+
+    <span id="clock"></span><br><br> -->
+
+    <div id="clock">
+    	<div class="time"><span id="hours"></span>h<span id="mins"></span></div>
+    	<div class="date"><span id="date"></span></div>
+    </div>
+
+<script type="text/javascript">
+    	//var now = moment().locale('fr').tz("America/Montreal").format("dddd, MMMM Do, YYYY, h:MM:ss A");
+    	//var now = moment().locale('fr-ca').tz("America/Montreal").format("HH:mm:ss dddd Do MMMM, YYYY");
+		     // Saturday, June 9th, 2007, 5:46:21 PM
+		//$('#date').append(now);
+
+function displayTime() {
+	var lang = moment().locale('fr-ca').tz("America/Montreal"),
+		hours = moment(lang).format('HH'),
+		min = moment(lang).format('mm'),
+		date = moment(lang).format('dddd LL');
+
+	$('#hours').html(hours);
+	$('#mins').html(min);
+	$('#date').html(date);
+	setTimeout(displayTime, 1000);
+}
+ 
+$(document).ready(function() {
+	displayTime();
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
