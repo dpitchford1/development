@@ -1,7 +1,10 @@
+<?php
+
+?>
 <html>
 <head>
   	<title>Telus Clock</title>
-  	<link rel="stylesheet" href="css/flipclock.css" type="text/css">
+  	<link rel="stylesheet" href="css/clock.css" type="text/css">
     <script src="js/clock.js" type="text/javascript"></script>
 </head>
 
@@ -17,7 +20,7 @@
 function displayTime() {
 	var lang = moment().locale('fr-ca').tz("America/Montreal"),
 		hours = moment(lang).format('HH'),
-		min = moment(lang).format('mm'),
+		min = moment(lang).format('mm A'),
 		date = moment(lang).format('dddd LL');
 
 	$('#hours').html(hours);
