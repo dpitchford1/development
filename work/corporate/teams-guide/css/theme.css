@@ -1,0 +1,109 @@
+/* Brand Specific Theme
+======================================================================
+====================================================================== */
+html {
+    font-family: 'Helvetica',Arial, Verdana, sans-serif;
+    }
+
+body {
+    color: #000;
+    }
+
+.site-header, .site-footer{
+    background-color: #0d243c;
+    }
+.logo{
+    background: url("http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/sportsnet.svg") no-repeat scroll 0 0;
+    background-size: 100% auto;
+    height: 50px;
+    width: 300px;
+    }
+.brand-title{
+    color: #fff;
+    }
+
+
+/* Links
+    ---------------------------------------------- */
+a {
+    color: #1c85c2;
+    }
+
+a:hover, a:focus {
+    color: #010101;
+    }
+a:focus {
+    background-color: #e1e1e1;
+    }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #010101;
+    }
+
+h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus, h3 a:hover, h3 a:focus, h4 a:hover, h4 a:focus, h5 a:hover, h5 a:focus, h6 a:hover, h6 a:focus {
+    color: #1c85c2;
+    }
+
+/* If needed, modifier selector for callout colour
+---------------------------------------------- */
+.cc {
+    color: #1c85c2;
+    }
+
+
+img {
+    color: #1c85c2; 
+    }
+
+
+.main-menu a{
+    /*border-bottom: 4px solid transparent;*/
+    transition: color 0.5s ease-in-out;
+    font-weight: bold;
+    /*color: #3d4142;*/
+    }
+    .main-menu a:hover,  .main-menu .is-selected{ /*color: #aeb0af;*/ }
+    /*.menu--secondary a:focus { background-color: #fff; color: #000; }
+    .menu--secondary a:active{ background-color: #eee; }*/
+
+/* Style Guide Brand Theme
+======================================================================
+====================================================================== */
+
+.sg-colors li, .sg-logos li{
+    border: 1px solid #ddd;
+    }
+
+.sg-label { color: #333; }
+
+.sg-logos .sg-label { background-color: #f1f1f1; }
+
+
+/* Style Guide Headings */
+.sg-heading{
+    background-color: #2b3d57;
+    /*border-radius: 8px;*/
+    color: #fff;    
+    text-transform: uppercase;
+    }
+.sg-subheading{
+    background-color: #f1f1f1;
+    border-bottom: 1px dotted #666;
+    /*font-size: 14px; font-size: .875rem;*/
+    /*margin-bottom: .9375em;
+    margin-top: 2em;
+    padding: .3em .5em;
+    text-transform: uppercase;*/
+    }
+/*.sg-tileheading{
+    color: #666;
+    font-size: 14px; font-size: .75rem;
+    margin-bottom: .4em;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: normal;
+    }*/
+
+
+
+
+

@@ -1,0 +1,63 @@
+/* Style Guide Patterns
+======================================================================
+====================================================================== */
+
+/*.style-menu-1{}*/
+.style-menu-1 a { color: #cc0000; }
+.style-menu-2 { border-bottom: 1px dotted #cc0000; }
+
+/* style guide colors structure */
+.sg-colors, .sg-logos   { overflow: hidden; margin-left: 0; margin-bottom: 1.5em; padding-left: 0;  }
+.sg-colors li{ float: left; width: 9em; }
+
+.sg-logos li { /*float: left;*/ /*display: inline; */display: inline-block; vertical-align: top; }
+
+/*.sg-logos li.logo-59  { width: 59px; }
+.sg-logos li.logo-90  { width: 90px; }
+.sg-logos li.logo-170 { width: 170px; }
+.sg-logos li.logo-200 { width: 200px; }*/
+
+.sg-colors li, .sg-logos li{
+    margin: 0 0.5em 0.2em 0;
+    overflow: hidden;
+    padding: 0.3em;
+    }
+
+/* color swatches */
+.sg-swatch{
+    display: block;
+    height: 8em;
+    margin-bottom: 0.2em;
+    width: 100%;
+    }
+
+.sg-label { line-height: 1; font-size: 12px; margin: 0; padding: .5em; letter-spacing: 1px; text-align: center; }
+
+.sg-logos .sg-label { margin-top: 8px; }
+
+/* Style Guide Headings */
+.sg-heading{
+    font-size: 18px; font-size: 1.125rem;
+    margin-bottom: .8em;
+    padding: .4em .8em .3em;
+    }
+.sg-subheading{
+    font-size: 16px; font-size: 1rem;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    padding: .5em .5em .3em;
+    }
+.sg-tileheading{
+    font-size: 16px; font-size: 1rem;
+    margin-bottom: .4em;
+    font-weight: bold;
+    }
+
+.sg-toggler{
+    float: right;
+    }
+
+.sg-heading a{
+    color: #fff;
+    font-size: 12px;
+    }
