@@ -10,12 +10,12 @@
 .sg-colors, .sg-logos   { overflow: hidden; margin-left: 0; margin-bottom: 1.5em; padding-left: 0;  }
 .sg-colors li{ float: left; width: 9em; }
 
-.sg-logos li { float: left; }
+.sg-logos li { /*float: left;*/ /*display: inline; */display: inline-block; vertical-align: top; }
 
-.sg-logos li.logo-59  { width: 59px; }
+/*.sg-logos li.logo-59  { width: 59px; }
 .sg-logos li.logo-90  { width: 90px; }
 .sg-logos li.logo-170 { width: 170px; }
-.sg-logos li.logo-200 { width: 200px; }
+.sg-logos li.logo-200 { width: 200px; }*/
 
 .sg-colors li, .sg-logos li{
     margin: 0 0.5em 0.2em 0;

@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/base-layout.css" type="text/css">
 <link rel="stylesheet" href="css/style-guide.css" type="text/css">
 <link rel="stylesheet" href="css/theme.css" type="text/css">
-<!-- <link rel="stylesheet" href="css/team-icons.css" type="text/css"> -->
+<link rel="stylesheet" href="css/team-icons-svg.css" type="text/css">
 <!-- <link rel="stylesheet" href="css/teams.css" type="text/css"> -->
 
  <link rel="shortcut icon" type="image/x-icon" href="http://www.sportsnet.ca/sn_favicon.ico">
@@ -30,9 +30,9 @@
 	<nav class="wrapper">
 		<h2>Choose a League:</h2>
 		<ul class="inline-bullet">
-			<li><a href="#nhl">NHL</a></li>
+			<!-- <li><a href="#nhl">NHL</a></li> -->
 			<li><a href="#nba">NBA</a></li>
-			<li><a href="#mlb">MLB</a></li>
+			<!-- <li><a href="#mlb">MLB</a></li> -->
 			
 			<!-- <li><a href="#nfl">NFL</a></li>
 			<li><a href="#ahl">AHL</a></li>
@@ -43,28 +43,13 @@
 		</ul>
 
 	</nav>
-	<section class="region" id="nhl">
-		<h2 class="sg-heading">NHL - Colours and Logos</h2>
-
-		<?php include "includes/nhl-page.php"; ?>
-		
-		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
-	</section>
 
 	<section class="region" id="nba">
 		<h2 class="sg-heading">NBA - Colours and Logos</h2>
 
-		<?php include "includes/nba-page.php"; ?>
+		<?php include "includes/nba-page-svg.php"; ?>
 
 		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
-	</section>
-
-	<section class="region" id="mlb">
-		<h2 class="sg-heading">MLB - Colours and Logos</h2>
-
-		<?php include "includes/mlb-page.php"; ?>
-
-		<!-- <p class="top-of-page"><a href="#main-content">Top of page</a></p> -->
 	</section>
 
 	
