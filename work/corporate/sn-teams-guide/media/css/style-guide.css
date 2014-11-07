@@ -37,20 +37,19 @@
 
 /* Style Guide Headings */
 .sg-heading{
-    font-size: 18px; font-size: 1.125rem;
+    font-size: 20px; font-size: 1.25rem;
     margin-bottom: .8em;
-    padding: .4em .8em .3em;
+    padding: .4em .8em;
     }
 .sg-subheading{
     font-size: 16px; font-size: 1rem;
     margin-bottom: 1em;
     margin-top: 2em;
-    padding: .5em .5em .3em;
+    padding: .5em .5em;
     }
 .sg-tileheading{
     font-size: 16px; font-size: 1rem;
     margin-bottom: .4em;
-    font-weight: bold;
     }
 .sg-tileheading small{
     font-weight: normal;

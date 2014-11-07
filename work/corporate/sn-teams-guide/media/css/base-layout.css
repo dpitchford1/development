@@ -214,7 +214,7 @@
 ====================================================================== */
     /* Global Setup
     ---------------------------------------------- */
-    div, header, footer, aside, nav, section, article {
+    div, header, footer, aside, nav, section, article, main {
         overflow: hidden;
         position: relative;
         }
@@ -227,9 +227,10 @@
     /* Fluid wrapper for main content - identical to site wrapper - fine grained adjustments for responsive breakpoints */
     .fluid {
         margin: 0 auto;
-        max-width: 1440px;
+        max-width: 100em;
         padding: 0 1.15%;
         }
+
 
     /* all purpose wrappers */
     .wrapper{ padding: 0 .8em; width: 100%; }
@@ -255,6 +256,16 @@
     .span-of-2{
         width: 50%;
         }
+
+@media (max-width: 84.688em) { /* 1360px */
+    .span-of-2{
+        display: block;
+        float: none;
+        padding: 0 0 1rem;
+        width: 100%;
+        }
+}
+
 
     /* Clear fix
     ---------------------------------------------- */
@@ -366,7 +377,7 @@
 /* $$ 0.7 Custom Content
 ======================================================================
 ====================================================================== */
-    .form-label{ float: left; margin-right: 15px; padding-top: .5em; }
+    .form-label{ float: left; margin-right: 15px; padding-top: .4em; }
 
     /* FANCY SELECT MENU STYLES */
     select {
@@ -411,7 +422,7 @@
         padding: 0;
         position: absolute;
         right: 1em;
-        top: 1em;
+        top: .9em;
         bottom: .3em;
         z-index: 1;
         /* This hack makes the select behind the arrow clickable in some browsers */
@@ -453,16 +464,16 @@
 
     /* large select -- one in a block */
     .fancy-select-lg {
-        width: 275px;
-        max-width: 275px;
+        width: 250px;
+        max-width: 250px;
         }
     .fancy-select-lg select {
         /* Make sure the select is wider than the container so we can clip the arrow */
-        width: 300px;
-        max-width: 300px;
-        min-width: 300px;
+        width: 275px;
+        max-width: 275px;
+        min-width: 275px;
         /* Padding works surpringly well */
-        padding: .4em 19% .4em .8em;
+        padding: .2em 10% .2em .8em;
         }
 
 

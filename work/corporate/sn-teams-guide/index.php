@@ -4,13 +4,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Sportsnet Teams and Leagues reference guide</title>
-
-<link rel="stylesheet" href="css/normalize.3.0.2.css" type="text/css">
-<link rel="stylesheet" href="css/base-layout.css" type="text/css">
-<link rel="stylesheet" href="css/style-guide.css" type="text/css">
-<link rel="stylesheet" href="css/theme.css" type="text/css">
-<link rel="stylesheet" href="css/team-icons.css" type="text/css">
-<link rel="stylesheet" href="css/team-icons-svg.css" type="text/css">
+<link rel="stylesheet" href="media/css/fonts.css" type="text/css">
+<link rel="stylesheet" href="media/css/normalize.3.0.2.css" type="text/css">
+<link rel="stylesheet" href="media/css/base-layout.css" type="text/css">
+<link rel="stylesheet" href="media/css/style-guide.css" type="text/css">
+<link rel="stylesheet" href="media/css/theme.css" type="text/css">
+<link rel="stylesheet" href="media/css/team-icons.css" type="text/css">
+<link rel="stylesheet" href="media/css/team-icons-svg.css" type="text/css">
 
 <!-- OLD IE CSS and html5 structure -->
 <!--[if (lte IE 8)&(!IEMobile 7)]>
@@ -85,6 +85,19 @@
 		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
 	</div>
 </footer>
+
+<?php /* START: development workflow */ ?>
+<link rel="stylesheet" href="/development/media/css/dev/debug.css" media="all">
+<div id="devMenu">    
+    <h6>Window Width: <span id="width"></span> px</h6>
+    <div id="debug-features"> for debug output of features </div>
+</div> 
+<script src="/development/media/js/dev/working.js"></script>
+<script>
+    function widthSetter() { document.getElementById("width").innerHTML = window.innerWidth; }
+    widthSetter();
+    window.addEventListener("resize", widthSetter);
+</script> 
 
 <script>
 function toggler(id) {

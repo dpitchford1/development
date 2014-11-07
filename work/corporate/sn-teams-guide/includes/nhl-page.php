@@ -71,9 +71,11 @@
 		<?php } ?>
 	</div>
 
+	<?php if ($values['SecondaryColours']) { ?>
 	<div class="span-of-2 cf">
 		<h3 class="sg-tileheading">Secondary Colours</h3>
 	</div>
+	<?php } ?>
 
 	<div class="span-of-2 clear">
 		<h4 class="sg-tileheading clear">Logos - Inline <small>(With a bg colour)</small></h4>
