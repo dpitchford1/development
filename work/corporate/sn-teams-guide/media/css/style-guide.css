@@ -8,7 +8,7 @@
 
 /* style guide colors structure */
 .sg-colors, .sg-logos   { overflow: hidden; margin-left: 0; margin-bottom: 1.5em; padding-left: 0;  }
-.sg-colors li{ float: left; width: 9em; }
+.sg-colors li{ float: left; width: 18%; }
 
 .sg-logos li { /*float: left;*/ /*display: inline; */display: inline-block; vertical-align: top; }
 
@@ -26,7 +26,7 @@
 /* color swatches */
 .sg-swatch{
     display: block;
-    height: 8em;
+    height: 5.5em;
     margin-bottom: 0.2em;
     width: 100%;
     }

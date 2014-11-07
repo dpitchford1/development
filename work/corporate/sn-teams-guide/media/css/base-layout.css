@@ -251,20 +251,12 @@
         display: inline-block;
         float: left;
         padding: 0 1.25% 1em;
+        margin-bottom: 1em;
         width: 50%;
         }
     .span-of-2{
         width: 50%;
         }
-
-@media (max-width: 84.688em) { /* 1360px */
-    .span-of-2{
-        display: block;
-        float: none;
-        padding: 0 0 1rem;
-        width: 100%;
-        }
-}
 
 
     /* Clear fix
@@ -555,3 +547,35 @@
 
     .border-left{ border-left: 2px solid #f4f7f8; }
     .border-right{ border-right: 2px solid #f4f7f8; }
+
+
+
+
+
+/* $$ ENHANCEMENTS - RESPONSIVE
+======================================================================
+====================================================================== */
+@media only screen{
+    /* VIEWPORT SETUP
+    ---------------------------------------------- */
+    @-webkit-viewport   { width: device-width; }
+    @-moz-viewport      { width: device-width; }
+    @-ms-viewport       { width: device-width; }
+    @-o-viewport        { width: device-width; }
+    @viewport           { width: device-width; }
+}
+
+@media (max-width: 84.688em) { /* 1360px */
+    .span-of-2{
+        display: block;
+        float: none;
+        padding: 0 0 1rem;
+        width: 100%;
+        }
+}
+
+
+
+
+
+
