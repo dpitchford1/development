@@ -63,6 +63,7 @@
         font-style: normal;
         /*font-size: 80%;*/
         text-transform: none;
+        color: #aaa;
         }
 
 
@@ -245,6 +246,16 @@
         width: 100%;
         }
 
+    .span-of-2{
+        display: inline-block;
+        float: left;
+        padding: 0 1.25% 1em;
+        width: 50%;
+        }
+    .span-of-2{
+        width: 50%;
+        }
+
     /* Clear fix
     ---------------------------------------------- */
     .cf:before, .cf:after {
@@ -372,8 +383,9 @@
 
     .fancy-select {
         border: 1px solid #cacdce;
+        border-radius: 5px;
         background-color: #fff;
-        color: #bbb;
+        color: #156bac;
         float: left;
         }
     .fancy-select select option {
@@ -529,3 +541,6 @@
     .lowercase  { text-transform: lowercase; }
 
     .no-m{ margin: 0; }
+
+    .border-left{ border-left: 2px solid #f4f7f8; }
+    .border-right{ border-right: 2px solid #f4f7f8; }
