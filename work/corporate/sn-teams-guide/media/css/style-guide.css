@@ -43,13 +43,13 @@
     }
 .sg-subheading{
     font-size: 16px; font-size: 1rem;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     margin-top: 2em;
-    padding: .5em .5em;
+    padding: .7em;
     }
 .sg-tileheading{
     font-size: 16px; font-size: 1rem;
-    margin-bottom: .4em;
+    margin-bottom: .5em;
     }
 .sg-tileheading small{
     font-weight: normal;

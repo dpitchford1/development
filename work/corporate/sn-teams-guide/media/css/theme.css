@@ -13,11 +13,15 @@ body {
     background-color: #0d243c;
     }
 .logo{
+    background: url("../../img/team_logos/png/basketball/nba/atlanta-hawks.png") no-repeat 0 center;
+    background-image: linear-gradient(transparent, transparent), url("http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/sportsnet.svg");
+
     background: url("http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/sportsnet.svg") no-repeat scroll 0 0;
     background-size: 100% auto;
     height: 50px;
     width: 300px;
     }
+
 .brand-title{
     color: #fff;
     }
@@ -58,7 +62,7 @@ img {
 
 .main-menu a{
     transition: color 0.5s ease-in-out;
-    font-weight: bold;
+    font-family: 'semibold', 'Helvetica', Arial, Verdana, sans-serif;
     }
 
 /* Style Guide Brand Theme
@@ -87,6 +91,8 @@ img {
     }
 .sg-tileheading{
     font-family: 'semibold', 'Helvetica', Arial, Verdana, sans-serif;
+    padding-left: .6em;
+    border-left: 6px solid #ddd;
     }
 
 

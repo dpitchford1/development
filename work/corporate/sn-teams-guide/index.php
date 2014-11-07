@@ -40,8 +40,8 @@
 			<li><a href="#nhl">NHL</a></li>
 			<li><a href="#nba">NBA</a></li>
 			<li><a href="#mlb">MLB</a></li>
-			
-			<!-- <li><a href="#nfl">NFL</a></li>
+			<li><a href="#nfl">NFL</a></li>
+			<!-- 
 			<li><a href="#ahl">AHL</a></li>
 			<li><a href="#chl">CHL</a></li>
 			<li><a href="#ohl">OHL</a></li>
@@ -50,6 +50,8 @@
 		</ul>
 
 	</nav>
+
+	<?php /* START: NHL */ ?>
 	<section class="region" id="nhl">
 		<h2 class="sg-heading">NHL - Colours and Logos</h2>
 
@@ -58,6 +60,7 @@
 		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
 	</section>
 
+	<?php /* START: NBA */ ?>
 	<section class="region" id="nba">
 		<h2 class="sg-heading">NBA - Colours and Logos</h2>
 
@@ -67,10 +70,20 @@
 		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
 	</section>
 
+	<?php /* START: MLB */ ?>
 	<section class="region" id="mlb">
 		<h2 class="sg-heading">MLB - Colours and Logos</h2>
 
 		<?php include "includes/mlb-page.php"; ?>
+
+		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+	</section>
+
+	<?php /* START: NFL */ ?>
+	<section class="region" id="nfl">
+		<h2 class="sg-heading">NFL - Colours and Logos</h2>
+
+		<?php include "includes/nfl-page.php"; ?>
 
 		<!-- <p class="top-of-page"><a href="#main-content">Top of page</a></p> -->
 	</section>
