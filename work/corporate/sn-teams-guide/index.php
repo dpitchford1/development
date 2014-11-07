@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="media/css/base-layout.css" type="text/css">
 	<link rel="stylesheet" href="media/css/style-guide.css" type="text/css">
 	<link rel="stylesheet" href="media/css/theme.css" type="text/css">
+	<link rel="stylesheet" href="media/css/enhanced.css" type="text/css">
 	<link rel="stylesheet" href="media/css/team-icons.css" type="text/css">
 	<link rel="stylesheet" href="media/css/team-icons-svg.css" type="text/css">
 

@@ -552,30 +552,4 @@
 
 
 
-/* $$ ENHANCEMENTS - RESPONSIVE
-======================================================================
-====================================================================== */
-@media only screen{
-    /* VIEWPORT SETUP
-    ---------------------------------------------- */
-    @-webkit-viewport   { width: device-width; }
-    @-moz-viewport      { width: device-width; }
-    @-ms-viewport       { width: device-width; }
-    @-o-viewport        { width: device-width; }
-    @viewport           { width: device-width; }
-}
-
-@media (max-width: 84.688em) { /* 1360px */
-    .span-of-2{
-        display: block;
-        float: none;
-        padding: 0 0 1rem;
-        width: 100%;
-        }
-}
-
-
-
-
-
 
