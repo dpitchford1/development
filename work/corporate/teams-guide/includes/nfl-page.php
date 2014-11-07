@@ -1,24 +1,24 @@
-<?php require_once "nhl-vars.php"; ?>
+<?php require_once "nfl-vars.php"; ?>
 <?php /*
 	echo "<pre>";
-	print_r($nhl);
+	print_r($nfl);
 	echo "</pre>";
 */ ?>
 
 <form class="wrapper cf">
-	<label class="form-label" for="nhl-nav">Choose a Team:</label>
+	<label class="form-label" for="nfl-nav">Choose a Team:</label>
 	<div class="fancy-select fancy-select-lg">
-		<select onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value" id="nhl-nav">
+		<select onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value" id="nfl-nav">
 			<option value="" selected>Select a Team</option>
-		<?php foreach ($nhl as $teams => $values) { ?>
+		<?php foreach ($nfl as $teams => $values) { ?>
 			<option value="#<?=$values['LongName']?>"><?=$values['FullName']?></option>
 		<?php } ?>
 		</select>
 	</div>
-	<p class="sg-toggler"><a href="nhl-raw" onclick="toggler('nhl-raw'); return false;">View just data</a></p>
+	<p class="sg-toggler"><a href="nfl-raw" onclick="toggler('nfl-raw'); return false;">View just data</a></p>
 </form>
 
-<div class="wrapper" id="nhl-raw" style="display: none;">
+<div class="wrapper" id="nfl-raw" style="display: none;">
 	<table class="data-table">
 		<caption>NHL Raw Data</caption>
 		<thead class="data-table-head">
@@ -31,7 +31,7 @@
 		</thead>
 
 		<tbody class="data-table-body">
-			<?php foreach ($nhl as $teams => $values) { ?>
+			<?php foreach ($nfl as $teams => $values) { ?>
 			<tr>
 				<td><?=$values['FullName']?></td>
 				<td><?=$values['LongName']?></td>
@@ -52,7 +52,7 @@
 
 <?php /** START TEAM */ ?>
 
-<?php foreach ($nhl as $teams => $values) { ?>
+<?php foreach ($nfl as $teams => $values) { ?>
 <article class="wrapper" id="<?=$values['LongName']?>">
 	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>"><?=$values['FullName']?></h3>
 

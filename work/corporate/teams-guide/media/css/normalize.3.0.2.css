@@ -33,7 +33,7 @@ body {
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary{ display:block; }
 
 
-div, fieldset, form, article, aside, footer, header, menu, nav, section, summary, dl, dt, dd, hr, ul, li, ol, .text-field{
+div, fieldset, form, article, aside, footer, header, main, nav, section, summary, dl, dt, dd, hr, ul, li, ol, .text-field{
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
     }
 

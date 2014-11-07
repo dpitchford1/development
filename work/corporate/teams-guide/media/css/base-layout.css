@@ -63,6 +63,7 @@
         font-style: normal;
         /*font-size: 80%;*/
         text-transform: none;
+        color: #aaa;
         }
 
 
@@ -213,7 +214,7 @@
 ====================================================================== */
     /* Global Setup
     ---------------------------------------------- */
-    div, header, footer, aside, nav, section, article {
+    div, header, footer, aside, nav, section, article, main {
         overflow: hidden;
         position: relative;
         }
@@ -226,9 +227,10 @@
     /* Fluid wrapper for main content - identical to site wrapper - fine grained adjustments for responsive breakpoints */
     .fluid {
         margin: 0 auto;
-        max-width: 1440px;
+        max-width: 100em;
         padding: 0 1.15%;
         }
+
 
     /* all purpose wrappers */
     .wrapper{ padding: 0 .8em; width: 100%; }
@@ -244,6 +246,18 @@
         padding-bottom: 1em;
         width: 100%;
         }
+
+    .span-of-2{
+        display: inline-block;
+        float: left;
+        padding: 0 1.25% 1em;
+        margin-bottom: 1em;
+        width: 50%;
+        }
+    .span-of-2{
+        width: 50%;
+        }
+
 
     /* Clear fix
     ---------------------------------------------- */
@@ -355,7 +369,7 @@
 /* $$ 0.7 Custom Content
 ======================================================================
 ====================================================================== */
-    .form-label{ float: left; margin-right: 15px; padding-top: .5em; }
+    .form-label{ float: left; margin-right: 15px; padding-top: .4em; }
 
     /* FANCY SELECT MENU STYLES */
     select {
@@ -372,8 +386,9 @@
 
     .fancy-select {
         border: 1px solid #cacdce;
+        border-radius: 5px;
         background-color: #fff;
-        color: #bbb;
+        color: #156bac;
         float: left;
         }
     .fancy-select select option {
@@ -399,7 +414,7 @@
         padding: 0;
         position: absolute;
         right: 1em;
-        top: 1em;
+        top: .9em;
         bottom: .3em;
         z-index: 1;
         /* This hack makes the select behind the arrow clickable in some browsers */
@@ -441,16 +456,16 @@
 
     /* large select -- one in a block */
     .fancy-select-lg {
-        width: 275px;
-        max-width: 275px;
+        width: 250px;
+        max-width: 250px;
         }
     .fancy-select-lg select {
         /* Make sure the select is wider than the container so we can clip the arrow */
-        width: 300px;
-        max-width: 300px;
-        min-width: 300px;
+        width: 275px;
+        max-width: 275px;
+        min-width: 275px;
         /* Padding works surpringly well */
-        padding: .4em 19% .4em .8em;
+        padding: .2em 10% .2em .8em;
         }
 
 
@@ -529,3 +544,12 @@
     .lowercase  { text-transform: lowercase; }
 
     .no-m{ margin: 0; }
+
+    .border-left{ border-left: 2px solid #f4f7f8; }
+    .border-right{ border-right: 2px solid #f4f7f8; }
+
+
+
+
+
+

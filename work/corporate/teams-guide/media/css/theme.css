@@ -2,7 +2,7 @@
 ======================================================================
 ====================================================================== */
 html {
-    font-family: 'Helvetica',Arial, Verdana, sans-serif;
+    font-family: 'regular', 'Helvetica', Arial, Verdana, sans-serif;
     }
 
 body {
@@ -13,11 +13,15 @@ body {
     background-color: #0d243c;
     }
 .logo{
+    background: url("../../img/team_logos/png/basketball/nba/atlanta-hawks.png") no-repeat 0 center;
+    background-image: linear-gradient(transparent, transparent), url("http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/sportsnet.svg");
+
     background: url("http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/sportsnet.svg") no-repeat scroll 0 0;
     background-size: 100% auto;
     height: 50px;
     width: 300px;
     }
+
 .brand-title{
     color: #fff;
     }
@@ -26,7 +30,7 @@ body {
 /* Links
     ---------------------------------------------- */
 a {
-    color: #1c85c2;
+    color: #156bac;
     }
 
 a:hover, a:focus {
@@ -57,14 +61,9 @@ img {
 
 
 .main-menu a{
-    /*border-bottom: 4px solid transparent;*/
     transition: color 0.5s ease-in-out;
-    font-weight: bold;
-    /*color: #3d4142;*/
+    font-family: 'semibold', 'Helvetica', Arial, Verdana, sans-serif;
     }
-    .main-menu a:hover,  .main-menu .is-selected{ /*color: #aeb0af;*/ }
-    /*.menu--secondary a:focus { background-color: #fff; color: #000; }
-    .menu--secondary a:active{ background-color: #eee; }*/
 
 /* Style Guide Brand Theme
 ======================================================================
@@ -82,26 +81,19 @@ img {
 /* Style Guide Headings */
 .sg-heading{
     background-color: #2b3d57;
-    /*border-radius: 8px;*/
-    color: #fff;    
-    text-transform: uppercase;
+    color: #fff;
+    font-family: 'bold', 'Helvetica', Arial, Verdana, sans-serif;
+    /*text-transform: uppercase;*/
     }
 .sg-subheading{
-    background-color: #f1f1f1;
+    background-color: #f4f7f8;
     border-bottom: 1px dotted #666;
-    /*font-size: 14px; font-size: .875rem;*/
-    /*margin-bottom: .9375em;
-    margin-top: 2em;
-    padding: .3em .5em;
-    text-transform: uppercase;*/
     }
-/*.sg-tileheading{
-    color: #666;
-    font-size: 14px; font-size: .75rem;
-    margin-bottom: .4em;
-    font-family: 'Helvetica', Arial, sans-serif;
-    font-weight: normal;
-    }*/
+.sg-tileheading{
+    font-family: 'semibold', 'Helvetica', Arial, Verdana, sans-serif;
+    padding-left: .6em;
+    border-left: 6px solid #ddd;
+    }
 
 
 
