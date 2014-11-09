@@ -65,7 +65,24 @@
     font-size: 12px;
     }
 
-
+.sg-quick-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    padding: .5em 1em;
+    opacity: .2;
+    }
+.sg-quick-menu-list{ font-size: 14px; margin: 0; }
+.sg-quick-menu:hover{
+    opacity: .8;
+    }
+.sg-quick-menu, .sg-quick-menu a, .sg-quick-menu a:hover, .sg-quick-menu a:focus{
+    color: #e1e1e1;
+    }
+.sg-quick-menu a:focus, .sg-quick-menu a:active{
+    background-color: #282828;
+    }
 
 
 /* MQ 600- tablets & small screens

@@ -45,7 +45,6 @@
 			<?php }	?>
 
 		</tbody>
-
 	</table>
 </div>
 
@@ -53,8 +52,10 @@
 <?php /** START TEAM */ ?>
 
 <?php foreach ($nhl as $teams => $values) { ?>
-<article class="wrapper" id="<?=$values['LongName']?>">
-	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>"><?=$values['FullName']?></h3>
+<article class="wrapper">
+	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>" id="<?=$values['LongName']?>">
+		<span class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><?=$values['FullName']?></span>
+	</h3>
 	
 	<?php if ($values['TeamColours']) { ?>
 	<div class="span-of-2">
@@ -76,7 +77,7 @@
 		<h3 class="sg-tileheading">Secondary Colours</h3>
 
 		<ul class="sg-colors border-left">
-			<?php foreach ($values['TeamColours'] as $colors => $color_value) {	?>
+			<?php foreach ($values['SecondaryColours'] as $colors => $color_value) {	?>
 			<li>
 				<span style="background: <?=$color_value?>" class="sg-swatch">&nbsp;</span>
 				<p class="sg-label"><?=$color_value?></p>

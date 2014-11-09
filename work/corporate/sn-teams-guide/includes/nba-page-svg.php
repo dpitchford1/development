@@ -55,7 +55,9 @@
 
 <?php foreach ($nba as $teams => $values) { ?>
 <article class="wrapper" id="<?=$values['LongName']?>">
-	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>"><?=$values['FullName']?></h3>
+	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>">
+		<span class="ico-inline ico-25-inline i-<?=$values['ShortName']?>"><?=$values['FullName']?></span>
+	</h3>
 
 	<?php if ($values['TeamColours']) { ?>
 	<div class="span-of-2">

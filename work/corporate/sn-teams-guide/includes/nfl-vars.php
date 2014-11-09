@@ -2,10 +2,10 @@
 
 	$nfl = array(
 
-		"anh" => array(
-			"FullName" => "Anaheim Ducks",
-			"LongName" => "anaheim-ducks",
-			"ShortName" => "nfl-anh",
+		"ari" => array(
+			"FullName" => "Arizona Cardinals",
+			"LongName" => "arizona-cardinals",
+			"ShortName" => "nfl-ari",
 			"HeadingColour" => "#91764B",
 			"TeamColours" => array(
 				colour1 => "#000",
@@ -16,10 +16,10 @@
 				)
 			),
 
-		"ari" => array(
-			"FullName" => "Arizona Coyotes",
-			"LongName" => "arizona-coyotes",
-			"ShortName" => "nfl-ari",
+		"atl" => array(
+			"FullName" => "Atlanta Falcons",
+			"LongName" => "atlanta-falcons",
+			"ShortName" => "nfl-atl",
 			"HeadingColour" => "#8E0028",
 			"TeamColours" => array(
 				colour1 => "#8E0028",
@@ -29,10 +29,10 @@
 				)		
 			),
 
-		"bos" => array(
-			"FullName" => "Boston Bruins",
-			"LongName" => "boston-bruins",
-			"ShortName" => "nfl-bos",
+		"bal" => array(
+			"FullName" => "Baltimore Ravens",
+			"LongName" => "baltimore-ravens",
+			"ShortName" => "nfl-bal",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
 				colour1 => "#000",
@@ -42,8 +42,8 @@
 			),
 
 		"buf" => array(
-			"FullName" => "Buffalo Sabres",
-			"LongName" => "buffalo-sabres",
+			"FullName" => "Buffalo Bills",
+			"LongName" => "buffalo-bills",
 			"ShortName" => "nfl-buf",
 			"HeadingColour" => "#002E62",
 			"TeamColours" => array(
@@ -54,10 +54,10 @@
 				)		
 			),
 
-		"cgy" => array(
-			"FullName" => "Calgary Flames",
-			"LongName" => "calgary-flames",
-			"ShortName" => "nfl-cgy",
+		"car" => array(
+			"FullName" => "Carolina Panthers",
+			"LongName" => "carolina-panthers",
+			"ShortName" => "nfl-car",
 			"HeadingColour" => "#E03A3E",
 			"TeamColours" => array(
 				colour1 => "#E03A3E",
@@ -67,10 +67,10 @@
 				)		
 			),
 
-		"car" => array(
-			"FullName" => "Carolina Hurricanes",
-			"LongName" => "carolina-hurricanes",
-			"ShortName" => "nfl-car",
+		"chi" => array(
+			"FullName" => "Chicago Bears",
+			"LongName" => "chicago-bears",
+			"ShortName" => "nfl-chi",
 			"HeadingColour" => "#E03A3E",
 			"TeamColours" => array(
 				colour1 => "#E03A3E",
@@ -80,10 +80,10 @@
 				)		
 			),
 
-		"chi" => array(
-			"FullName" => "Chicago Blackhawks",
-			"LongName" => "chicago-blackhawks",
-			"ShortName" => "nfl-chi",
+		"cin" => array(
+			"FullName" => "Cincinnati Bengals",
+			"LongName" => "cincinnati-bengals",
+			"ShortName" => "nfl-cin",
 			"HeadingColour" => "#E3263A",
 			"TeamColours" => array(
 				colour1 => "#E03A3E",
@@ -92,10 +92,10 @@
 				)		
 			),
 
-		"col" => array(
-			"FullName" => "Colorado Avalanche",
-			"LongName" => "colorado-avalanche",
-			"ShortName" => "nfl-col",
+		"cle" => array(
+			"FullName" => "Cleveland Browns",
+			"LongName" => "cleveland-browns",
+			"ShortName" => "nfl-cle",
 			"HeadingColour" => "#8B2942",
 			"TeamColours" => array(
 				colour1 => "#8B2942",
@@ -106,10 +106,10 @@
 				)		
 			),
 
-		"cls" => array(
-			"FullName" => "Columbus Blue Jackets",
-			"LongName" => "columbus-blue-jackets",
-			"ShortName" => "nfl-cls",
+		"dal" => array(
+			"FullName" => "Dallas Cowboys",
+			"LongName" => "dallas-cowboys",
+			"ShortName" => "nfl-dal",
 			"HeadingColour" => "#00285C",
 			"TeamColours" => array(
 				colour1 => "#00285C",
@@ -119,10 +119,10 @@
 				)		
 			),
 
-		"dal" => array(
-			"FullName" => "Dallas Stars",
-			"LongName" => "dallas-stars",
-			"ShortName" => "nfl-dal",
+		"den" => array(
+			"FullName" => "Denver Broncos",
+			"LongName" => "denver-broncos",
+			"ShortName" => "nfl-den",
 			"HeadingColour" => "#006A4E",
 			"TeamColours" => array(
 				colour1 => "#006A4E",
@@ -133,8 +133,8 @@
 			),
 
 		"det" => array(
-			"FullName" => "Detroit Redwings",
-			"LongName" => "detroit-red-wings",
+			"FullName" => "Detroit Lions",
+			"LongName" => "detroit-lions",
 			"ShortName" => "nfl-det",
 			"HeadingColour" => "#EC1F26",
 			"TeamColours" => array(
@@ -143,10 +143,10 @@
 				)		
 			),
 
-		"edm" => array(
-			"FullName" => "Edmonton Oilers",
-			"LongName" => "edmonton-oilers",
-			"ShortName" => "nfl-edm",
+		"gb" => array(
+			"FullName" => "Green Bay Packers",
+			"LongName" => "green-bay-packers",
+			"ShortName" => "nfl-gb",
 			"HeadingColour" => "#003777",
 			"TeamColours" => array(
 				colour1 => "#003777",
@@ -155,10 +155,10 @@
 				)		
 			),
 
-		"fla" => array(
-			"FullName" => "Florida Panthers",
-			"LongName" => "florida-panthers",
-			"ShortName" => "nfl-fla",
+		"hou" => array(
+			"FullName" => "Houston Texans",
+			"LongName" => "houston-texans",
+			"ShortName" => "nfl-hou",
 			"HeadingColour" => "#C8213F",
 			"TeamColours" => array(
 				colour1 => "#C8213F",
@@ -168,10 +168,10 @@
 				)		
 			),
 
-		"la" => array(
-			"FullName" => "Los Angeles Kings",
-			"LongName" => "los-angeles-kings",
-			"ShortName" => "nfl-la",
+		"ind" => array(
+			"FullName" => "Indianapolis Colts",
+			"LongName" => "indianapolis-colts",
+			"ShortName" => "nfl-ind",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
 				colour1 => "#000",
@@ -180,10 +180,10 @@
 				)		
 			),
 
-		"min" => array(
-			"FullName" => "Minnesota Wild",
-			"LongName" => "minnesota-wild",
-			"ShortName" => "nfl-min",
+		"jax" => array(
+			"FullName" => "Jacksonville Jaguars",
+			"LongName" => "jacksonville-jaguars",
+			"ShortName" => "nfl-jax",
 			"HeadingColour" => "#025736",
 			"TeamColours" => array(
 				colour1 => "#025736",
@@ -194,10 +194,10 @@
 				)		
 			),
 
-		"mon" => array(
-			"FullName" => "Montreal Canadiens",
-			"LongName" => "montreal-canadiens",
-			"ShortName" => "nfl-mon",
+		"kc" => array(
+			"FullName" => "Kansas City Chiefs",
+			"LongName" => "kansas-city-chiefs",
+			"ShortName" => "nfl-kc",
 			"HeadingColour" => "#BF2F38",
 			"TeamColours" => array(
 				colour1 => "#BF2F38",
@@ -206,10 +206,10 @@
 				)		
 			),
 
-		"nsh" => array(
-			"FullName" => "Nashville Predators",
-			"LongName" => "nashville-predators",
-			"ShortName" => "nfl-nsh",
+		"mia" => array(
+			"FullName" => "Miami Dolphins",
+			"LongName" => "miami-dolphins",
+			"ShortName" => "nfl-mia",
 			"HeadingColour" => "#002E62",
 			"TeamColours" => array(
 				colour1 => "#FDBB2F",
@@ -218,10 +218,10 @@
 				)		
 			),
 
-		"nj" => array(
-			"FullName" => "New Jersey Devils",
-			"LongName" => "new-jersey-devils",
-			"ShortName" => "nfl-nj",
+		"min" => array(
+			"FullName" => "Minnesota Vikings",
+			"LongName" => "minnesota-vikings",
+			"ShortName" => "nfl-min",
 			"HeadingColour" => "#E03A3E",
 			"TeamColours" => array(
 				colour1 => "#E03A3E",
@@ -230,10 +230,10 @@
 				)		
 			),
 
-		"nyi" => array(
-			"FullName" => "New York Islanders",
-			"LongName" => "new-york-islanders",
-			"ShortName" => "nfl-nyi",
+		"ne" => array(
+			"FullName" => "New England Patriots",
+			"LongName" => "new-england-patriots",
+			"ShortName" => "nfl-ne",
 			"HeadingColour" => "#00529B",
 			"TeamColours" => array(
 				colour1 => "#00529B",
@@ -242,10 +242,10 @@
 				)		
 			),
 
-		"nyr" => array(
-			"FullName" => "New York Rangers",
-			"LongName" => "new-york-rangers",
-			"ShortName" => "nfl-nyr",
+		"no" => array(
+			"FullName" => "New Orleans Saints",
+			"LongName" => "new-orleans-saints",
+			"ShortName" => "nfl-no",
 			"HeadingColour" => "#0161AB",
 			"TeamColours" => array(
 				colour1 => "#0161AB",
@@ -254,10 +254,10 @@
 				)		
 			),
 
-		"ott" => array(
-			"FullName" => "Ottawa Senators",
-			"LongName" => "ottawa-senators",
-			"ShortName" => "nfl-ott",
+		"nyg" => array(
+			"FullName" => "New York Giants",
+			"LongName" => "new-york-giants",
+			"ShortName" => "nfl-nyg",
 			"HeadingColour" => "#E4173E",
 			"TeamColours" => array(
 				colour1 => "#E4173E",
@@ -267,10 +267,10 @@
 				)		
 			),
 
-		"phi" => array(
-			"FullName" => "Philadelphia Flyers",
-			"LongName" => "philadelphia-flyers",
-			"ShortName" => "nfl-phi",
+		"nyj" => array(
+			"FullName" => "New York Jets",
+			"LongName" => "new-york-jets",
+			"ShortName" => "nfl-nyj",
 			"HeadingColour" => "#F47940",
 			"TeamColours" => array(
 				colour1 => "#F47940",
@@ -279,10 +279,10 @@
 				)		
 			),
 
-		"pit" => array(
-			"FullName" => "Pittsburgh Penguins",
-			"LongName" => "pittsburgh-penguins",
-			"ShortName" => "nfl-pit",
+		"oak" => array(
+			"FullName" => "Oakland Raiders",
+			"LongName" => "oakland-raiders",
+			"ShortName" => "nfl-oak",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
 				colour1 => "#000",
@@ -291,10 +291,10 @@
 				)		
 			),
 
-		"sj" => array(
-			"FullName" => "San Jose Sharks",
-			"LongName" => "san-jose-sharks",
-			"ShortName" => "nfl-sj",
+		"phi" => array(
+			"FullName" => "Philadelphia Eagles",
+			"LongName" => "philadelphia-eagles",
+			"ShortName" => "nfl-phi",
 			"HeadingColour" => "#05535D",
 			"TeamColours" => array(
 				colour1 => "#05535D",
@@ -304,10 +304,10 @@
 				)		
 			),
 
-		"stl" => array(
-			"FullName" => "St Louis Blues",
-			"LongName" => "st-louis-blues",
-			"ShortName" => "nfl-stl",
+		"pit" => array(
+			"FullName" => "Pittsburgh Steelers",
+			"LongName" => "pittsburgh-steelers",
+			"ShortName" => "nfl-pit",
 			"HeadingColour" => "#0546A0",
 			"TeamColours" => array(
 				colour1 => "#0546A0",
@@ -317,10 +317,10 @@
 				)		
 			),
 
-		"tb" => array(
-			"FullName" => "Tampa Bay Lightning",
-			"LongName" => "tampa-bay-lightning",
-			"ShortName" => "nfl-tb",
+		"sd" => array(
+			"FullName" => "San Diego Chargers",
+			"LongName" => "san-diego-chargers",
+			"ShortName" => "nfl-sd",
 			"HeadingColour" => "#013E7D",
 			"TeamColours" => array(
 				colour1 => "#013E7D",
@@ -330,10 +330,10 @@
 				)		
 			),
 
-		"tor" => array(
-			"FullName" => "Toronto Maple Leafs",
-			"LongName" => "toronto-maple-leafs",
-			"ShortName" => "nfl-tor",
+		"sf" => array(
+			"FullName" => "San Francisco 49ers",
+			"LongName" => "san-francisco-49ers",
+			"ShortName" => "nfl-sf",
 			"HeadingColour" => "#003777",
 			"TeamColours" => array(
 				colour1 => "#003777",
@@ -341,10 +341,10 @@
 				)		
 			),
 
-		"van" => array(
-			"FullName" => "Vancouver Canucks",
-			"LongName" => "vancouver-canucks",
-			"ShortName" => "nfl-van",
+		"sea" => array(
+			"FullName" => "Seattle Seahawks",
+			"LongName" => "seattle-seahawks",
+			"ShortName" => "nfl-sea",
 			"HeadingColour" => "#07346F",
 			"TeamColours" => array(
 				colour1 => "#07346F",
@@ -354,10 +354,10 @@
 				)		
 			),
 
-		"was" => array(
-			"FullName" => "Washington Capitals",
-			"LongName" => "washington-capitals",
-			"ShortName" => "nfl-was",
+		"stl" => array(
+			"FullName" => "St. Louis Rams",
+			"LongName" => "st-louis-rams",
+			"ShortName" => "nfl-stl",
 			"HeadingColour" => "#CF132B",
 			"TeamColours" => array(
 				colour1 => "#CF132B",
@@ -367,10 +367,10 @@
 				)		
 			),
 
-		"wpg" => array(
-			"FullName" => "Winnipeg Jets",
-			"LongName" => "winnipeg-jets",
-			"ShortName" => "nfl-wpg",
+		"tb" => array(
+			"FullName" => "Tampa Bay Buccaneers",
+			"LongName" => "tampa-bay-buccaneers",
+			"ShortName" => "nfl-tb",
 			"HeadingColour" => "#002E62",
 			"TeamColours" => array(
 				colour1 => "#002E62",
@@ -380,10 +380,10 @@
 				)		
 			),
 
-		"logo" => array(
-			"FullName" => "nfl Logo",
-			"LongName" => "nfl",
-			"ShortName" => "nfl-logo",
+		"ten" => array(
+			"FullName" => "Tennessee Titans",
+			"LongName" => "tennessee-titans",
+			"ShortName" => "nfl-ten",
 			"HeadingColour" => "#2C2A29",
 			"TeamColours" => array(
 				colour1 => "#2C2A29",
@@ -393,10 +393,10 @@
 				)
 			),
 
-		"logo-east" => array(
-			"FullName" => "Special Teams East",
-			"LongName" => "east-east-all-stars",
-			"ShortName" => "nfl-ste",
+		"was" => array(
+			"FullName" => "Washington Redskins",
+			"LongName" => "washington-redskins",
+			"ShortName" => "nfl-was",
 			"HeadingColour" => "#D10013",
 			"TeamColours" => array(
 				colour1 => "#D10013",
@@ -406,45 +406,25 @@
 				)	
 			),
 
-		"logo-west" => array(
-			"FullName" => "Special Teams West",
-			"LongName" => "west-west-all-stars",
-			"ShortName" => "nfl-stw",
+		"logo" => array(
+			"FullName" => "NFL Logo",
+			"LongName" => "nfl",
+			"ShortName" => "nfl-logo",
 			"HeadingColour" => "#4D8BE1",
-			"TeamColours" => array(
-				colour1 => "#4D8BE1",
-				colour2 => "#053396",
-				colour3 => "#fff",
-				colour4 => "#D0D3D4"
-				)	
 			),
 
-		"east" => array(
-			"FullName" => "Eastern Conference",
-			"LongName" => "eastern-conference",
-			"ShortName" => "nfl-east",
-			"HeadingColour" => "#a6192e",
-			"TeamColours" => array(
-				colour1 => "#a6192e",
-				colour2 => "#2d2926",
-				colour3 => "#808b97",
-				colour4 => "#d0d3d4",
-				colour5 => "#fff"
-				)	
+		"afc" => array(
+			"FullName" => "AFC",
+			"LongName" => "afc",
+			"ShortName" => "nfl-afc",
+			"HeadingColour" => "#a6192e",	
 			),
 
-		"west" => array(
-			"FullName" => "Western Conference",
-			"LongName" => "western-conference",
-			"ShortName" => "nfl-west",
+		"nfc" => array(
+			"FullName" => "NFC",
+			"LongName" => "nfc",
+			"ShortName" => "nfl-nfc",
 			"HeadingColour" => "#00205b",
-			"TeamColours" => array(
-				colour1 => "#00205b",
-				colour2 => "#2d2926",
-				colour3 => "#808b97",
-				colour4 => "#d0d3d4",
-				colour5 => "#fff"
-				)
 			),
 
 	);

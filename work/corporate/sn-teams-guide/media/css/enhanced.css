@@ -11,6 +11,20 @@
     @viewport           { width: device-width; }
 }
 
+
+
+
+@media (min-width: 90.000em) { /* 1440px */
+    .fluid {
+        max-width: 95%;
+        padding: 0 5%;
+        }
+}
+
+
+
+
+
 @media (max-width: 84.688em) { /* 1360px */
     .span-of-2{
         display: block;
@@ -29,7 +43,6 @@
 @media (max-width:51.250em){
 
     .fluid {
-        margin: 0 auto;
         max-width: 100%;
         padding: 0 3.5%;
         }

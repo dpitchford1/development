@@ -121,38 +121,38 @@ Washington Wizards = washington-wizards = was
 --------------------------------------------------
 NFL
 --------------------------------------------------
-Arizona Cardinals =  = 
-Atlanta Falcons =  = 
-Baltimore Ravens =  = 
-Buffalo Bills =  = 
-Carolina Panthers =  = 
-Chicago Bears =  = 
-Cincinnati Bengals =  = 
-Cleveland Browns =  = 
-Dallas Cowboys =  = 
-Denver Broncos =  = 
-Detroit Lions =  = 
-Green Bay Packers =  = 
-Houston Texans =  = 
-Indianapolis Colts =  = 
-Jacksonville Jaguars =  = 
-Kansas City Chiefs =  = 
-Miami Dolphins =  = 
-Minnesota Vikings =  = 
-New England Patriots =  = 
-New Orleans Saints =  = 
-New York Giants =  = 
-New York Jets =  = 
-Oakland Raiders =  = 
-Philadelphia Eagles =  = 
-Pittsburgh Steelers =  = 
-San Diego Chargers =  = 
-San Francisco 49ers =  = 
-Seattle Seahawks =  = 
-St. Louis Rams =  = 
-Tampa Bay Buccaneers =  = 
-Tennessee Titans =  = 
-Washington Redskins =  = 
+Arizona Cardinals = arizona-cardinals = ari
+Atlanta Falcons = atlanta-falcons = atl
+Baltimore Ravens = baltimore-ravens = bal
+Buffalo Bills = buffalo-bills = buf
+Carolina Panthers = carolina-panthers = car
+Chicago Bears = chicago-bears = chi
+Cincinnati Bengals = cincinnati-bengals = cin
+Cleveland Browns = cleveland-browns = cle
+Dallas Cowboys = dallas-cowboys = dal
+Denver Broncos = denver-broncos = den
+Detroit Lions = detroit-lions = det
+Green Bay Packers = green-bay-packers = gb
+Houston Texans = houston-texans = hou
+Indianapolis Colts = indianapolis-colts = ind
+Jacksonville Jaguars = jacksonville-jaguars = jax
+Kansas City Chiefs = kansas-city-chiefs = kc
+Miami Dolphins = miami-dolphins = mia
+Minnesota Vikings = minnesota-vikings = min
+New England Patriots = new-england-patriots = ne
+New Orleans Saints = new-orleans-saints = no
+New York Giants = new-york-giants = nyg
+New York Jets = new-york-jets = nyj
+Oakland Raiders = oakland-raiders = oak
+Philadelphia Eagles = philadelphia-eagles = phi
+Pittsburgh Steelers = pittsburgh-steelers = pit
+San Diego Chargers = san-diego-chargers = sd
+San Francisco 49ers = san-francisco-49ers = sf
+Seattle Seahawks = seattle-seahawks = sea
+St. Louis Rams = st-louis-rams = stl
+Tampa Bay Buccaneers = tampa-bay-buccaneers = tb
+Tennessee Titans = tennessee-titans = ten
+Washington Redskins = washington-redskins = was
 
 Arizona Cardinals:  #B10339 (red)  |  #FFC40D (gold)  |  #000000 (black)
 Atlanta Falcons:  #000000 (black)  |  #231F20 (red)

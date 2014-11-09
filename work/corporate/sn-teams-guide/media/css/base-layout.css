@@ -227,7 +227,7 @@
     /* Fluid wrapper for main content - identical to site wrapper - fine grained adjustments for responsive breakpoints */
     .fluid {
         margin: 0 auto;
-        max-width: 100em;
+        /*max-width: 100em;*/
         padding: 0 1.15%;
         }
 

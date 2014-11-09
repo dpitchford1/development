@@ -112,7 +112,41 @@
 
 	
 
-</main>	
+</main>
+
+<nav class="sg-quick-menu">
+	<h4><a href="nfl-raw" onclick="toggler('sg-quick-list'); return false;">Quick Menu</a></h4>
+	<ul class="no-bullet sg-quick-menu-list" id="sg-quick-list" style="display: none;">
+		<li><a href="#nhl">NHL</a></li>
+		<li><a href="#nba">NBA</a></li>
+		<li><a href="#mlb">MLB</a></li>
+		<li><a href="#nfl">NFL</a></li>
+	</ul>
+</nav>
+
+<nav id="nav" role="navigation">
+    <div class="block">
+        <h2 class="block-title">Chapters</h2>
+        <ul>
+            <li class="is-active">
+                <a href="#">Chapter 1</a>
+            </li><!--
+         --><li>
+                <a href="#">Chapter 2</a>
+            </li><!--
+         --><li>
+                <a href="#">Chapter 3</a>
+            </li><!--
+         --><li>
+                <a href="#">Chapter 4</a>
+            </li><!--
+         --><li>
+                <a href="#">Chapter 5</a>
+            </li>
+        </ul>
+        <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+    </div>
+</nav>
 
 <?php /* START: FOOTER */ ?>
 <footer class="site-wrapper site-footer" role="contentinfo">
