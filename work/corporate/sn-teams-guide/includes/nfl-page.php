@@ -15,7 +15,7 @@
 		<?php } ?>
 		</select>
 	</div>
-	<p class="sg-toggler"><a href="nfl-raw" onclick="toggler('nfl-raw'); return false;">View just data</a></p>
+	<p class="sg-toggler"><a href="nfl-raw" onclick="toggled('nfl-raw'); return false;">View just data</a></p>
 </form>
 
 <div class="wrapper" id="nfl-raw" style="display: none;">

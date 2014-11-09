@@ -16,85 +16,82 @@ function addLoadEvent(func) {
   }
 }
 
+var doc = window.document; function addLoadEvent(b){var a=window.onload;if(typeof window.onload!=="function"){window.onload=b}else{window.onload=function(){a();b()}}}; doc.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js';
+if (doc.querySelector && doc.addEventListener) { (function() { if (navigator.userAgent.match(/IEMobile\/10\.0/)) { var msViewportStyle = doc.createElement("style"); msViewportStyle.appendChild( doc.createTextNode("@-ms-viewport{width:auto!important}") ); doc.getElementsByTagName("head")[0].appendChild(msViewportStyle); } })(); }
 
-/* -------------------------------------------------------------------------------------------------------------------------
-   ANIMATED ANCHOR SCROLL
-   
-   function animateAnchorScroll()
-   function scrollPage()
-   function scrollToAnchor(aname)
-   function easeInOut(t,b,c,d)
-*/
+/* application wrapper
+-------------------------------------------------------------------------------------------------------------------------- */
+var sg = sg || {};
+window.sg = (function (window, document, sgwrapper) {
 
-// set up the required variables
-var scrollInt, scrTime, scrSt, scrDist, scrDur, scrInt;
-
-function animateAnchorScroll() {
-  // does the browser support the DOM?
-  if (!document.getElementById) { return; }
-  
-  var anchors, i, targ, targarr;
-
-  // create an array of the anchors present in the document
-  anchors = document.getElementsByTagName("a");
-  
-  // loop through the anchor array
-  for (i=0;i<anchors.length;i++) {
-    // check if href links to an anchor on this page
-    if (anchors[i].href.indexOf("#") != -1 &&
-        anchors[i].href.indexOf( document.URL ) != -1) {
-      // store name of target anchor
-      targ = anchors[i].href.substring(anchors[i].href.indexOf("#")+1);
-      // store target anchor
-      targarr = document.getElementById(targ);
-      if(targarr != null) {
-        // append a class to anchor
-        anchors[i].className = (targarr.offsetTop < anchors[i].offsetTop) ? "up" : "down";
-        // save target as id with prefix (used in onclick function below)
-        anchors[i].id = "__" + targ;
-        // set action to perform on click
-        anchors[i].onclick = function() { scrollToAnchor(this.id.substring(2)); return false; };
-      }
+    /* set up a couple helpers
+    ---------------------------------------------- */
+    //var doc = window.document;
+    function setAttributes(el, attrs) {
+        for (var key in attrs) {
+        el.setAttribute(key, attrs[key]);
+        }
     }
-  }
-}
 
-function scrollPage() {
-  scrTime += scrInt;
-  if (scrTime < scrDur) { window.scrollTo( 0, easeInOut(scrTime,scrSt,scrDist,scrDur) ); }
-  else                  { window.scrollTo( 0, scrSt+scrDist ); clearInterval(scrollInt); }
-}
+    /* Small screen menu
+  ---------------------------------------------- */
+    (function (win) {
+        "use strict";
+        var menu = doc.querySelector('#global-header'),
+            menulinks = doc.querySelector('#ss-nav'),
+            fragment = doc.createDocumentFragment(),
+            toggler = fragment.appendChild(doc.createElement('a')),
+            //ssLogo = fragment.appendChild(doc.createElement('a'));
 
-function scrollToAnchor(aname) {
-  // does the browser support the DOM?
-  if (!document.getElementById) { return; }
-  
-  // set up the required variables
-  var anchors, i, ele;
-  
-  // get anchor
-  if(document.getElementById(aname)) { ele = document.getElementById(aname); }
+        setAttributes(menu, {
+            "aria-labelledby": "menu-trigger"
+        });
 
-  // set scroll target
-  if (window.scrollY) { scrSt = window.scrollY; }
-  else                { scrSt = document.body.scrollTop; }
+        // toggler link
+        setAttributes(toggler, {
+            "aria-controls": "global-header",
+            "href": "#global-header",
+            "id": "menu-trigger",
+            "aria-label": "<%= I18n.t('menu.main_menu') %>",
+            "role": "button",
+            "class": "menu-trigger ico i-sm i--menu"
+        });
+        // create ss logo
+        // setAttributes(ssLogo, {
+        //     "class": "ico brand-ss",
+        //     "href": "/",
+        //     "id": "menu-trigger"
+        // });
 
-  scrDist = ele.offsetTop - scrSt;
-  scrDur  = 500;
-  scrTime = 0;
-  scrInt  = 10;
+        toggler.innerHTML = 'Menu';
+        //ssLogo.innerHTML = 'Rogers NHL GameCentre Live';
 
-  // set interval
-  clearInterval(scrollInt);
-  scrollInt = setInterval( scrollPage, scrInt );
-}
+        if (window.matchMedia('only screen and (max-width: 600px)').matches) {
+            menu.setAttribute('aria-expanded', 'false');
+        }
 
-function easeInOut(t,b,c,d) {
-  return c/2 * (1 - Math.cos(Math.PI*t/d)) + b;
-}
+        if (doc.querySelector && doc.addEventListener) {
 
-/* -------------------------------------------------------------------------------------------------------------------------
-   CALL THE FUNCTIONS WE WANT TO RUN ON LOAD
-*/
+            menulinks.appendChild(fragment);
+            menu.className += ' is-hidden';
 
-addLoadEvent(animateAnchorScroll);
+            toggler.addEventListener('click', function (e) {
+                e.preventDefault();
+                toggler.className = (toggler.className === 'menu-trigger ico i-sm i--menu') ? 'menu-trigger open ico i-m i--close' : 'menu-trigger ico i-sm i--menu';
+                menu.className = (menu.className === 'global-header is-hidden') ? 'global-header is-visible' : 'global-header is-hidden';
+
+                menu.setAttribute('aria-expanded', menu.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+
+            });
+        }
+
+    }(this));
+    // end small screen menu
+
+
+
+
+    //addLoadEvent(animateAnchorScroll);
+
+})(this, this.document);
+

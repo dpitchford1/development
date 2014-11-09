@@ -23,6 +23,8 @@
 	<?php /* JS SETUP - toggle css classes and IE10 viewport fix */ ?>
 	<script>var doc = window.document; function addLoadEvent(b){var a=window.onload;if(typeof window.onload!=="function"){window.onload=b}else{window.onload=function(){a();b()}}}; doc.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js';</script>
 	<script type="text/javascript">if (doc.querySelector && doc.addEventListener) { (function() { if (navigator.userAgent.match(/IEMobile\/10\.0/)) { var msViewportStyle = doc.createElement("style"); msViewportStyle.appendChild( doc.createTextNode("@-ms-viewport{width:auto!important}") ); doc.getElementsByTagName("head")[0].appendChild(msViewportStyle); } })(); }</script>
+
+
 	<!-- <script type="text/javascript" src="includes/func.js"></script> -->
 
 
@@ -79,7 +81,7 @@
 
 		<?php include "includes/nhl-page.php"; ?>
 		
-		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+		<p class="top-of-page"><a href="#main-content">Top of page</a> &uarr;</p>
 	</section>
 
 	<?php /* START: NBA */ ?>
@@ -89,7 +91,7 @@
 		<?php include "includes/nba-page-svg.php"; ?>
 		<?php /* include "includes/nba-page.php"; */ ?>
 
-		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+		<p class="top-of-page"><a href="#main-content">Top of page</a> &uarr;</p>
 	</section>
 
 	<?php /* START: MLB */ ?>
@@ -98,7 +100,7 @@
 
 		<?php include "includes/mlb-page.php"; ?>
 
-		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+		<p class="top-of-page"><a href="#main-content">Top of page</a> &uarr;</p>
 	</section>
 
 	<?php /* START: NFL */ ?>
@@ -110,51 +112,54 @@
 		<!-- <p class="top-of-page"><a href="#main-content">Top of page</a></p> -->
 	</section>
 
-	
-
 </main>
 
-<nav class="sg-quick-menu">
-	<h4><a href="nfl-raw" onclick="toggler('sg-quick-list'); return false;">Quick Menu</a></h4>
-	<ul class="no-bullet sg-quick-menu-list" id="sg-quick-list" style="display: none;">
+<nav class="sg-quick-menu" id="sg-nav">
+	<h4><a href="nfl-raw" id="menu-toggle">Quick Menu</a></h4>
+	<ul class="no-bullet sg-quick-menu-list" id="sg-quick-list">
 		<li><a href="#nhl">NHL</a></li>
 		<li><a href="#nba">NBA</a></li>
 		<li><a href="#mlb">MLB</a></li>
 		<li><a href="#nfl">NFL</a></li>
+		<li>&uarr; <a href="#main-content">Top</a></li>
 	</ul>
-</nav>
-
-<nav id="nav" role="navigation">
-    <div class="block">
-        <h2 class="block-title">Chapters</h2>
-        <ul>
-            <li class="is-active">
-                <a href="#">Chapter 1</a>
-            </li><!--
-         --><li>
-                <a href="#">Chapter 2</a>
-            </li><!--
-         --><li>
-                <a href="#">Chapter 3</a>
-            </li><!--
-         --><li>
-                <a href="#">Chapter 4</a>
-            </li><!--
-         --><li>
-                <a href="#">Chapter 5</a>
-            </li>
-        </ul>
-        <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
-    </div>
 </nav>
 
 <?php /* START: FOOTER */ ?>
 <footer class="site-wrapper site-footer" role="contentinfo">
 	<div class="site-wrapper fluid">
 		<div class="logo">Sportsnet</div>
-		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+		<p class="top-of-page"><a href="#main-content">Top of page</a> &uarr;</p>
 	</div>
 </footer>
+
+<script>
+/* Small screen menu
+---------------------------------------------- */
+(function (win) {
+    "use strict";
+    var menu = doc.querySelector('#sg-nav'),
+        menulinks = doc.querySelector('#sg-quick-list'),
+        toggler = doc.querySelector('#menu-toggle')
+
+    menulinks.className += ' is-hidden';
+
+    if (doc.querySelector && doc.addEventListener) {
+
+        toggler.addEventListener('click', function (e) {
+            e.preventDefault();
+            menulinks.className = (menulinks.className === 'no-bullet sg-quick-menu-list is-hidden') ? 'no-bullet sg-quick-menu-list is-visible' : 'no-bullet sg-quick-menu-list is-hidden';
+        });
+    }
+}(this));
+
+/* Generic inline simple toggler
+---------------------------------------------- */
+function toggled(id) {
+	var e = document.getElementById(id);
+	e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+}
+</script>
 
 <?php /* START: development workflow */ ?>
 <link rel="stylesheet" href="/development/media/css/dev/debug.css" media="all">
@@ -167,14 +172,6 @@
     function widthSetter() { document.getElementById("width").innerHTML = window.innerWidth; }
     widthSetter();
     window.addEventListener("resize", widthSetter);
-</script> 
-
-<script>
-function toggler(id) {
-	var e = document.getElementById(id);
-	e.style.display = ((e.style.display!='none') ? 'none' : 'block');
-}
 </script>
-
 </body>
 </html>
