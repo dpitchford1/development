@@ -1,31 +1,21 @@
-<?php
-$root = $_SERVER['DOCUMENT_ROOT'] . "/development/init.php";
-?>
-
-
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/development/init.php'); ini_set('display_errors', 1); ?>
 <!DOCTYPE HTML>
 <html dir="ltr" lang="en-CA">
 <!--[if IE]><![endif]-->
 <head>
 	<title>Font Face fonts - Resources Archive</title>
-	<?php /* include "/development/includes/head.php"; */ ?>
-	<?php include $path_inc . "/head.php"; ?>
-	<?php /* include $_SERVER['HTTP_HOST']."/development/master/includes/head.php"; */ ?>
+	<?php include $inc_global . "head.php"; ?>
 
-	<link rel="stylesheet" href="<?php echo $mediaDIR.'css/modules/fonts.css'; ?>" media="only screen and (min-width: 10em)" type="text/css">
+	<link rel="stylesheet" href="<?= globalCSS ?>modules/fonts.css" media="only screen and (min-width: 10em)" type="text/css">
 
 </head>
 <body class="page-body development" id="page-body" lang="en">
 
 <div class="site-wrapper">
 
-<?php echo $root; ?><br>
-<?php echo $path_inc; ?><br>
-<?php echo $mediaDIR; ?>
-
 
 	<?php /* site header start */ ?>
-	<?php include "../includes/header.php"; ?>	
+	<?php include $inc_local . "header.php"; ?>	
 
 	<div class="main-content-wrapper grid-setup">
 		
