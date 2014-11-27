@@ -24,9 +24,7 @@
 	<script>var doc = window.document; function addLoadEvent(b){var a=window.onload;if(typeof window.onload!=="function"){window.onload=b}else{window.onload=function(){a();b()}}}; doc.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js';</script>
 	<script type="text/javascript">if (doc.querySelector && doc.addEventListener) { (function() { if (navigator.userAgent.match(/IEMobile\/10\.0/)) { var msViewportStyle = doc.createElement("style"); msViewportStyle.appendChild( doc.createTextNode("@-ms-viewport{width:auto!important}") ); doc.getElementsByTagName("head")[0].appendChild(msViewportStyle); } })(); }</script>
 
-
 	<!-- <script type="text/javascript" src="includes/func.js"></script> -->
-
 
 	<link rel="shortcut icon" type="image/x-icon" href="http://www.sportsnet.ca/sn_favicon.ico">
 
@@ -40,8 +38,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Sportsnet Reference Guide">
-
-
 
 </head>
 
@@ -77,7 +73,7 @@
 
 	<?php /* START: NHL */ ?>
 	<section class="region" id="nhl">
-		<h2 class="sg-heading">NHL - Colours and Logos</h2>
+		<h2 class="sg-heading">NHL - Colours and Logos (PNG)</h2>
 
 		<?php include "includes/nhl-page.php"; ?>
 		
@@ -86,7 +82,7 @@
 
 	<?php /* START: NBA */ ?>
 	<section class="region" id="nba">
-		<h2 class="sg-heading">NBA - Colours and Logos</h2>
+		<h2 class="sg-heading">NBA - Colours and Logos (SVG)</h2>
 
 		<?php include "includes/nba-page-svg.php"; ?>
 		<?php /* include "includes/nba-page.php"; */ ?>
@@ -96,7 +92,7 @@
 
 	<?php /* START: MLB */ ?>
 	<section class="region" id="mlb">
-		<h2 class="sg-heading">MLB - Colours and Logos</h2>
+		<h2 class="sg-heading">MLB - Colours and Logos (PNG)</h2>
 
 		<?php include "includes/mlb-page.php"; ?>
 
@@ -105,7 +101,7 @@
 
 	<?php /* START: NFL */ ?>
 	<section class="region" id="nfl">
-		<h2 class="sg-heading">NFL - Colours and Logos</h2>
+		<h2 class="sg-heading">NFL - Colours and Logos (PNG)</h2>
 
 		<?php include "includes/nfl-page.php"; ?>
 

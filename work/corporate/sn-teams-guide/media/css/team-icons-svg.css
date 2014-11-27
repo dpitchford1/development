@@ -2,6 +2,7 @@
 
 /* START TEAMS COLOURS AND LOGOS
 ====================================================================== */
+/*icon team logo*/
 .i-tl{
     display: inline-block;
     background-size: 100% auto !important;
@@ -9,23 +10,40 @@
     }
 
 /* sizes */
-.i-xsm { min-height: 25px; width: 25px; }
-.i-sm  { min-height: 59px; width: 59px; }
-.i-m   { min-height: 90px; width: 90px; }
-.i-lg  { min-height: 170px; width: 170px; }
-.i-xlg { min-height: 200px; width: 200px; }
+.i-xsm { min-height: 25px; width: 25px; max-width: 25px; }
+.i-sm  { min-height: 59px; width: 59px; max-width: 59px; }
+.i-m   { min-height: 90px; width: 90px; max-width: 90px; }
+.i-lg  { min-height: 170px; width: 170px; max-width: 170px; }
+.i-xlg { min-height: 200px; width: 200px; max-width: 200px; }
 
 
-/*.i-inline-25{
-    background-position: 0 50%;
-    background-size: 25px auto;
-    padding-bottom: 5px;
-    padding-left: 32px;
-    padding-top: 5px;
-    }*/
 
-/*.i-inline-25-pl:before, .i-inline-25-pr:after{
-    background-color: red;
+.inline-team-icon{
+    /*background-color: lime;*/
+    position: relative;
+    }
+.inline-team-icon:before{
+    /*background-color: #eee !important;*/
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+
+.inline-size-xsm:before{
+    /*margin-right: 20px;*/
+    width: 25px;
+    }
+
+
+.inline-team-icon.inline-size-xsm{
+    padding-left: 30px;
+    }
+
+/*.i-inline-25-pl:before{
+    background-color: #eee;
     content: " ";
     display: inline-block;
     font-size: 12px;
@@ -34,47 +52,12 @@
     top: 0;
     width: 22px;
     }*/
-.i-inline-25-pl:before{ /*float: left;*/ /*margin-right: 10px;*/ }
-.i-inline-25-pr:after{ /*float: right;*/ /*margin-left: 10px;*/ }
+/*.i-inline-25-pl:before{ float: left; margin-right: 10px; }
+.i-inline-25-pr:after{ float: right; margin-left: 10px; }*/
 
-/*.logo-59  { width: 59px; }
-.logo-90  { width: 90px; }
-.logo-170 { width: 170px; }
-.logo-200 { width: 200px; }*/
 
-/* logo icon sizing */
-/*.ico-25 { display: block; height: 59px; width: 59px; }
-.ico-59 { display: block; height: 59px; width: 59px; }
-.ico-90 { display: block; height: 90px; width: 90px; }
-.ico-170{ display: block; height: 170px; width: 170px; }
-.ico-200{ display: block; height: 200px; width: 200px; }
 
-.ico-25-inline {
-    padding-bottom: 5px;
-    padding-left: 32px;
-    padding-top: 5px;
-	}
-.ico-59-inline {
-    padding-bottom: 22px;
-    padding-left: 62px;
-    padding-top: 22px;
-	}
-.ico-90-inline { display: block; height: 90px; width: 90px; }
-.ico-170-inline{ display: block; height: 170px; width: 170px; }
-.ico-200-inline{ display: block; height: 200px; width: 200px; }*/
 
-/* global background options */
-/*.ico{
-  	background-repeat: no-repeat;
-  	background-position: 50% 50%;
-  	background-size:100% auto;
-	}*/
-/*.ico-inline{
-	background-position: 0 50%;
-	background-repeat: no-repeat;
-	background-size: 5% auto;
-	overflow: visible;
-	}*/
 
 
 /* START NBA
@@ -85,27 +68,26 @@
     background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/atlanta-hawks.svg");
     }
 
-.i-nba-atl--xsm { 
+.inline-size-xsm.i-nba-atl--xsm:before {
     background: url("../../img/team_logos/25x25/basketball/nba/atlanta-hawks.png") no-repeat 0 center;
     background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/atlanta-hawks.svg");
     }
-.i-nba-atl--sm { 
+.inline-size-sm.i-nba-atl--sm:before {
     background: url("../../img/team_logos/90x90/basketball/nba/atlanta-hawks.png") no-repeat 0 center;
     background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/atlanta-hawks.svg");
     }
-.i-nba-atl--m { 
+.inline-size-m.i-nba-atl--m:before {
     background: url("../../img/team_logos/90x90/basketball/nba/atlanta-hawks.png") no-repeat 0 center;
     background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/atlanta-hawks.svg");
     }
-.i-nba-atl--lg {
+.inline-size-lg.i-nba-atl--lg:before {
     background: url("../../img/team_logos/200x200/basketball/nba/atlanta-hawks.png") no-repeat 0 center;
     background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/atlanta-hawks.svg");
     }
-.i-nba-atl--xlg {
+.inline-size-xlg.i-nba-atl--xlg:before {
     background: url("../../img/team_logos/200x200/basketball/nba/atlanta-hawks.png") no-repeat 0 center;
     background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/atlanta-hawks.svg");
     }
-
 /* Atlanta Hawks */
 /*.i-nba-atl { background-image: url("../../img/team_logos/25x25/basketball/nba/atlanta-hawks.png") }
 .i-nba-atl { background-image: url("../../img/team_logos/59x59/basketball/nba/atlanta-hawks.png") }
@@ -116,11 +98,38 @@
 .nba-atl .bgcolor{ background-color: #C0C0C0; }
 
 /* Boston Celtics */
-.i-nba-bos { background-image: url("../../img/team_logos/25x25/basketball/nba/boston-celtics.png") }
+.i-nba-bos{
+    background: url("../../img/team_logos/png/basketball/nba/boston-celtics.png") no-repeat 0 center;
+    background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/boston-celtics.svg");
+    }
+
+
+/* FALLBACKS IN CASE IE8 NEEDS SUPPORT -- BLOATS THE CODE HUGE */
+.inline-size-xsm.i-nba-bos--xsm:before {
+    background: url("../../img/team_logos/25x25/basketball/nba/boston-celtics.png") no-repeat 0 center;
+    background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/boston-celtics.svg");
+    }
+.inline-size-sm.i-nba-bos--sm:before {
+    background: url("../../img/team_logos/90x90/basketball/nba/boston-celtics.png") no-repeat 0 center;
+    background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/boston-celtics.svg");
+    }
+.inline-size-m.i-nba-bos--m:before {
+    background: url("../../img/team_logos/90x90/basketball/nba/boston-celtics.png") no-repeat 0 center;
+    background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/boston-celtics.svg");
+    }
+.inline-size-lg.i-nba-bos--lg:before {
+    background: url("../../img/team_logos/200x200/basketball/nba/boston-celtics.png") no-repeat 0 center;
+    background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/boston-celtics.svg");
+    }
+.inline-size-xlg.i-nba-bos--xlg:before {
+    background: url("../../img/team_logos/200x200/basketball/nba/boston-celtics.png") no-repeat 0 center;
+    background-image: linear-gradient(transparent, transparent), url("../../img/team_logos/svg/basketball/nba/boston-celtics.svg");
+    }
+/*.i-nba-bos { background-image: url("../../img/team_logos/25x25/basketball/nba/boston-celtics.png") }
 .i-nba-bos { background-image: url("../../img/team_logos/59x59/basketball/nba/boston-celtics.png") }
 .i-nba-bos { background-image: url("../../img/team_logos/90x90/basketball/nba/boston-celtics.png") }
 .i-nba-bos { background-image: url("../../img/team_logos/170x170/basketball/nba/boston-celtics.png") }
-.i-nba-bos { background-image: url("../../img/team_logos/200x200/basketball/nba/boston-celtics.png") }
+.i-nba-bos { background-image: url("../../img/team_logos/200x200/basketball/nba/boston-celtics.png") }*/
 
 .nba-bos .bgcolor{ background-color: #009E60; }
 
