@@ -169,6 +169,11 @@
     /*section:target{ border: 1px solid #e1e1e1; }
     article:target .sg-subheading{ border-left: 5px solid #2b3d57; }*/
 
+    .js .main-menu .is-selected{
+        text-decoration: underline;
+        color: #000;
+        }
+
     /* tabs */
     /*.js .tabbed { position: absolute; top: 0; left: -200em; }
     .js .on { position: relative; top: 0; left: 0; }*/
