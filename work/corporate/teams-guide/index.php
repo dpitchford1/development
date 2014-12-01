@@ -7,11 +7,7 @@
 	<link rel="dns-prefetch" href="//www.sportsnet.ca">
 	<title>Sportsnet Teams and Leagues Reference Guide</title>
 	<link rel="stylesheet" href="media/css/fonts.css" type="text/css">
-	<link rel="stylesheet" href="media/css/normalize.3.0.2.css" type="text/css">
-	<link rel="stylesheet" href="media/css/base-layout.css" type="text/css">
-	<link rel="stylesheet" href="media/css/style-guide.css" type="text/css">
-	<link rel="stylesheet" href="media/css/theme.css" type="text/css">
-	<link rel="stylesheet" href="media/css/enhanced.css" type="text/css">
+	<link rel="stylesheet" href="media/css/style.css" type="text/css">
 	<link rel="stylesheet" href="media/css/team-icons.css" type="text/css">
 	<link rel="stylesheet" href="media/css/team-icons-svg.css" type="text/css">
 
