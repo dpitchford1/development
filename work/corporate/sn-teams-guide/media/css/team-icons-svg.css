@@ -1,4 +1,5 @@
-
+/* currently needs to support IE8 */
+/* Once IE8 support get dropped, much of this code can be deleted */
 
 /* START TEAMS COLOURS AND LOGOS
 ====================================================================== */
@@ -16,8 +17,6 @@
 .i-lg  { min-height: 170px; width: 170px; max-width: 170px; }
 .i-xlg { min-height: 200px; width: 200px; max-width: 200px; }
 
-
-
 .inline-team-icon{
     /*background-color: lime;*/
     position: relative;
@@ -33,30 +32,12 @@
     }
 
 .inline-size-xsm:before{
-    /*margin-right: 20px;*/
     width: 25px;
     }
-
 
 .inline-team-icon.inline-size-xsm{
     padding-left: 30px;
     }
-
-/*.i-inline-25-pl:before{
-    background-color: #eee;
-    content: " ";
-    display: inline-block;
-    font-size: 12px;
-    height: 22px;
-    position: absolute;
-    top: 0;
-    width: 22px;
-    }*/
-/*.i-inline-25-pl:before{ float: left; margin-right: 10px; }
-.i-inline-25-pr:after{ float: right; margin-left: 10px; }*/
-
-
-
 
 
 
