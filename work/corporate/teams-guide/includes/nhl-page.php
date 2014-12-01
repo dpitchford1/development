@@ -15,7 +15,7 @@
 		<?php } ?>
 		</select>
 	</div>
-	<p class="sg-toggler"><a href="nhl-raw" onclick="toggler('nhl-raw'); return false;">View just data</a></p>
+	<p class="sg-toggler"><a href="nhl-raw" onclick="toggled('nhl-raw'); return false;">View just data</a></p>
 </form>
 
 <div class="wrapper" id="nhl-raw" style="display: none;">
@@ -45,7 +45,6 @@
 			<?php }	?>
 
 		</tbody>
-
 	</table>
 </div>
 
@@ -53,14 +52,16 @@
 <?php /** START TEAM */ ?>
 
 <?php foreach ($nhl as $teams => $values) { ?>
-<article class="wrapper" id="<?=$values['LongName']?>">
-	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>"><?=$values['FullName']?></h3>
-
+<article class="wrapper">
+	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>" id="<?=$values['LongName']?>">
+		<span class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><?=$values['FullName']?></span>
+	</h3>
+	
+	<?php if ($values['TeamColours']) { ?>
 	<div class="span-of-2">
-		<?php if ($values['TeamColours']) { ?>
 		<h3 class="sg-tileheading">Primary Colours</h3>
 
-		<ul class="sg-colors border-right">
+		<ul class="sg-colors">
 			<?php foreach ($values['TeamColours'] as $colors => $color_value) {	?>
 			<li>
 				<span style="background: <?=$color_value?>" class="sg-swatch">&nbsp;</span>
@@ -68,12 +69,21 @@
 			</li>
 			<?php }	?>
 		</ul>
-		<?php } ?>
 	</div>
+	<?php } ?>
 
 	<?php if ($values['SecondaryColours']) { ?>
 	<div class="span-of-2 cf">
 		<h3 class="sg-tileheading">Secondary Colours</h3>
+
+		<ul class="sg-colors border-left">
+			<?php foreach ($values['SecondaryColours'] as $colors => $color_value) {	?>
+			<li>
+				<span style="background: <?=$color_value?>" class="sg-swatch">&nbsp;</span>
+				<p class="sg-label"><?=$color_value?></p>
+			</li>
+			<?php }	?>
+		</ul>
 	</div>
 	<?php } ?>
 
