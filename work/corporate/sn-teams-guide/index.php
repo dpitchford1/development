@@ -43,7 +43,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Sportsnet Reference Guide">
 
-    <script src="media/js/tabs.js"></script>
+    
 
 </head>
 
@@ -62,11 +62,11 @@
 	<?php /* START: MAIN MENU */ ?>
 	<nav class="wrapper">
 		<h2>Choose a League:</h2>
-		<ul class="inline-bullet main-menu" id="tabableNav">
-			<li class="on"><a href="#nhl">NHL</a></li>
-			<li><a href="#nba">NBA</a></li>
-			<li><a href="#mlb">MLB</a></li>
-			<li><a href="#nfl">NFL</a></li>
+		<ul class="inline-bullet main-menu tabs" data-directive="tabs">
+			<li><a class="is-selected" href="#nhl" data-behaviour="tab">NHL</a></li>
+			<li><a href="#nba" data-behaviour="tab">NBA</a></li>
+			<li><a href="#mlb" data-behaviour="tab">MLB</a></li>
+			<li><a href="#nfl" data-behaviour="tab">NFL</a></li>
 			<!-- 
 			<li><a href="#ahl">AHL</a></li>
 			<li><a href="#chl">CHL</a></li>
@@ -78,7 +78,7 @@
 	</nav>
 
 	<?php /* START: NHL */ ?>
-	<section class="region tabbed on" id="nhl">
+	<section class="region" id="nhl">
 		<h2 class="sg-heading">NHL - Colours and Logos (PNG)</h2>
 
 		<?php include "includes/nhl-page.php"; ?>
@@ -87,7 +87,7 @@
 	</section>
 
 	<?php /* START: NBA */ ?>
-	<section class="region tabbed" id="nba">
+	<section class="region" id="nba">
 		<h2 class="sg-heading">NBA - Colours and Logos (SVG)</h2>
 
 		<?php include "includes/nba-page-svg.php"; ?>
@@ -97,7 +97,7 @@
 	</section>
 
 	<?php /* START: MLB */ ?>
-	<section class="region tabbed" id="mlb">
+	<section class="region" id="mlb">
 		<h2 class="sg-heading">MLB - Colours and Logos (PNG)</h2>
 
 		<?php include "includes/mlb-page.php"; ?>
@@ -106,7 +106,7 @@
 	</section>
 
 	<?php /* START: NFL */ ?>
-	<section class="region tabbed" id="nfl">
+	<section class="region" id="nfl">
 		<h2 class="sg-heading">NFL - Colours and Logos (PNG)</h2>
 
 		<?php include "includes/nfl-page.php"; ?>
@@ -135,26 +135,26 @@
 	</div>
 </footer>
 
-
+<script src="media/js/tab.js"></script>
 <script>
 /* Small screen menu
 ---------------------------------------------- */
-(function (win) {
-    "use strict";
-    var menu = doc.querySelector('#sg-nav'),
-        menulinks = doc.querySelector('#sg-quick-list'),
-        toggler = doc.querySelector('#menu-toggle')
+// (function (win) {
+//     "use strict";
+//     var menu = doc.querySelector('#sg-nav'),
+//         menulinks = doc.querySelector('#sg-quick-list'),
+//         toggler = doc.querySelector('#menu-toggle')
 
-    menulinks.className += ' is-hidden';
+//     menulinks.className += ' is-hidden';
 
-    if (doc.querySelector && doc.addEventListener) {
+//     if (doc.querySelector && doc.addEventListener) {
 
-        toggler.addEventListener('click', function (e) {
-            e.preventDefault();
-            menulinks.className = (menulinks.className === 'no-bullet sg-quick-menu-list is-hidden') ? 'no-bullet sg-quick-menu-list is-visible' : 'no-bullet sg-quick-menu-list is-hidden';
-        });
-    }
-}(this));
+//         toggler.addEventListener('click', function (e) {
+//             e.preventDefault();
+//             menulinks.className = (menulinks.className === 'no-bullet sg-quick-menu-list is-hidden') ? 'no-bullet sg-quick-menu-list is-visible' : 'no-bullet sg-quick-menu-list is-hidden';
+//         });
+//     }
+// }(this));
 
 /* Generic inline simple toggler
 ---------------------------------------------- */
