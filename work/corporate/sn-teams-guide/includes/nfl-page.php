@@ -58,7 +58,7 @@
 		<span class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><?=$values['FullName']?></span>
 	</h3>
 	
-	<?php if ($values['TeamColours']) { ?>
+	<?php if (isset($values['TeamColours'])) { ?>
 	<div class="span-of-2">
 		<h3 class="sg-tileheading">Primary Colours</h3>
 
@@ -73,12 +73,12 @@
 	</div>
 	<?php } ?>
 
-	<?php if ($values['SecondaryColours']) { ?>
+	<?php if (isset($values['SecondaryColours'])) { ?>
 	<div class="span-of-2 cf">
-		<h3 class="sg-tileheading">Secondary Colours</h3>
+		<h3 class="sg-tileheading"><?=$values['SecondaryLabel']?></h3>
 
 		<ul class="sg-colors border-left">
-			<?php foreach ($values['SecondaryColours'] as $colors => $color_value) {	?>
+			<?php foreach ($values['SecondaryColours'] as $colors => $color_value) { ?>
 			<li>
 				<span style="background: <?=$color_value?>" class="sg-swatch">&nbsp;</span>
 				<p class="sg-label"><?=$color_value?></p>
@@ -89,7 +89,7 @@
 	<?php } ?>
 
 	<div class="span-of-2 clear">
-		<h4 class="sg-tileheading clear">Logos - Inline <small>(With a bg colour)</small></h4>
+		<h4 class="sg-tileheading">Logos - Inline with img tag <small>(With a bg colour)</small></h4>
 		<ul class="sg-logos <?=$values['ShortName']?>">
 			<li>
 				<img src="img/team_logos/59x59/football/nfl/<?=$values['LongName']?>.png" alt="">

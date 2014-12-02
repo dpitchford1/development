@@ -1,4 +1,4 @@
-<?php ?>
+<?php ini_set('display_errors', 1); ?>
 <!doctype html>
 <html class="no-js no-touch" dir="ltr" lang="en-CA">
 <!--[if IE]><![endif]-->
@@ -14,10 +14,6 @@
 	<link rel="stylesheet" href="media/css/enhanced.css" type="text/css">
 	<link rel="stylesheet" href="media/css/team-icons.css" type="text/css">
 	<link rel="stylesheet" href="media/css/team-icons-svg.css" type="text/css">
-
-	<style type="text/css">
-		
-	</style>
 
 	<!-- OLD IE CSS and html5 structure -->
 	<!--[if (lte IE 8)&(!IEMobile 7)]>
@@ -67,6 +63,7 @@
 			<li><a href="#nba" data-behaviour="tab">NBA</a></li>
 			<li><a href="#mlb" data-behaviour="tab">MLB</a></li>
 			<li><a href="#nfl" data-behaviour="tab">NFL</a></li>
+			<li><a href="#cfl" data-behaviour="tab">CFL</a></li>
 			<!-- 
 			<li><a href="#ahl">AHL</a></li>
 			<li><a href="#chl">CHL</a></li>
@@ -111,6 +108,15 @@
 
 		<?php include "includes/nfl-page.php"; ?>
 
+		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+	</section>
+
+	<?php /* START: CFL */ ?>
+	<section class="region" id="cfl">
+		<h2 class="sg-heading">CFL - Colours and Logos (PNG)</h2>
+
+		<?php include "includes/cfl-page.php"; ?>
+
 		<!-- <p class="top-of-page"><a href="#main-content">Top of page</a></p> -->
 	</section>
 
@@ -135,7 +141,7 @@
 	</div>
 </footer>
 
-<script src="media/js/tab.js"></script>
+<!-- <script src="media/js/tab.js"></script> -->
 <script>
 /* Small screen menu
 ---------------------------------------------- */

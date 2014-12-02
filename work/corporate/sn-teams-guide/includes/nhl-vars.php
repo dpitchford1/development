@@ -8,11 +8,11 @@
 			"ShortName" => "nhl-anh",
 			"HeadingColour" => "#91764B",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#91764B",
-				colour3 => "#EF5225",
-				colour4 => "#fff",
-				colour5 => "#848484"
+				'colour1' => "#000",
+				'colour2' => "#91764B",
+				'colour3' => "#EF5225",
+				'colour4' => "#fff",
+				'colour5' => "#848484"
 				)
 			),
 
@@ -22,10 +22,10 @@
 			"ShortName" => "nhl-ari",
 			"HeadingColour" => "#8E0028",
 			"TeamColours" => array(
-				colour1 => "#8E0028",
-				colour2 => "#000",
-				colour3 => "#EFE1C6",
-				colour4 => "#fff"
+				'colour1' => "#8E0028",
+				'colour2' => "#000",
+				'colour3' => "#EFE1C6",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -35,9 +35,9 @@
 			"ShortName" => "nhl-bos",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#FFC422",
-				colour3 => "#fff"
+				'colour1' => "#000",
+				'colour2' => "#FFC422",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -47,10 +47,10 @@
 			"ShortName" => "nhl-buf",
 			"HeadingColour" => "#002E62",
 			"TeamColours" => array(
-				colour1 => "#002E62",
-				colour2 => "#FDBB2F",
-				colour3 => "#AEB6B9",
-				colour4 => "#fff"
+				'colour1' => "#002E62",
+				'colour2' => "#FDBB2F",
+				'colour3' => "#AEB6B9",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -60,10 +60,10 @@
 			"ShortName" => "nhl-cgy",
 			"HeadingColour" => "#E03A3E",
 			"TeamColours" => array(
-				colour1 => "#E03A3E",
-				colour2 => "#FFC758",
-				colour3 => "#000",
-				colour4 => "#fff"
+				'colour1' => "#E03A3E",
+				'colour2' => "#FFC758",
+				'colour3' => "#000",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -73,10 +73,10 @@
 			"ShortName" => "nhl-car",
 			"HeadingColour" => "#E03A3E",
 			"TeamColours" => array(
-				colour1 => "#E03A3E",
-				colour2 => "#000",
-				colour3 => "#8E8E90",
-				colour4 => "#fff"
+				'colour1' => "#E03A3E",
+				'colour2' => "#000",
+				'colour3' => "#8E8E90",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -86,9 +86,9 @@
 			"ShortName" => "nhl-chi",
 			"HeadingColour" => "#E3263A",
 			"TeamColours" => array(
-				colour1 => "#E03A3E",
-				colour2 => "#000",
-				colour3 => "#fff"
+				'colour1' => "#E03A3E",
+				'colour2' => "#000",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -98,11 +98,11 @@
 			"ShortName" => "nhl-col",
 			"HeadingColour" => "#8B2942",
 			"TeamColours" => array(
-				colour1 => "#8B2942",
-				colour2 => "#01548A",
-				colour3 => "#000",
-				colour4 => "#A9B0B8",
-				colour5 => "#fff",
+				'colour1' => "#8B2942",
+				'colour2' => "#01548A",
+				'colour3' => "#000",
+				'colour4' => "#A9B0B8",
+				'colour5' => "#fff",
 				)		
 			),
 
@@ -112,10 +112,10 @@
 			"ShortName" => "nhl-cls",
 			"HeadingColour" => "#00285C",
 			"TeamColours" => array(
-				colour1 => "#00285C",
-				colour2 => "#E03A3E",
-				colour3 => "#A9B0B8",
-				colour4 => "#fff"
+				'colour1' => "#00285C",
+				'colour2' => "#E03A3E",
+				'colour3' => "#A9B0B8",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -125,10 +125,10 @@
 			"ShortName" => "nhl-dal",
 			"HeadingColour" => "#006A4E",
 			"TeamColours" => array(
-				colour1 => "#006A4E",
-				colour2 => "#000",
-				colour3 => "#fff",
-				colour4 => "#E03A3E"
+				'colour1' => "#006A4E",
+				'colour2' => "#000",
+				'colour3' => "#fff",
+				'colour4' => "#E03A3E"
 				)		
 			),
 
@@ -138,8 +138,8 @@
 			"ShortName" => "nhl-det",
 			"HeadingColour" => "#EC1F26",
 			"TeamColours" => array(
-				colour1 => "#EC1F26",
-				colour2 => "#fff"
+				'colour1' => "#EC1F26",
+				'colour2' => "#fff"
 				)		
 			),
 
@@ -149,9 +149,9 @@
 			"ShortName" => "nhl-edm",
 			"HeadingColour" => "#003777",
 			"TeamColours" => array(
-				colour1 => "#003777",
-				colour2 => "#E66A20",
-				colour3 => "#fff"
+				'colour1' => "#003777",
+				'colour2' => "#E66A20",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -161,10 +161,10 @@
 			"ShortName" => "nhl-fla",
 			"HeadingColour" => "#C8213F",
 			"TeamColours" => array(
-				colour1 => "#C8213F",
-				colour2 => "#002E5F",
-				colour3 => "#D59C05",
-				colour4 => "#fff"
+				'colour1' => "#C8213F",
+				'colour2' => "#002E5F",
+				'colour3' => "#D59C05",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -174,9 +174,9 @@
 			"ShortName" => "nhl-la",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#fff",
-				colour3 => "#AFB7BA"
+				'colour1' => "#000",
+				'colour2' => "#fff",
+				'colour3' => "#AFB7BA"
 				)		
 			),
 
@@ -186,11 +186,11 @@
 			"ShortName" => "nhl-min",
 			"HeadingColour" => "#025736",
 			"TeamColours" => array(
-				colour1 => "#025736",
-				colour2 => "#BF2B37",
-				colour3 => "#EFB410",
-				colour4 => "#EEE3C7",
-				colour5 => "#fff"
+				'colour1' => "#025736",
+				'colour2' => "#BF2B37",
+				'colour3' => "#EFB410",
+				'colour4' => "#EEE3C7",
+				'colour5' => "#fff"
 				)		
 			),
 
@@ -200,9 +200,9 @@
 			"ShortName" => "nhl-mon",
 			"HeadingColour" => "#BF2F38",
 			"TeamColours" => array(
-				colour1 => "#BF2F38",
-				colour2 => "#fff",
-				colour3 => "#213770"
+				'colour1' => "#BF2F38",
+				'colour2' => "#fff",
+				'colour3' => "#213770"
 				)		
 			),
 
@@ -212,9 +212,9 @@
 			"ShortName" => "nhl-nsh",
 			"HeadingColour" => "#002E62",
 			"TeamColours" => array(
-				colour1 => "#FDBB2F",
-				colour2 => "#002E62",
-				colour3 => "#fff"
+				'colour1' => "#FDBB2F",
+				'colour2' => "#002E62",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -224,9 +224,9 @@
 			"ShortName" => "nhl-nj",
 			"HeadingColour" => "#E03A3E",
 			"TeamColours" => array(
-				colour1 => "#E03A3E",
-				colour2 => "#000",
-				colour3 => "#fff"
+				'colour1' => "#E03A3E",
+				'colour2' => "#000",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -236,9 +236,9 @@
 			"ShortName" => "nhl-nyi",
 			"HeadingColour" => "#00529B",
 			"TeamColours" => array(
-				colour1 => "#00529B",
-				colour2 => "#F57D31",
-				colour3 => "#fff"
+				'colour1' => "#00529B",
+				'colour2' => "#F57D31",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -248,9 +248,9 @@
 			"ShortName" => "nhl-nyr",
 			"HeadingColour" => "#0161AB",
 			"TeamColours" => array(
-				colour1 => "#0161AB",
-				colour2 => "#E6393F",
-				colour3 => "#fff"
+				'colour1' => "#0161AB",
+				'colour2' => "#E6393F",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -260,10 +260,10 @@
 			"ShortName" => "nhl-ott",
 			"HeadingColour" => "#E4173E",
 			"TeamColours" => array(
-				colour1 => "#E4173E",
-				colour2 => "#000",
-				colour3 => "#D69F0F",
-				colour4 => "#fff"
+				'colour1' => "#E4173E",
+				'colour2' => "#000",
+				'colour3' => "#D69F0F",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -273,9 +273,9 @@
 			"ShortName" => "nhl-phi",
 			"HeadingColour" => "#F47940",
 			"TeamColours" => array(
-				colour1 => "#F47940",
-				colour2 => "#000",
-				colour3 => "#fff"
+				'colour1' => "#F47940",
+				'colour2' => "#000",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -285,9 +285,9 @@
 			"ShortName" => "nhl-pit",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#D1BD80",
-				colour3 => "#fff"
+				'colour1' => "#000",
+				'colour2' => "#D1BD80",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -297,10 +297,10 @@
 			"ShortName" => "nhl-sj",
 			"HeadingColour" => "#05535D",
 			"TeamColours" => array(
-				colour1 => "#05535D",
-				colour2 => "#F38F20",
-				colour3 => "#000",
-				colour4 => "#fff"
+				'colour1' => "#05535D",
+				'colour2' => "#F38F20",
+				'colour3' => "#000",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -310,10 +310,10 @@
 			"ShortName" => "nhl-stl",
 			"HeadingColour" => "#0546A0",
 			"TeamColours" => array(
-				colour1 => "#0546A0",
-				colour2 => "#FFC325",
-				colour3 => "#101F48",
-				colour4 => "#fff"
+				'colour1' => "#0546A0",
+				'colour2' => "#FFC325",
+				'colour3' => "#101F48",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -323,10 +323,10 @@
 			"ShortName" => "nhl-tb",
 			"HeadingColour" => "#013E7D",
 			"TeamColours" => array(
-				colour1 => "#013E7D",
-				colour2 => "#fff",
-				colour3 => "#000",
-				colour4 => "#C0C0C0"
+				'colour1' => "#013E7D",
+				'colour2' => "#fff",
+				'colour3' => "#000",
+				'colour4' => "#C0C0C0"
 				)		
 			),
 
@@ -336,8 +336,8 @@
 			"ShortName" => "nhl-tor",
 			"HeadingColour" => "#003777",
 			"TeamColours" => array(
-				colour1 => "#003777",
-				colour2 => "#fff"
+				'colour1' => "#003777",
+				'colour2' => "#fff"
 				)		
 			),
 
@@ -347,10 +347,10 @@
 			"ShortName" => "nhl-van",
 			"HeadingColour" => "#07346F",
 			"TeamColours" => array(
-				colour1 => "#07346F",
-				colour2 => "#047A4A",
-				colour3 => "#A8A9AD",
-				colour4 => "#fff"
+				'colour1' => "#07346F",
+				'colour2' => "#047A4A",
+				'colour3' => "#A8A9AD",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -360,10 +360,10 @@
 			"ShortName" => "nhl-was",
 			"HeadingColour" => "#CF132B",
 			"TeamColours" => array(
-				colour1 => "#CF132B",
-				colour2 => "#00214E",
-				colour3 => "#fff",
-				colour4 => "#000"
+				'colour1' => "#CF132B",
+				'colour2' => "#00214E",
+				'colour3' => "#fff",
+				'colour4' => "#000"
 				)		
 			),
 
@@ -373,10 +373,10 @@
 			"ShortName" => "nhl-wpg",
 			"HeadingColour" => "#002E62",
 			"TeamColours" => array(
-				colour1 => "#002E62",
-				colour2 => "#fff",
-				colour3 => "#0168AB",
-				colour4 => "#A8A9AD"
+				'colour1' => "#002E62",
+				'colour2' => "#fff",
+				'colour3' => "#0168AB",
+				'colour4' => "#A8A9AD"
 				)		
 			),
 
@@ -386,10 +386,10 @@
 			"ShortName" => "nhl-logo",
 			"HeadingColour" => "#2C2A29",
 			"TeamColours" => array(
-				colour1 => "#2C2A29",
-				colour2 => "#7C8897",
-				colour3 => "#D0D3D4",
-				colour4 => "#fff"
+				'colour1' => "#2C2A29",
+				'colour2' => "#7C8897",
+				'colour3' => "#D0D3D4",
+				'colour4' => "#fff"
 				)
 			),
 
@@ -399,10 +399,10 @@
 			"ShortName" => "nhl-ste",
 			"HeadingColour" => "#D10013",
 			"TeamColours" => array(
-				colour1 => "#D10013",
-				colour2 => "#A4131E",
-				colour3 => "#fff",
-				colour4 => "#D0D3D4"
+				'colour1' => "#D10013",
+				'colour2' => "#A4131E",
+				'colour3' => "#fff",
+				'colour4' => "#D0D3D4"
 				)	
 			),
 
@@ -412,10 +412,10 @@
 			"ShortName" => "nhl-stw",
 			"HeadingColour" => "#4D8BE1",
 			"TeamColours" => array(
-				colour1 => "#4D8BE1",
-				colour2 => "#053396",
-				colour3 => "#fff",
-				colour4 => "#D0D3D4"
+				'colour1' => "#4D8BE1",
+				'colour2' => "#053396",
+				'colour3' => "#fff",
+				'colour4' => "#D0D3D4"
 				)	
 			),
 
@@ -425,11 +425,11 @@
 			"ShortName" => "nhl-east",
 			"HeadingColour" => "#a6192e",
 			"TeamColours" => array(
-				colour1 => "#a6192e",
-				colour2 => "#2d2926",
-				colour3 => "#808b97",
-				colour4 => "#d0d3d4",
-				colour5 => "#fff"
+				'colour1' => "#a6192e",
+				'colour2' => "#2d2926",
+				'colour3' => "#808b97",
+				'colour4' => "#d0d3d4",
+				'colour5' => "#fff"
 				)	
 			),
 
@@ -439,11 +439,11 @@
 			"ShortName" => "nhl-west",
 			"HeadingColour" => "#00205b",
 			"TeamColours" => array(
-				colour1 => "#00205b",
-				colour2 => "#2d2926",
-				colour3 => "#808b97",
-				colour4 => "#d0d3d4",
-				colour5 => "#fff"
+				'colour1' => "#00205b",
+				'colour2' => "#2d2926",
+				'colour3' => "#808b97",
+				'colour4' => "#d0d3d4",
+				'colour5' => "#fff"
 				)
 			),
 

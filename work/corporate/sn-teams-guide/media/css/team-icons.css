@@ -1002,3 +1002,119 @@
 /*.nfl-nfc .bgcolor{ background-color: #west; }*/
 
 
+
+/* START CFL
+====================================================================== */
+
+/* BC Lions */
+.cfl-bcl--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/bc-lions.png") }
+.cfl-bcl--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/bc-lions.png") }
+.cfl-bcl--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/bc-lions.png") }
+.cfl-bcl--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/bc-lions.png") }
+.cfl-bcl--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/bc-lions.png") }
+
+.cfl-bcl .bgcolor{ background-color: #CF4520; }
+
+/* Calgary Stampeders */
+.cfl-cgy--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/calgary-stampeders.png") }
+.cfl-cgy--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/calgary-stampeders.png") }
+.cfl-cgy--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/calgary-stampeders.png") }
+.cfl-cgy--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/calgary-stampeders.png") }
+.cfl-cgy--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/calgary-stampeders.png") }
+
+.cfl-cgy .bgcolor{ background-color: #C8102E; }
+
+/* Edmonton Eskimos */
+.cfl-edm--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/edmonton-eskimos.png") }
+.cfl-edm--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/edmonton-eskimos.png") }
+.cfl-edm--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/edmonton-eskimos.png") }
+.cfl-edm--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/edmonton-eskimos.png") }
+.cfl-edm--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/edmonton-eskimos.png") }
+
+.cfl-edm .bgcolor{ background-color: #2C5234; }
+
+/* Hamilton Tiger-Cats */
+.cfl-ham--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/hamilton-tiger-cats.png") }
+.cfl-ham--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/hamilton-tiger-cats.png") }
+.cfl-ham--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/hamilton-tiger-cats.png") }
+.cfl-ham--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/hamilton-tiger-cats.png") }
+.cfl-ham--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/hamilton-tiger-cats.png") }
+
+.cfl-ham .bgcolor{ background-color: #000; }
+
+/* Montreal Alouettes */
+.cfl-mon--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/montreal-alouettes.png") }
+.cfl-mon--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/montreal-alouettes.png") }
+.cfl-mon--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/montreal-alouettes.png") }
+.cfl-mon--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/montreal-alouettes.png") }
+.cfl-mon--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/montreal-alouettes.png") }
+
+.cfl-mon .bgcolor{ background-color: #8A8D8F; }
+
+/* Ottawa Redblacks */
+.cfl-ott--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/ottawa-redblacks.png") }
+.cfl-ott--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/ottawa-redblacks.png") }
+.cfl-ott--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/ottawa-redblacks.png") }
+.cfl-ott--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/ottawa-redblacks.png") }
+.cfl-ott--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/ottawa-redblacks.png") }
+
+.cfl-ott .bgcolor{ background-color: #A6192E; }
+
+/* Saskatchewan Roughriders */
+.cfl-sas--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/saskatchewan-roughriders.png") }
+.cfl-sas--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/saskatchewan-roughriders.png") }
+.cfl-sas--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/saskatchewan-roughriders.png") }
+.cfl-sas--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/saskatchewan-roughriders.png") }
+.cfl-sas--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/saskatchewan-roughriders.png") }
+
+.cfl-sas .bgcolor{ background-color: #006341; }
+
+/* Toronto Argonauts */
+.cfl-tor--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/toronto-argonauts.png") }
+.cfl-tor--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/toronto-argonauts.png") }
+.cfl-tor--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/toronto-argonauts.png") }
+.cfl-tor--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/toronto-argonauts.png") }
+.cfl-tor--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/toronto-argonauts.png") }
+
+.cfl-tor .bgcolor{ background-color: #26201E; }
+
+/* Winnipeg Bluebombers */
+.cfl-wpg--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/winnipeg-blue-bombers.png") }
+.cfl-wpg--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/winnipeg-blue-bombers.png") }
+.cfl-wpg--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/winnipeg-blue-bombers.png") }
+.cfl-wpg--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/winnipeg-blue-bombers.png") }
+.cfl-wpg--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/winnipeg-blue-bombers.png") }
+
+.cfl-wpg .bgcolor{ background-color: #8C8B8A; }
+
+/* CFL Logo */
+.cfl-logo--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/cfl.png") }
+.cfl-logo--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/cfl.png") }
+.cfl-logo--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/cfl.png") }
+.cfl-logo--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/cfl.png") }
+.cfl-logo--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/cfl.png") }
+
+.cfl-logo .bgcolor{ background-color: #FB4F14; }
+
+/* CFL East Division */
+.cfl-eas--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/eas.png") }
+.cfl-eas--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/eas.png") }
+.cfl-eas--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/eas.png") }
+.cfl-eas--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/eas.png") }
+.cfl-eas--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/eas.png") }
+
+.cfl-eas .bgcolor{ background-color: #C5C7CF; }
+
+/* CFL West Division */
+.cfl-wes--25x25 { background-image: url("../../img/team_logos/25x25/football/cfl/wes.png") }
+.cfl-wes--59x59 { background-image: url("../../img/team_logos/59x59/football/cfl/wes.png") }
+.cfl-wes--90x90 { background-image: url("../../img/team_logos/90x90/football/cfl/wes.png") }
+.cfl-wes--170x170 { background-image: url("../../img/team_logos/170x170/football/cfl/wes.png") }
+.cfl-wes--200x200 { background-image: url("../../img/team_logos/200x200/football/cfl/wes.png") }
+
+.cfl-wes .bgcolor{ background-color: #213D30; }
+
+
+
+
+

@@ -8,9 +8,9 @@
 			"ShortName" => "nba-atl",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#FF0000",
-				colour3 => "#C0C0C0"
+				'colour1' => "#000",
+				'colour2' => "#FF0000",
+				'colour3' => "#C0C0C0"
 				)
 			),
 
@@ -20,10 +20,10 @@
 			"ShortName" => "nba-bos",
 			"HeadingColour" => "#009E60",
 			"TeamColours" => array(
-				colour1 => "#009E60",
-				colour2 => "#fff",
-				colour3 => "#000",
-				colour4 => "#EFE196"
+				'colour1' => "#009E60",
+				'colour2' => "#fff",
+				'colour3' => "#000",
+				'colour4' => "#EFE196"
 				)		
 			),
 
@@ -33,8 +33,8 @@
 			"ShortName" => "nba-bkn",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#fff",
-				colour2 => "#000"
+				'colour1' => "#fff",
+				'colour2' => "#000"
 				)		
 			),
 
@@ -44,10 +44,10 @@
 			"ShortName" => "nba-cha",
 			"HeadingColour" => "#1D8CAA",
 			"TeamColours" => array(
-				colour1 => "#1D8CAA",
-				colour2 => "#1C0C65",
-				colour3 => "#FFF",
-				colour4 => "#969491"
+				'colour1' => "#1D8CAA",
+				'colour2' => "#1C0C65",
+				'colour3' => "#FFF",
+				'colour4' => "#969491"
 				)		
 			),
 
@@ -57,11 +57,11 @@
 		// 	"ShortName" => "nba-chab",
 		// 	"HeadingColour" => "#002B5C",
 		// 	"TeamColours" => array(
-		// 		colour1 => "#002B5C",
-		// 		colour2 => "#5191CD",
-		// 		colour3 => "#F26531",
-		// 		colour4 => "#A1A1A4",
-		// 		colour5 => "#fff"
+		// 		'colour1' => "#002B5C",
+		// 		'colour2' => "#5191CD",
+		// 		'colour3' => "#F26531",
+		// 		'colour4' => "#A1A1A4",
+		// 		'colour5' => "#fff"
 		// 		)		
 		// 	),
 
@@ -71,9 +71,9 @@
 			"ShortName" => "nba-chi",
 			"HeadingColour" => "#D4001F",
 			"TeamColours" => array(
-				colour1 => "#D4001F",
-				colour2 => "#000",
-				colour3 => "#fff"
+				'colour1' => "#D4001F",
+				'colour2' => "#000",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -83,10 +83,10 @@
 			"ShortName" => "nba-cle",
 			"HeadingColour" => "#b3121d",
 			"TeamColours" => array(
-				colour1 => "#b3121d",
-				colour2 => "#FFD700",
-				colour3 => "#000080",
-				colour4 => "#fff"
+				'colour1' => "#b3121d",
+				'colour2' => "#FFD700",
+				'colour3' => "#000080",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -96,10 +96,10 @@
 			"ShortName" => "nba-dal",
 			"HeadingColour" => "#0b60ad",
 			"TeamColours" => array(
-				colour1 => "#0b60ad",
-				colour2 => "#072156",
-				colour3 => "#A9A9A9",
-				colour4 => "#fff"
+				'colour1' => "#0b60ad",
+				'colour2' => "#072156",
+				'colour3' => "#A9A9A9",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -109,10 +109,10 @@
 			"ShortName" => "nba-den",
 			"HeadingColour" => "#4b90cd",
 			"TeamColours" => array(
-				colour1 => "#4b90cd",
-				colour2 => "#fdb827",
-				colour3 => "#fff",
-				colour4 => "#002D62"
+				'colour1' => "#4b90cd",
+				'colour2' => "#fdb827",
+				'colour3' => "#fff",
+				'colour4' => "#002D62"
 				)		
 			),
 
@@ -122,10 +122,10 @@
 			"ShortName" => "nba-det",
 			"HeadingColour" => "#00519a",
 			"TeamColours" => array(
-				colour1 => "#00519a",
-				colour2 => "#EB003C",
-				colour3 => "#041e40",
-				colour4 => "#fff"
+				'colour1' => "#00519a",
+				'colour2' => "#EB003C",
+				'colour3' => "#041e40",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -135,8 +135,8 @@
 			"ShortName" => "nba-gs",
 			"HeadingColour" => "#04529c",
 			"TeamColours" => array(
-				colour1 => "#04529c",
-				colour2 => "#FFCC33"
+				'colour1' => "#04529c",
+				'colour2' => "#FFCC33"
 				)		
 			),
 
@@ -146,9 +146,9 @@
 			"ShortName" => "nba-hou",
 			"HeadingColour" => "#CE1138",
 			"TeamColours" => array(
-				colour1 => "#CE1138",
-				colour2 => "#ccc",
-				colour3 => "#000"
+				'colour1' => "#CE1138",
+				'colour2' => "#ccc",
+				'colour3' => "#000"
 				)		
 			),
 
@@ -158,9 +158,9 @@
 			"ShortName" => "nba-ind",
 			"HeadingColour" => "#092c57",
 			"TeamColours" => array(
-				colour1 => "#092c57",
-				colour2 => "#ffc322",
-				colour3 => "#C0C0C0"
+				'colour1' => "#092c57",
+				'colour2' => "#ffc322",
+				'colour3' => "#C0C0C0"
 				)		
 			),
 
@@ -170,9 +170,9 @@
 			"ShortName" => "nba-lac",
 			"HeadingColour" => "#EE2944",
 			"TeamColours" => array(
-				colour1 => "#EE2944",
-				colour2 => "#146AA2",
-				colour3 => "#fff"
+				'colour1' => "#EE2944",
+				'colour2' => "#146AA2",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -182,9 +182,9 @@
 			"ShortName" => "nba-lal",
 			"HeadingColour" => "#4A2583",
 			"TeamColours" => array(
-				colour1 => "#4A2583",
-				colour2 => "#F5AF1B",
-				colour3 => "#fff"
+				'colour1' => "#4A2583",
+				'colour2' => "#F5AF1B",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -194,10 +194,10 @@
 			"ShortName" => "nba-mem",
 			"HeadingColour" => "#001F70",
 			"TeamColours" => array(
-				colour1 => "#001F70",
-				colour2 => "#7399C6",
-				colour3 => "#BED4E9",
-				colour4 => "#FDB927"
+				'colour1' => "#001F70",
+				'colour2' => "#7399C6",
+				'colour3' => "#BED4E9",
+				'colour4' => "#FDB927"
 				)		
 			),
 
@@ -207,10 +207,10 @@
 			"ShortName" => "nba-mia",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#B62630",
-				colour3 => "#fff",
-				colour4 => "#FF9F00"
+				'colour1' => "#000",
+				'colour2' => "#B62630",
+				'colour3' => "#fff",
+				'colour4' => "#FF9F00"
 				)		
 			),
 
@@ -220,10 +220,10 @@
 			"ShortName" => "nba-mil",
 			"HeadingColour" => "#003614",
 			"TeamColours" => array(
-				colour1 => "#003614",
-				colour2 => "#E32636",
-				colour3 => "#C0C0C0",
-				colour4 => "#fff"
+				'colour1' => "#003614",
+				'colour2' => "#E32636",
+				'colour3' => "#C0C0C0",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -233,10 +233,10 @@
 			"ShortName" => "nba-min",
 			"HeadingColour" => "#0F4D92",
 			"TeamColours" => array(
-				colour1 => "#0F4D92",
-				colour2 => "#000",
-				colour3 => "#8c92ac",
-				colour4 => "#50c878"
+				'colour1' => "#0F4D92",
+				'colour2' => "#000",
+				'colour3' => "#8c92ac",
+				'colour4' => "#50c878"
 				)		
 			),
 
@@ -246,10 +246,10 @@
 			"ShortName" => "nba-no",
 			"HeadingColour" => "#002b5c",
 			"TeamColours" => array(
-				colour1 => "#002b5c",
-				colour2 => "#b4975a",
-				colour3 => "#e31836",
-				colour4 => "#fff"
+				'colour1' => "#002b5c",
+				'colour2' => "#b4975a",
+				'colour3' => "#e31836",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -259,9 +259,9 @@
 			"ShortName" => "nba-ny",
 			"HeadingColour" => "#0953a0",
 			"TeamColours" => array(
-				colour1 => "#0953a0",
-				colour2 => "#FF7518",
-				colour3 => "#C0C0C0"
+				'colour1' => "#0953a0",
+				'colour2' => "#FF7518",
+				'colour3' => "#C0C0C0"
 				)		
 			),
 
@@ -271,10 +271,10 @@
 			"ShortName" => "nba-okc",
 			"HeadingColour" => "#007DC3",
 			"TeamColours" => array(
-				colour1 => "#007DC3",
-				colour2 => "#F05133",
-				colour3 => "#FDBB30",
-				colour4 => "#002D62"
+				'colour1' => "#007DC3",
+				'colour2' => "#F05133",
+				'colour3' => "#FDBB30",
+				'colour4' => "#002D62"
 				)		
 			),
 
@@ -284,10 +284,10 @@
 			"ShortName" => "nba-orl",
 			"HeadingColour" => "#0047AB",
 			"TeamColours" => array(
-				colour1 => "#0047AB",
-				colour2 => "#000",
-				colour3 => "#708090",
-				colour4 => "#fff"
+				'colour1' => "#0047AB",
+				'colour2' => "#000",
+				'colour3' => "#708090",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -297,9 +297,9 @@
 			"ShortName" => "nba-phi",
 			"HeadingColour" => "#0046AD",
 			"TeamColours" => array(
-				colour1 => "#0046AD",
-				colour2 => "#D0103A",
-				colour3 => "#fff"
+				'colour1' => "#0046AD",
+				'colour2' => "#D0103A",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -309,11 +309,11 @@
 			"ShortName" => "nba-pho",
 			"HeadingColour" => "#1c105e",
 			"TeamColours" => array(
-				colour1 => "#1c105e",
-				colour2 => "#e65f20",
-				colour3 => "#000",
-				colour4 => "#fff",
-				colour5 => "#b1b3b3"
+				'colour1' => "#1c105e",
+				'colour2' => "#e65f20",
+				'colour3' => "#000",
+				'colour4' => "#fff",
+				'colour5' => "#b1b3b3"
 				)		
 			),
 
@@ -323,10 +323,10 @@
 			"ShortName" => "nba-por",
 			"HeadingColour" => "#F0163A",
 			"TeamColours" => array(
-				colour1 => "#F0163A",
-				colour2 => "#B6BFBF",
-				colour3 => "#000",
-				colour4 => "#fff"
+				'colour1' => "#F0163A",
+				'colour2' => "#B6BFBF",
+				'colour3' => "#000",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -336,10 +336,10 @@
 			"ShortName" => "nba-sac",
 			"HeadingColour" => "#753BBD",
 			"TeamColours" => array(
-				colour1 => "#753BBD",
-				colour2 => "#000",
-				colour3 => "#8A8D8F",
-				colour4 => "#fff"
+				'colour1' => "#753BBD",
+				'colour2' => "#000",
+				'colour3' => "#8A8D8F",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -349,9 +349,9 @@
 			"ShortName" => "nba-sa",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#BEC8C9",
-				colour3 => "#fff"
+				'colour1' => "#000",
+				'colour2' => "#BEC8C9",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -361,9 +361,9 @@
 			"ShortName" => "nba-tor",
 			"HeadingColour" => "#B31B1B",
 			"TeamColours" => array(
-				colour1 => "#B31B1B",
-				colour2 => "#000",
-				colour3 => "#708090"
+				'colour1' => "#B31B1B",
+				'colour2' => "#000",
+				'colour3' => "#708090"
 				)		
 			),
 
@@ -373,10 +373,10 @@
 			"ShortName" => "nba-uta",
 			"HeadingColour" => "#00275D",
 			"TeamColours" => array(
-				colour1 => "#00275D",
-				colour2 => "#FF9100",
-				colour3 => "#0D4006",
-				colour4 => "#B5B5B5"
+				'colour1' => "#00275D",
+				'colour2' => "#FF9100",
+				'colour3' => "#0D4006",
+				'colour4' => "#B5B5B5"
 				)		
 			),
 
@@ -386,10 +386,10 @@
 			"ShortName" => "nba-was",
 			"HeadingColour" => "#C60C30",
 			"TeamColours" => array(
-				colour1 => "#C60C30",
-				colour2 => "#fff",
-				colour3 => "#002244",
-				colour4 => "#BCC4CC"
+				'colour1' => "#C60C30",
+				'colour2' => "#fff",
+				'colour3' => "#002244",
+				'colour4' => "#BCC4CC"
 				)		
 			),
 

@@ -1,24 +1,24 @@
-<?php require_once "nhl-vars.php"; ?>
+<?php require_once "cfl-vars.php"; ?>
 <?php /*
 	echo "<pre>";
-	print_r($nhl);
+	print_r($cfl);
 	echo "</pre>";
 */ ?>
 
 <form class="wrapper cf">
-	<label class="form-label" for="nhl-nav">Choose a Team:</label>
+	<label class="form-label" for="cfl-nav">Choose a Team:</label>
 	<div class="fancy-select fancy-select-lg">
-		<select onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value" id="nhl-nav">
+		<select onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value" id="cfl-nav">
 			<option value="" selected>Select a Team</option>
-		<?php foreach ($nhl as $teams => $values) { ?>
+		<?php foreach ($cfl as $teams => $values) { ?>
 			<option value="#<?=$values['LongName']?>"><?=$values['FullName']?></option>
 		<?php } ?>
 		</select>
 	</div>
-	<p class="sg-toggler"><a href="nhl-raw" onclick="toggled('nhl-raw'); return false;">View just data</a></p>
+	<p class="sg-toggler"><a href="cfl-raw" onclick="toggled('cfl-raw'); return false;">View just data</a></p>
 </form>
 
-<div class="wrapper" id="nhl-raw" style="display: none;">
+<div class="wrapper" id="cfl-raw" style="display: none;">
 	<table class="data-table">
 		<caption>NHL Raw Data</caption>
 		<thead class="data-table-head">
@@ -31,7 +31,7 @@
 		</thead>
 
 		<tbody class="data-table-body">
-			<?php foreach ($nhl as $teams => $values) { ?>
+			<?php foreach ($cfl as $teams => $values) { ?>
 			<tr>
 				<td><?=$values['FullName']?></td>
 				<td><?=$values['LongName']?></td>
@@ -45,13 +45,14 @@
 			<?php }	?>
 
 		</tbody>
+
 	</table>
 </div>
 
 
 <?php /** START TEAM */ ?>
 
-<?php foreach ($nhl as $teams => $values) { ?>
+<?php foreach ($cfl as $teams => $values) { ?>
 <article class="wrapper">
 	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>" id="<?=$values['LongName']?>">
 		<span class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><?=$values['FullName']?></span>
@@ -91,19 +92,19 @@
 		<h4 class="sg-tileheading">Logos - Inline with img tag <small>(With a bg colour)</small></h4>
 		<ul class="sg-logos <?=$values['ShortName']?>">
 			<li>
-				<img src="img/team_logos/59x59/hockey/nhl/<?=$values['LongName']?>.png" alt="">
+				<img src="img/team_logos/59x59/football/cfl/<?=$values['LongName']?>.png" alt="">
 				<p class="sg-label">59x59</p>
 			</li>
 			<li>
-				<img src="img/team_logos/90x90/hockey/nhl/<?=$values['LongName']?>.png" alt="">
+				<img src="img/team_logos/90x90/football/cfl/<?=$values['LongName']?>.png" alt="">
 				<p class="sg-label">90x90</p>
 			</li>
 			<li>
-				<img class="bgcolor" src="img/team_logos/170x170/hockey/nhl/<?=$values['LongName']?>.png" alt="">
+				<img class="bgcolor" src="img/team_logos/170x170/football/cfl/<?=$values['LongName']?>.png" alt="">
 				<p class="sg-label">170x170</p>
 			</li>
 			<li>
-				<img src="img/team_logos/200x200/hockey/nhl/<?=$values['LongName']?>.png" alt="">
+				<img src="img/team_logos/200x200/football/cfl/<?=$values['LongName']?>.png" alt="">
 				<p class="sg-label">200x200</p>
 			</li>
 		</ul>

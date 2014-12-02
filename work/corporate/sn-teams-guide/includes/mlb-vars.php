@@ -8,10 +8,10 @@
 			"ShortName" => "mlb-ari",
 			"HeadingColour" => "#A71930",
 			"TeamColours" => array(
-				colour1 => "#A71930",
-				colour2 => "#000",
-				colour3 => "#DBCEAC",
-				colour4 => "#fff"
+				'colour1' => "#A71930",
+				'colour2' => "#000",
+				'colour3' => "#DBCEAC",
+				'colour4' => "#fff"
 				)
 			),
 
@@ -21,9 +21,9 @@
 			"ShortName" => "mlb-atl",
 			"HeadingColour" => "#002F5F",
 			"TeamColours" => array(
-				colour1 => "#002F5F",
-				colour2 => "#B71234",
-				colour3 => "#fff"
+				'colour1' => "#002F5F",
+				'colour2' => "#B71234",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -33,9 +33,9 @@
 			"ShortName" => "mlb-bal",
 			"HeadingColour" => "#ed4c09",
 			"TeamColours" => array(
-				colour1 => "#ed4c09",
-				colour2 => "#000",
-				colour3 => "#fff"
+				'colour1' => "#ed4c09",
+				'colour2' => "#000",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -45,9 +45,9 @@
 			"ShortName" => "mlb-bos",
 			"HeadingColour" => "#C60C30",
 			"TeamColours" => array(
-				colour1 => "#C60C30",
-				colour2 => "#002244",
-				colour3 => "#fff"
+				'colour1' => "#C60C30",
+				'colour2' => "#002244",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -57,9 +57,9 @@
 			"ShortName" => "mlb-chc",
 			"HeadingColour" => "#003279",
 			"TeamColours" => array(
-				colour1 => "#003279",
-				colour2 => "#CC0033",
-				colour3 => "#fff"
+				'colour1' => "#003279",
+				'colour2' => "#CC0033",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -69,9 +69,9 @@
 			"ShortName" => "mlb-cws",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#C0C0C0",
-				colour3 => "#fff"
+				'colour1' => "#000",
+				'colour2' => "#C0C0C0",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -81,9 +81,9 @@
 			"ShortName" => "mlb-cin",
 			"HeadingColour" => "#C6011F",
 			"TeamColours" => array(
-				colour1 => "#C6011F",
-				colour2 => "#fff",
-				colour3 => "#000"
+				'colour1' => "#C6011F",
+				'colour2' => "#fff",
+				'colour3' => "#000"
 				)		
 			),
 
@@ -93,9 +93,9 @@
 			"ShortName" => "mlb-cle",
 			"HeadingColour" => "#003366",
 			"TeamColours" => array(
-				colour1 => "#003366",
-				colour2 => "#d30335",
-				colour3 => "#fff"
+				'colour1' => "#003366",
+				'colour2' => "#d30335",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -105,10 +105,10 @@
 			"ShortName" => "mlb-col",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#333366",
-				colour3 => "#C0C0C0",
-				colour4 => "#fff"
+				'colour1' => "#000",
+				'colour2' => "#333366",
+				'colour3' => "#C0C0C0",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -118,9 +118,9 @@
 			"ShortName" => "mlb-det",
 			"HeadingColour" => "#001742",
 			"TeamColours" => array(
-				colour1 => "#001742",
-				colour2 => "#fff",
-				colour3 => "#DE4406"
+				'colour1' => "#001742",
+				'colour2' => "#fff",
+				'colour3' => "#DE4406"
 				)		
 			),
 
@@ -130,9 +130,9 @@
 			"ShortName" => "mlb-hou",
 			"HeadingColour" => "#072854",
 			"TeamColours" => array(
-				colour1 => "#072854",
-				colour2 => "#FF7F00",
-				colour3 => "#fff"
+				'colour1' => "#072854",
+				'colour2' => "#FF7F00",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -142,9 +142,9 @@
 			"ShortName" => "mlb-kc",
 			"HeadingColour" => "#15317E",
 			"TeamColours" => array(
-				colour1 => "#15317E",
-				colour2 => "#74B4FA",
-				colour3 => "#fff"
+				'colour1' => "#15317E",
+				'colour2' => "#74B4FA",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -154,9 +154,9 @@
 			"ShortName" => "mlb-laa",
 			"HeadingColour" => "#B71234",
 			"TeamColours" => array(
-				colour1 => "#B71234",
-				colour2 => "#002244",
-				colour3 => "#fff"
+				'colour1' => "#B71234",
+				'colour2' => "#002244",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -166,8 +166,8 @@
 			"ShortName" => "mlb-lad",
 			"HeadingColour" => "#083C6B",
 			"TeamColours" => array(
-				colour1 => "#083C6B",
-				colour2 => "#fff"
+				'colour1' => "#083C6B",
+				'colour2' => "#fff"
 				)		
 			),
 
@@ -177,12 +177,12 @@
 			"ShortName" => "mlb-mia",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#F9423A",
-				colour3 => "#8A8D8F",
-				colour4 => "#0077C8",
-				colour5 => "#FFD100",
-				colour5 => "#fff"
+				'colour1' => "#000",
+				'colour2' => "#F9423A",
+				'colour3' => "#8A8D8F",
+				'colour4' => "#0077C8",
+				'colour5' => "#FFD100",
+				'colour6' => "#fff"
 				)		
 			),
 
@@ -192,9 +192,9 @@
 			"ShortName" => "mlb-mil",
 			"HeadingColour" => "#182B49",
 			"TeamColours" => array(
-				colour1 => "#182B49",
-				colour2 => "#92754C",
-				colour3 => "#fff"
+				'colour1' => "#182B49",
+				'colour2' => "#92754C",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -204,9 +204,9 @@
 			"ShortName" => "mlb-min",
 			"HeadingColour" => "#072754",
 			"TeamColours" => array(
-				colour1 => "#072754",
-				colour2 => "#C6011F",
-				colour3 => "#fff"
+				'colour1' => "#072754",
+				'colour2' => "#C6011F",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -216,9 +216,9 @@
 			"ShortName" => "mlb-nym",
 			"HeadingColour" => "#002C77",
 			"TeamColours" => array(
-				colour1 => "#002C77",
-				colour2 => "#FB4F14",
-				colour3 => "#fff"
+				'colour1' => "#002C77",
+				'colour2' => "#FB4F14",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -228,9 +228,9 @@
 			"ShortName" => "mlb-nyy",
 			"HeadingColour" => "#1C2841",
 			"TeamColours" => array(
-				colour1 => "#1C2841",
-				colour2 => "#fff",
-				colour3 => "#808080"
+				'colour1' => "#1C2841",
+				'colour2' => "#fff",
+				'colour3' => "#808080"
 				)		
 			),
 
@@ -240,9 +240,9 @@
 			"ShortName" => "mlb-oak",
 			"HeadingColour" => "#003831",
 			"TeamColours" => array(
-				colour1 => "#003831",
-				colour2 => "#FFD800",
-				colour3 => "#fff"
+				'colour1' => "#003831",
+				'colour2' => "#FFD800",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -252,9 +252,9 @@
 			"ShortName" => "mlb-phi",
 			"HeadingColour" => "#BA0C2F",
 			"TeamColours" => array(
-				colour1 => "#BA0C2F",
-				colour2 => "#fff",
-				colour3 => "#003087"
+				'colour1' => "#BA0C2F",
+				'colour2' => "#fff",
+				'colour3' => "#003087"
 				)		
 			),
 
@@ -264,9 +264,9 @@
 			"ShortName" => "mlb-pit",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#fdb829",
-				colour3 => "#fff"
+				'colour1' => "#000",
+				'colour2' => "#fdb829",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -276,9 +276,9 @@
 			"ShortName" => "mlb-sd",
 			"HeadingColour" => "#002147",
 			"TeamColours" => array(
-				colour1 => "#002147",
-				colour2 => "#fff",
-				colour3 => "#B4A76C"
+				'colour1' => "#002147",
+				'colour2' => "#fff",
+				'colour3' => "#B4A76C"
 				)		
 			),
 
@@ -288,9 +288,9 @@
 			"ShortName" => "mlb-sf",
 			"HeadingColour" => "#000",
 			"TeamColours" => array(
-				colour1 => "#000",
-				colour2 => "#F2552C",
-				colour3 => "#FFFDD0"
+				'colour1' => "#000",
+				'colour2' => "#F2552C",
+				'colour3' => "#FFFDD0"
 				)		
 			),
 
@@ -300,10 +300,10 @@
 			"ShortName" => "mlb-sea",
 			"HeadingColour" => "#0C2C56",
 			"TeamColours" => array(
-				colour1 => "#0C2C56",
-				colour2 => "#005C5C",
-				colour3 => "#C0C0C0",
-				colour4 => "#fff"
+				'colour1' => "#0C2C56",
+				'colour2' => "#005C5C",
+				'colour3' => "#C0C0C0",
+				'colour4' => "#fff"
 				)		
 			),
 
@@ -313,9 +313,9 @@
 			"ShortName" => "mlb-stl",
 			"HeadingColour" => "#c41e3a",
 			"TeamColours" => array(
-				colour1 => "#c41e3a",
-				colour2 => "#0A2252",
-				colour3 => "#fff"
+				'colour1' => "#c41e3a",
+				'colour2' => "#0A2252",
+				'colour3' => "#fff"
 				)		
 			),
 
@@ -325,10 +325,10 @@
 			"ShortName" => "mlb-tb",
 			"HeadingColour" => "#00285D",
 			"TeamColours" => array(
-				colour1 => "#00285D",
-				colour2 => "#9ECEEE",
-				colour3 => "#fff",
-				colour4 => "#ffd700"
+				'colour1' => "#00285D",
+				'colour2' => "#9ECEEE",
+				'colour3' => "#fff",
+				'colour4' => "#ffd700"
 				)		
 			),
 
@@ -338,9 +338,9 @@
 			"ShortName" => "mlb-tex",
 			"HeadingColour" => "#BD1021",
 			"TeamColours" => array(
-				colour1 => "#BD1021",
-				colour2 => "#fff",
-				colour3 => "#003279"
+				'colour1' => "#BD1021",
+				'colour2' => "#fff",
+				'colour3' => "#003279"
 				)		
 			),
 
@@ -350,10 +350,10 @@
 			"ShortName" => "mlb-tor",
 			"HeadingColour" => "#003DA5",
 			"TeamColours" => array(
-				colour1 => "#003DA5",
-				colour2 => "#041E42",
-				colour3 => "#fff",
-				colour4 => "#DA291C"
+				'colour1' => "#003DA5",
+				'colour2' => "#041E42",
+				'colour3' => "#fff",
+				'colour4' => "#DA291C"
 				)		
 			),
 
@@ -363,9 +363,9 @@
 			"ShortName" => "mlb-was",
 			"HeadingColour" => "#BA122B",
 			"TeamColours" => array(
-				colour1 => "#BA122B",
-				colour2 => "#11225B",
-				colour3 => "#fff"
+				'colour1' => "#BA122B",
+				'colour2' => "#11225B",
+				'colour3' => "#fff"
 				)		
 			),
 
