@@ -1,4 +1,4 @@
-<?php ini_set('display_errors', 1); ?>
+<?php require_once "global-vars.php"; ini_set('display_errors', 1); ?>
 <!doctype html>
 <html class="no-js no-touch" dir="ltr" lang="en-CA">
 <!--[if IE]><![endif]-->
@@ -59,7 +59,7 @@
 	<nav class="wrapper">
 		<h2>Choose a League:</h2>
 		<ul class="inline-bullet main-menu tabs" data-directive="tabs">
-			<li><a class="is-selected" href="#nhl" data-behaviour="tab">NHL</a></li>
+			<li><a class="is-selected" href="#nhl" data-behaviour="tab">NHL  <? $headings['Leagues']['nhl'] ?></a></li>
 			<li><a href="#nba" data-behaviour="tab">NBA</a></li>
 			<li><a href="#mlb" data-behaviour="tab">MLB</a></li>
 			<li><a href="#nfl" data-behaviour="tab">NFL</a></li>
