@@ -59,7 +59,7 @@
 	
 	<?php if (isset($values['TeamColours'])) { ?>
 	<div class="span-of-2">
-		<h3 class="sg-tileheading">Primary Colours</h3>
+		<h3 class="sg-tileheading"><?= $content['titles']['Primary'] ?></h3>
 
 		<ul class="sg-colors">
 			<?php foreach ($values['TeamColours'] as $colors => $color_value) {	?>
@@ -132,9 +132,8 @@
 	</div>
 
 	<div class="content-wrapper">
-		<h3 class="sg-tileheading">Textual Icons</h3>
-		<p class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25">Some text to show bg on a paragraph</p>
-		<p class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><a href="">Text to show bg on a paragraph with a link</a></p>
+		<?php /* start text icons */ ?>
+		<?php include "includes/aside-texticons.php"; ?>
 	</div>
 </article>
 <?php } ?>
