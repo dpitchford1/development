@@ -136,21 +136,21 @@
 			"FullName" => "CFL Logo",
 			"LongName" => "cfl",
 			"ShortName" => "cfl-logo",
-			"HeadingColour" => "#4D8BE1",
+			"HeadingColour" => "#4D8BE1"
 			),
 
 		"eas" => array(
 			"FullName" => "East Division",
 			"LongName" => "eas",
 			"ShortName" => "cfl-eas",
-			"HeadingColour" => "#a6192e",	
+			"HeadingColour" => "#a6192e"
 			),
 
 		"wes" => array(
 			"FullName" => "West Division",
 			"LongName" => "wes",
 			"ShortName" => "cfl-wes",
-			"HeadingColour" => "#00205b",
+			"HeadingColour" => "#00205b"
 			),
 
 	);

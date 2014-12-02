@@ -6,7 +6,7 @@
 */ ?>
 
 <form class="wrapper cf">
-	<label class="form-label" for="cfl-nav">Choose a Team:</label>
+	<label class="form-label" for="cfl-nav"><?= $content['copy']['chooseTeam'] ?></label>
 	<div class="fancy-select fancy-select-lg">
 		<select onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value" id="cfl-nav">
 			<option value="" selected>Select a Team</option>
@@ -15,12 +15,12 @@
 		<?php } ?>
 		</select>
 	</div>
-	<p class="sg-toggler"><a href="cfl-raw" onclick="toggled('cfl-raw'); return false;">View just data</a></p>
+	<p class="sg-toggler"><a href="#cfl-raw" onclick="toggled('cfl-raw'); return false;"><?= $content['copy']['viewData'] ?></a></p>
 </form>
 
 <div class="wrapper" id="cfl-raw" style="display: none;">
 	<table class="data-table">
-		<caption>NHL Raw Data</caption>
+		<caption>CFL Raw Data</caption>
 		<thead class="data-table-head">
 			<tr>
 				<th scope="col" class="table-fullname">Full Names</th>
@@ -37,9 +37,9 @@
 				<td><?=$values['LongName']?></td>
 				<td><?=$values['ShortName']?></td>
 				<td>
-					<?php foreach ($values['TeamColours'] as $colors => $color_value) {	?>
-						<span class="hex-value"><?=$color_value?></span>
-					<?php }	?>
+				<?php if (isset($values['TeamColours'])) foreach ($values['TeamColours'] as $colors => $color_value): ?>
+					<span class="hex-value"><?=$color_value?></span>
+				<?php endforeach ?>
 				</td>
 			</tr>
 			<?php }	?>
@@ -60,7 +60,7 @@
 	
 	<?php if (isset($values['TeamColours'])) { ?>
 	<div class="span-of-2">
-		<h3 class="sg-tileheading">Primary Colours</h3>
+		<h3 class="sg-tileheading"><?= $content['titles']['Primary'] ?></h3>
 
 		<ul class="sg-colors">
 			<?php foreach ($values['TeamColours'] as $colors => $color_value) {	?>
@@ -133,7 +133,7 @@
 	</div>
 
 	<div class="content-wrapper">
-		<h3 class="sg-tileheading">Textual Icons</h3>
+		<h3 class="sg-tileheading"><?= $content['titles']['textIcons'] ?></h3>
 		<p class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25">Some text to show bg on a paragraph</p>
 		<p class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><a href="">Text to show bg on a paragraph with a link</a></p>
 	</div>

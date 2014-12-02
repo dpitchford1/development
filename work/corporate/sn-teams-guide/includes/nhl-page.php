@@ -6,7 +6,7 @@
 */ ?>
 
 <form class="wrapper cf">
-	<label class="form-label" for="nhl-nav">Choose a Team:</label>
+	<label class="form-label" for="nhl-nav"><?= $content['copy']['chooseTeam'] ?></label>
 	<div class="fancy-select fancy-select-lg">
 		<select onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value" id="nhl-nav">
 			<option value="" selected>Select a Team</option>
@@ -15,7 +15,7 @@
 		<?php } ?>
 		</select>
 	</div>
-	<p class="sg-toggler"><a href="nhl-raw" onclick="toggled('nhl-raw'); return false;">View just data</a></p>
+	<p class="sg-toggler"><a href="#nhl-raw" onclick="toggled('nhl-raw'); return false;"><?= $content['copy']['viewData'] ?></a></p>
 </form>
 
 <div class="wrapper" id="nhl-raw" style="display: none;">
@@ -37,9 +37,9 @@
 				<td><?=$values['LongName']?></td>
 				<td><?=$values['ShortName']?></td>
 				<td>
-					<?php foreach ($values['TeamColours'] as $colors => $color_value) {	?>
-						<span class="hex-value"><?=$color_value?></span>
-					<?php }	?>
+				<?php if (isset($values['TeamColours'])) foreach ($values['TeamColours'] as $colors => $color_value): ?>
+					<span class="hex-value"><?=$color_value?></span>
+				<?php endforeach ?>
 				</td>
 			</tr>
 			<?php }	?>

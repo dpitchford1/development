@@ -57,13 +57,13 @@
 	
 	<?php /* START: MAIN MENU */ ?>
 	<nav class="wrapper">
-		<h2>Choose a League:</h2>
+		<h2><?= $content['copy']['chooseLeague'] ?></h2>
 		<ul class="inline-bullet main-menu tabs" data-directive="tabs">
-			<li><a class="is-selected" href="#nhl" data-behaviour="tab">NHL  <? $headings['Leagues']['nhl'] ?></a></li>
-			<li><a href="#nba" data-behaviour="tab">NBA</a></li>
-			<li><a href="#mlb" data-behaviour="tab">MLB</a></li>
-			<li><a href="#nfl" data-behaviour="tab">NFL</a></li>
-			<li><a href="#cfl" data-behaviour="tab">CFL</a></li>
+			<li><a class="is-selected" href="#nhl" data-behaviour="tab"><?= $content['leagues']['nhl'] ?></a></li>
+			<li><a href="#nba" data-behaviour="tab"><?= $content['leagues']['nba'] ?></a></li>
+			<li><a href="#mlb" data-behaviour="tab"><?= $content['leagues']['mlb'] ?></a></li>
+			<li><a href="#nfl" data-behaviour="tab"><?= $content['leagues']['nfl'] ?></a></li>
+			<li><a href="#cfl" data-behaviour="tab"><?= $content['leagues']['cfl'] ?></a></li>
 			<!-- 
 			<li><a href="#ahl">AHL</a></li>
 			<li><a href="#chl">CHL</a></li>
@@ -76,48 +76,48 @@
 
 	<?php /* START: NHL */ ?>
 	<section class="region" id="nhl">
-		<h2 class="sg-heading">NHL - Colours and Logos (PNG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['nhl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG)</h2>
 
 		<?php include "includes/nhl-page.php"; ?>
 		
-		<p class="top-of-page"><a href="#main-content">Top of page</a> &uarr;</p>
+		<p class="top-of-page"><a href="#main-content"><?= $content['copy']['top'] ?></a> &uarr;</p>
 	</section>
 
 	<?php /* START: NBA */ ?>
 	<section class="region" id="nba">
-		<h2 class="sg-heading">NBA - Colours and Logos (SVG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['nba'] ?> - <?= $content['titles']['titleMore'] ?> (SVG)</h2>
 
 		<?php include "includes/nba-page-svg.php"; ?>
 		<?php /* include "includes/nba-page.php"; */ ?>
 
-		<p class="top-of-page"><a href="#main-content">Top of page</a> &uarr;</p>
+		<p class="top-of-page"><a href="#main-content"><?= $content['copy']['top'] ?></a> &uarr;</p>
 	</section>
 
 	<?php /* START: MLB */ ?>
 	<section class="region" id="mlb">
-		<h2 class="sg-heading">MLB - Colours and Logos (PNG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['mlb'] ?> - <?= $content['titles']['titleMore'] ?> (PNG)</h2>
 
 		<?php include "includes/mlb-page.php"; ?>
 
-		<p class="top-of-page"><a href="#main-content">Top of page</a> &uarr;</p>
+		<p class="top-of-page"><a href="#main-content"><?= $content['copy']['top'] ?></a> &uarr;</p>
 	</section>
 
 	<?php /* START: NFL */ ?>
 	<section class="region" id="nfl">
-		<h2 class="sg-heading">NFL - Colours and Logos (PNG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['nfl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG)</h2>
 
 		<?php include "includes/nfl-page.php"; ?>
 
-		<p class="top-of-page"><a href="#main-content">Top of page</a></p>
+		<p class="top-of-page"><a href="#main-content"><?= $content['copy']['top'] ?></a></p>
 	</section>
 
 	<?php /* START: CFL */ ?>
 	<section class="region" id="cfl">
-		<h2 class="sg-heading">CFL - Colours and Logos (PNG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['cfl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG)</h2>
 
 		<?php include "includes/cfl-page.php"; ?>
 
-		<!-- <p class="top-of-page"><a href="#main-content">Top of page</a></p> -->
+		<!-- <p class="top-of-page"><a href="#main-content"><?= $content['copy']['top'] ?></a></p> -->
 	</section>
 
 </main>
