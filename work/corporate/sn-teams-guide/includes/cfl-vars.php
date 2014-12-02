@@ -27,7 +27,13 @@
 				'colour1' => "#C8102E",
 				'colour2' => "#000",
 				'colour3' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Special Application Marks",
+			"SecondaryColours" => array(
+				'colour1' => "#A6192E",
+				'colour2' => "#625E5C",
+				'colour3' => "#969492"
+				)
 			),
 
 		"edm" => array(
@@ -112,10 +118,10 @@
 			"FullName" => "Toronto Argonauts",
 			"LongName" => "toronto-argonauts",
 			"ShortName" => "cfl-tor",
-			"HeadingColour" => "#26201E",
+			"HeadingColour" => "#0C2340",
 			"TeamColours" => array(
-				'colour1' => "#26201E",
-				'colour2' => "#E34912",
+				'colour1' => "#0C2340",
+				'colour2' => "#5E90B0",
 				'colour3' => "#fff"
 				)		
 			),
@@ -124,33 +130,58 @@
 			"FullName" => "Winnipeg Bluebombers",
 			"LongName" => "winnipeg-blue-bombers",
 			"ShortName" => "cfl-wpg",
-			"HeadingColour" => "#002244",
+			"HeadingColour" => "#0C2340",
 			"TeamColours" => array(
-				'colour1' => "#002244",
-				'colour2' => "#8C8B8A",
+				'colour1' => "#0C2340",
+				'colour2' => "#85714D",
 				'colour3' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Alternate Primary Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#B9975B"
+				)
 			),
 
 		"logo" => array(
 			"FullName" => "CFL Logo",
 			"LongName" => "cfl",
 			"ShortName" => "cfl-logo",
-			"HeadingColour" => "#4D8BE1"
+			"HeadingColour" => "#DA291C",
+			"TeamColours" => array(
+				'colour1' => "#DA291C",
+				'colour2' => "#000",
+				'colour3' => "#fff"
+				),
+			"SecondaryLabel" => "Special Application Mark",
+			"SecondaryColours" => array(
+				'colour1' => "#A6192E"
+				)
 			),
 
 		"eas" => array(
 			"FullName" => "East Division",
 			"LongName" => "eas",
 			"ShortName" => "cfl-eas",
-			"HeadingColour" => "#a6192e"
+			"HeadingColour" => "#0057B8",
+			"TeamColours" => array(
+				'colour1' => "#0057B8",
+				'colour2' => "#00205B",
+				'colour3' => "#9EA2A2",
+				'colour4' => "#fff"
+				)
 			),
 
 		"wes" => array(
 			"FullName" => "West Division",
 			"LongName" => "wes",
 			"ShortName" => "cfl-wes",
-			"HeadingColour" => "#00205b"
+			"HeadingColour" => "#DA291C",
+			"TeamColours" => array(
+				'colour1' => "#DA291C",
+				'colour2' => "#9A3324",
+				'colour3' => "#9EA2A2",
+				'colour4' => "#fff"
+				)
 			),
 
 	);

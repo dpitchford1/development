@@ -11,8 +11,13 @@
 				'colour1' => "#000",
 				'colour2' => "#91764B",
 				'colour3' => "#EF5225",
-				'colour4' => "#fff",
-				'colour5' => "#848484"
+				'colour4' => "#fff"
+				),
+			"SecondaryLabel" => "(1)Supporting Colour, (2)Alternate Primary, (3)Alternate Supporting",
+			"SecondaryColours" => array(
+				'colour1' => "#848484",
+				'colour2' => "#C69214",
+				'colour3' => "#A2AAAD"
 				)
 			),
 
@@ -51,7 +56,12 @@
 				'colour2' => "#FDBB2F",
 				'colour3' => "#AEB6B9",
 				'colour4' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "(1)Supporting Colour, (2)Alternate Primary",
+			"SecondaryColours" => array(
+				'colour1' => "#C8102E",
+				'colour2' => "#A2AAAD"
+				)
 			),
 
 		"cgy" => array(
@@ -89,7 +99,15 @@
 				'colour1' => "#E03A3E",
 				'colour2' => "#000",
 				'colour3' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Supporting Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#CC8A00",
+				'colour2' => "#00843D",
+				'colour3' => "#001871",
+				'colour4' => "#FF671F",
+				'colour5' => "#FFD100"
+				)
 			),
 
 		"col" => array(
@@ -103,7 +121,11 @@
 				'colour3' => "#000",
 				'colour4' => "#A9B0B8",
 				'colour5' => "#fff",
-				)		
+				),
+			"SecondaryLabel" => "Alternate Primary Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#A2AAAD"
+				)
 			),
 
 		"cls" => array(
@@ -116,7 +138,11 @@
 				'colour2' => "#E03A3E",
 				'colour3' => "#A9B0B8",
 				'colour4' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Alternate Primary Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#A2AAAD"
+				)
 			),
 
 		"dal" => array(
@@ -129,7 +155,12 @@
 				'colour2' => "#000",
 				'colour3' => "#fff",
 				'colour4' => "#E03A3E"
-				)		
+				),
+			"SecondaryLabel" => "(1)Embroidery Usage, (2)Alternate Primary Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#848484",
+				'colour2' => "#A2AAAD"
+				)
 			),
 
 		"det" => array(
@@ -152,7 +183,12 @@
 				'colour1' => "#003777",
 				'colour2' => "#E66A20",
 				'colour3' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Supporting Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#A2AAAD",
+				'colour2' => "#707372"
+				)
 			),
 
 		"fla" => array(
@@ -163,9 +199,13 @@
 			"TeamColours" => array(
 				'colour1' => "#C8213F",
 				'colour2' => "#002E5F",
-				'colour3' => "#D59C05",
+				'colour3' => "#C69214",
 				'colour4' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Alternate Primary Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#FFB81C"
+				)
 			),
 
 		"la" => array(
@@ -177,7 +217,11 @@
 				'colour1' => "#000",
 				'colour2' => "#fff",
 				'colour3' => "#AFB7BA"
-				)		
+				),
+			"SecondaryLabel" => "Alternate Primary Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#848484"
+				)
 			),
 
 		"min" => array(
@@ -191,7 +235,11 @@
 				'colour3' => "#EFB410",
 				'colour4' => "#EEE3C7",
 				'colour5' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Alternate Primary Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#84754E"
+				)
 			),
 
 		"mon" => array(
@@ -239,7 +287,15 @@
 				'colour1' => "#00529B",
 				'colour2' => "#F57D31",
 				'colour3' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Alternate Uniform Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#000",
+				'colour2' => "#00529B",
+				'colour3' => "#F57D31",
+				'colour4' => "#B6B4B3",
+				'colour5' => "#fff"
+				)
 			),
 
 		"nyr" => array(
@@ -251,7 +307,11 @@
 				'colour1' => "#0161AB",
 				'colour2' => "#E6393F",
 				'colour3' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "Supporting Colours",
+			"SecondaryColours" => array(
+				'colour1' => "#041E42"
+				)
 			),
 
 		"ott" => array(
@@ -264,7 +324,13 @@
 				'colour2' => "#000",
 				'colour3' => "#D69F0F",
 				'colour4' => "#fff"
-				)		
+				),
+			"SecondaryLabel" => "(1,2)Supporting Colours, (3)Alternate Primary",
+			"SecondaryColours" => array(
+				'colour1' => "#A6192E",
+				'colour2' => "#C1C6C8",
+				'colour3' => "#85714D"
+				)
 			),
 
 		"phi" => array(
