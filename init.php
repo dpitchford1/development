@@ -7,6 +7,8 @@
 
 //$fontsCSS = "/development/media/css/modules/fonts.css";
 
+$rootPath = "/development/master/";
+
 
 $inc_global = $_SERVER['DOCUMENT_ROOT'] . "/development/master/includes/";
 $inc_local = $_SERVER['DOCUMENT_ROOT'] . "/development/master/resources/includes/";
@@ -15,6 +17,7 @@ define('mediaDIR', '/development/media/');
 define('globalCSS', '/development/media/css/');
 define('globalJS', '/development/media/js/');
 
+$page = basename($_SERVER['SCRIPT_NAME']);
 
 ?>
 
