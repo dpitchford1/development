@@ -7,8 +7,8 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="viewport" content="width=device-width, initial-scale=1">
  
-<link rel="stylesheet" href="<?= globalCSS ?>libs/normalize.3.0.2.css" media="screen" type="text/css">
-<link rel="stylesheet" href="<?= globalCSS ?>layouts/base-layout.css" media="only screen and (min-width: 10em)" type="text/css">
+<link rel="stylesheet" href="<?= $paths['global']['css'] ?>libs/normalize.3.0.2.css" media="screen" type="text/css">
+<link rel="stylesheet" href="<?= $paths['global']['css'] ?>layouts/base-layout.css" media="only screen and (min-width: 10em)" type="text/css">
 
 <!--<link rel="stylesheet" href="/connected/media/css/dev/debug.css" media="screen" />-->
 

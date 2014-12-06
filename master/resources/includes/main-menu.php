@@ -5,7 +5,7 @@
 		<li>Design</li>
 		<li>Development</li>
 		<li>Docs &amp; Reading</li>
-		<li><a <? if (stripos($_SERVER['REQUEST_URI'],'/fonts/') !== false) {echo 'class="selected"';} ?> href="<? $rootPath ?>/blog/">Fonts</a></li>
+		<li><a <? if (stripos($_SERVER['REQUEST_URI'],'/fonts/') !== false) {echo 'class="selected"';} ?> href="<?= $paths['global']['resources'] ?>fonts/">Fonts</a></li>
 
 		<li>PS &amp; Illustrator Templates</li>
 		<li>Vectors</li>

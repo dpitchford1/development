@@ -2,29 +2,38 @@
 //$path_inc = $_SERVER['DOCUMENT_ROOT'] . "/development/master/includes";
 //$mediaDIR = $_SERVER['DOCUMENT_ROOT'] . "/development/media/";
 //$url  = $_SERVER['HTTP_HOST'].($_SERVER['REQUEST_URI']);
-
 //$rootMedia  = "/development/media";
-
 //$fontsCSS = "/development/media/css/modules/fonts.css";
 
 $rootPath = "/development/master/";
 
-
 $inc_global = $_SERVER['DOCUMENT_ROOT'] . "/development/master/includes/";
 $inc_local = $_SERVER['DOCUMENT_ROOT'] . "/development/master/resources/includes/";
 
-define('mediaDIR', '/development/media/');
-define('globalCSS', '/development/media/css/');
-define('globalJS', '/development/media/js/');
+//define('mediaDIR', '/development/media/');
+//define('globalCSS', '/development/media/css/');
+//define('globalJS', '/development/media/js/');
+//define('templateDir', '/development/master/template/');
+//define('resourcesDir', '/development/master/template/resources/');
 
-//$page = basename($_SERVER['SCRIPT_NAME']);
+$paths = array(
+	"global" =>  array(
+		'media' => "/development/media/",
+		'css' => "/development/media/css/",
+		'js' => "/development/media/js/",
+		'template' => "/development/master/template/",
+		'resources' => "/development/master/resources/"
+		),
 
+	"local" =>  array(
+		'fonts' => '/fonts/',
+		'Primary' => "Primary Colours",
+		'Supporting' => "Supporting Colours",
+		'textIcons' => 'Textual Icons'
 
-// main menu selected states
-// $directoryURI = $_SERVER['REQUEST_URI'];
-// $path = parse_url($directoryURI, PHP_URL_PATH);
-// $components = explode('/', $path);
-// $first_part = $components[1];
+		)
+
+);
 
 
 ?>
