@@ -2,10 +2,8 @@
 Directories
 - index.php
 
+- 
 
-- docs
-	- case-studies
-	- resources
 - media
 	- fonts
 	- css
@@ -31,3 +29,13 @@ Directories
 - template
 
 - resources
+	- Design
+		- Logos
+		- Icons
+		- Links
+		- 
+	- Development
+	- Fonts
+	- docs
+		- case-studies
+		- resources

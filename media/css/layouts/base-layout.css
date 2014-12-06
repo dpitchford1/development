@@ -220,13 +220,14 @@
 		list-style-type: none;
 		padding-left: 15px;
 		}
-	.counted-list li { counter-increment: item; }
+	.counted-list li { counter-increment: item; margin-bottom: .7em; }
 	.counted-list li:before  { content: counters(item, ".") ". "; }
 	.counted-list .count-heading, .counted-list .count-title, .counted-list a{
 		display: inline;
 		}
 	.counted-list .counted-list{
-		padding-left: 7px;
+		margin-top: .7em;
+		padding-left: 30px;
 		}
 
 

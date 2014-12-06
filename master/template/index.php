@@ -1,11 +1,12 @@
-<?php ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/development/init.php'); ini_set('display_errors', 1); ?>
 <!DOCTYPE HTML>
 <html dir="ltr" lang="en-CA">
 <!--[if IE]><![endif]-->
 <head>
 	<title>Home - Resources Archive</title>
 	
-	<?php include "includes/head.php"; ?>
+	<?php include $inc_global . "head.php"; ?>
+
 	<link rel="stylesheet" href="/development/media/css/modules/patterns.css" media="only screen and (min-width: 10em)" type="text/css">
 </head>
 <body class="page-body development" id="page-body" lang="en">
@@ -13,16 +14,103 @@
 <div class="site-wrapper">
 
 	<?php /* site header start */ ?>
-	<?php include "includes/header.php"; ?>	
+	<?php # include "includes/header.php"; ?>	
 
 	<div class="main-content-wrapper grid-setup">
 		
 		<!--start main content-->
 		<main class="grid-cell main-content" id="main-content" role="main">
-			<h2 class="content-title sizes-L">Main Content</h2>
+			<h2 class="content-title sizes-L">Development - Sitemap</h2>
+
+			<ul class="counted-list">
+				<!-- <li>four
+					<ul class="counted-list">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</li> -->
+				<li>Books &amp; Docs</li>
+				
+				<li>Resources
+					<ul class="counted-list">
+						<li>Cheat Sheets</li>
+						<li>Design
+							<ul class="counted-list">
+								<li>Browser PSD's</li>
+								<li>Brushes</li>
+								<li>Device Templates</li>
+								<li>Icons</li>
+								<li>Identity Templates</li>
+								<li>Interface-Grid-UI Templates</li>
+								<li>Lynda.com</li>
+								<li>Patterns
+									<ul class="counted-list">
+										<li>Colour Pattern Pack</li>
+									</ul>
+								</li>
+								<li>Sketch Sheets</li>
+								<li>Style Tiles</li>
+								<li>UI Templates</li>
+							</ul>
+						</li>
+						<li>Development
+							<ul class="counted-list">
+								<li>Code Samples
+									<ul class="counted-list">
+										<li>CSS</li>
+										<li>JS</li>
+										<li>.NET</li>
+										<li>Ruby</li>
+									</ul>
+								</li>
+								<li>Docs</li>
+								<li>Tools</li>
+								<li>Frameworks</li>
+							</ul>
+						</li>
+						<li>Fonts</li>
+					</ul>
+					
+				</li>
+				<li>Work
+					<ul class="counted-list">
+						<li>Alliance / Canwest / Shaw - Archive</li>
+						<li>Rogers
+							<ul class="counted-list">
+								<li>Connected Rogers</li>
+								<li>Connected for Business</li>
+								<li>Target</li>
+								<li>Portal</li>
+								<li>Teams Guide</li>
+								<li>Player Card</li>
+							</ul>
+						</li>
+						<li>Personal</li>
+						<li>Screens</li>
+						<li>Resume</li>
+					</ul>
+
+				</li>
+				<li>Style Guide</li>
+				<!-- <li>three</li>
+				<li>four
+					<ul class="counted-list">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</li>
+				<li>five</li>
+				<li>six</li>
+				<li>seven</li> -->
+
+			</ul>
 			
 			<div id="fonts" class="sg-pattern">
-				<h3 class="sg-heading">Design</h3>
+				<!-- <h3 class="sg-heading">Design</h3>
 				
 				<h4 class="sg-subheading">Browser PSD's</h4>
 				
@@ -38,7 +126,7 @@
 				
 				<h4 class="sg-subheading">Lynda.com</h4>
 				
-				<h4 class="sg-subheading">Patterns</h4>
+				<h4 class="sg-subheading">Patterns</h4> -->
 				<h5 class="content-title sizes-XSM">Colour Pattern Pack</h5>
 				<ul class="sg-colors">
 					<li>
@@ -76,12 +164,6 @@
 					<!--<li><a href="colourpatterns.pat">Download Palette</a></li>
 					<li><a href="colourpatterns.psd">Download PSD</a></li>-->
 				</ul>
-				
-				<h4 class="sg-subheading">Sketch Sheets</h4>
-				
-				<h4 class="sg-subheading">Style Tiles</h4>
-				
-				<h4 class="sg-subheading">UI Templates</h4>
 				
 			</div>
 			
@@ -135,38 +217,11 @@
 				<h3 class="content-title sizes-M" id="Frameworks">Frameworks</h3>
 			</section>
 			
-			
-			<?php /* start how-to 
-			<?php include "includes/aside-top5.php"; ?>*/ ?>
-			
-			<?php /* start digital mag 
-			<?php include "includes/aside-digitalmag.php"; ?>*/ ?>
-			
-			<?php /* start follow us 
-			<?php include "includes/aside-follow.php"; ?>*/ ?>
-			
-			<?php /* start big box 
-			<?php include "includes/aside-bb.php"; ?>*/ ?>
-			
-			<?php /* start popular 
-			<?php include "includes/aside-popular.php"; ?>*/ ?>
-			
-			<?php /* start big box 2 
-			<?php include "includes/aside-bb2.php"; ?>*/ ?>
-			
 		</aside>
 	
 	</div><!-- end main content wrapper -->
 
-	<?php /* start footer 
-	<?php include "includes/footer.php"; ?>	*/ ?>
-
 </div><!--end site wrapper-->
-
-<?php /* include "includes/scripts-IE.php"; */ ?>
-
-<?php /* site wide javascript here and below
-<?php include "includes/scripts-global.php"; ?> */ ?>
 
 </body>
 </html>
