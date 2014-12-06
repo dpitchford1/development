@@ -17,7 +17,15 @@ define('mediaDIR', '/development/media/');
 define('globalCSS', '/development/media/css/');
 define('globalJS', '/development/media/js/');
 
-$page = basename($_SERVER['SCRIPT_NAME']);
+//$page = basename($_SERVER['SCRIPT_NAME']);
+
+
+// main menu selected states
+// $directoryURI = $_SERVER['REQUEST_URI'];
+// $path = parse_url($directoryURI, PHP_URL_PATH);
+// $components = explode('/', $path);
+// $first_part = $components[1];
+
 
 ?>
 

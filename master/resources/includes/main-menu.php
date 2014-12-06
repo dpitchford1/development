@@ -1,4 +1,3 @@
-
 <h2 class="invisible-text">Resources Main Sections</h2>
 <nav class="navigation-wrapper" role="navigation">
 	<h2 class="invisible-text">Primary Content</h2>
@@ -6,8 +5,8 @@
 		<li>Design</li>
 		<li>Development</li>
 		<li>Docs &amp; Reading</li>
-		<li><a href="<?=$rootPath?>resources/fonts/">Fonts</a></li>
-		<li <?php if ($page == 'fonts/index.php') { ?>class="active"<?php } ?>><a href="index.php">Fontz</a></li>
+		<li><a <? if (stripos($_SERVER['REQUEST_URI'],'/fonts/') !== false) {echo 'class="selected"';} ?> href="<? $rootPath ?>/blog/">Fonts</a></li>
+
 		<li>PS &amp; Illustrator Templates</li>
 		<li>Vectors</li>
 		<li>CMS</li>
