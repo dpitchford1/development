@@ -5,10 +5,10 @@
 //$rootMedia  = "/development/media";
 //$fontsCSS = "/development/media/css/modules/fonts.css";
 
-$rootPath = "/development/master/";
+$rootPath = "/development/resources/";
 
-$inc_global = $_SERVER['DOCUMENT_ROOT'] . "/development/master/includes/";
-$inc_local = $_SERVER['DOCUMENT_ROOT'] . "/development/master/resources/includes/";
+$inc_global = $_SERVER['DOCUMENT_ROOT'] . "/development/includes/";
+$inc_local = $_SERVER['DOCUMENT_ROOT'] . "/development/resources/includes/";
 
 //define('mediaDIR', '/development/media/');
 //define('globalCSS', '/development/media/css/');
@@ -21,8 +21,8 @@ $paths = array(
 		'media' => "/development/media/",
 		'css' => "/development/media/css/",
 		'js' => "/development/media/js/",
-		'template' => "/development/master/template/",
-		'resources' => "/development/master/resources/"
+		'template' => "/development/style-guide/",
+		'resources' => "/development/resources/"
 		),
 
 	"local" =>  array(
