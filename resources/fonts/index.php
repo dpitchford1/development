@@ -6,7 +6,7 @@
 	<title>Font Face fonts - Resources Archive</title>
 	<?php include $inc_global . "head.php"; ?>
 
-	<link rel="stylesheet" href="<?= globalCSS ?>modules/fonts.css" media="only screen and (min-width: 10em)" type="text/css">
+	<link rel="stylesheet" href="<?= $paths['global']['css'] ?>modules/fonts.css" media="only screen and (min-width: 10em)" type="text/css">
 </head>
 <body class="page-body development" id="page-body" lang="en">
 
