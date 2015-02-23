@@ -2,7 +2,8 @@
 <nav class="navigation-wrapper" role="navigation">
 	<h2 class="invisible-text">Primary Content</h2>
 	<ul class="inline-bullet">
-		<li>Design</li>
+		<li><a <? if (stripos($_SERVER['REQUEST_URI'],'/resources/') !== false) {echo 'class="selected"';} ?> href="<?= $paths['global']['resources'] ?>">Main</a></li></li>
+		<li><a <? if (stripos($_SERVER['REQUEST_URI'],'/design/') !== false) {echo 'class="selected"';} ?> href="<?= $paths['global']['resources'] ?>design/">Design</a></li>
 		<li>Development</li>
 		<li>Docs &amp; Reading</li>
 		<li><a <? if (stripos($_SERVER['REQUEST_URI'],'/fonts/') !== false) {echo 'class="selected"';} ?> href="<?= $paths['global']['resources'] ?>fonts/">Fonts</a></li>

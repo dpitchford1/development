@@ -1,19 +1,19 @@
-<?php ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/development/init.php'); ini_set('display_errors', 1); ?>
 <!DOCTYPE HTML>
 <html dir="ltr" lang="en-CA">
 <!--[if IE]><![endif]-->
 <head>
 	<title>Home - Resources Archive</title>
-	
-	<?php include "includes/head.php"; ?>
-	<link rel="stylesheet" href="/development/media/css/patterns.css" media="only screen and (min-width: 10em)" type="text/css">
+	<?php include $inc_global . "head.php"; ?>
+
+	<link rel="stylesheet" href="<?= $paths['global']['css'] ?>modules/patterns.css" media="only screen and (min-width: 10em)" type="text/css">
 </head>
 <body class="page-body development" id="page-body" lang="en">
 
 <div class="site-wrapper">
 
 	<?php /* site header start */ ?>
-	<?php include "includes/header.php"; ?>	
+	<?php include $inc_local . "header.php"; ?>
 
 	<div class="main-content-wrapper grid-setup">
 		

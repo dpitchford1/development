@@ -251,6 +251,8 @@
 		margin-bottom:.625em;
 		width:100%;
 		}
+
+	a{}
 	
 	/* to push the site layout right upon showing Popular Tags on 1260 view */ 
 	/*.push-layout{}*/
