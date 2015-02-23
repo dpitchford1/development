@@ -1,9 +1,13 @@
 <?php require_once "nhl-vars.php"; ?>
-<?php /*
+<?php
+	// echo "<pre>";
+	// print_r($nhl);
+	// echo "</pre>";
+
 	echo "<pre>";
-	print_r($nhl);
+	print_r($nhl['det']);
 	echo "</pre>";
-*/ ?>
+ ?>
 
 <form class="wrapper cf">
 	<label class="form-label" for="nhl-nav"><?= $content['copy']['chooseTeam'] ?></label>
@@ -17,6 +21,52 @@
 	</div>
 	<p class="sg-toggler"><a href="#nhl-raw" onclick="toggled('nhl-raw'); return false;"><?= $content['copy']['viewData'] ?></a></p>
 </form>
+
+
+<?php /*  Just 1 team */ ?>
+
+<?php $values =  $nhl['det']; ?>
+
+<article class="wrapper">
+
+	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>" id="<?=$values['LongName']?>">
+		<span class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><?=$values['FullName']?></span>
+	</h3>
+
+	<?php if (isset($values['TeamColours'])) { ?>
+	<div class="span-of-2">
+		<h3 class="sg-tileheading"><?= $content['titles']['Primary'] ?></h3>
+
+		<ul class="sg-colors">
+			<?php foreach ($values['TeamColours'] as $colors => $color_value) {	?>
+			<li>
+				<span style="background: <?=$color_value?>" class="sg-swatch">&nbsp;</span>
+				<p class="sg-label"><?=$color_value?></p>
+			</li>
+			<?php }	?>
+		</ul>
+	</div>
+	<?php } ?>
+
+	<?php if (isset($values['SecondaryColours'])) { ?>
+	<div class="span-of-2 cf">
+		<h3 class="sg-tileheading"><?=$values['SecondaryLabel']?></h3>
+
+		<ul class="sg-colors border-left">
+			<?php foreach ($values['SecondaryColours'] as $colors => $color_value) { ?>
+			<li>
+				<span style="background: <?=$color_value?>" class="sg-swatch">&nbsp;</span>
+				<p class="sg-label"><?=$color_value?></p>
+			</li>
+			<?php }	?>
+		</ul>
+	</div>
+	<?php } ?>
+
+</article>
+
+
+
 
 <div class="wrapper" id="nhl-raw" style="display: none;">
 	<table class="data-table">
@@ -49,7 +99,7 @@
 </div>
 
 
-<?php /** START TEAM */ ?>
+<?php /** START TEAM REPEATER */ ?>
 
 <?php foreach ($nhl as $teams => $values) { ?>
 <article class="wrapper">
