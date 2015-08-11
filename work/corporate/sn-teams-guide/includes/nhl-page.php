@@ -4,9 +4,9 @@
 	// print_r($nhl);
 	// echo "</pre>";
 
-	echo "<pre>";
-	print_r($nhl['det']);
-	echo "</pre>";
+	//echo "<pre>";
+	//print_r($nhl['det']);
+	//echo "</pre>";
  ?>
 
 <form class="wrapper cf">
@@ -25,9 +25,9 @@
 
 <?php /*  Just 1 team */ ?>
 
-<?php $values =  $nhl['det']; ?>
+<?php // $values =  $nhl['det']; ?>
 
-<article class="wrapper">
+<!-- <article class="wrapper">
 
 	<h3 class="sg-subheading" style="color: <?=$values['HeadingColour']?>" id="<?=$values['LongName']?>">
 		<span class="ico-inline ico-25-inline <?=$values['ShortName']?>--25x25"><?=$values['FullName']?></span>
@@ -63,7 +63,7 @@
 	</div>
 	<?php } ?>
 
-</article>
+</article> -->
 
 
 

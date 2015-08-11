@@ -21,8 +21,10 @@
 	<![endif]-->
 
 	<?php /* JS SETUP - toggle css classes and IE10 viewport fix */ ?>
-	<script>var doc = window.document; function addLoadEvent(b){var a=window.onload;if(typeof window.onload!=="function"){window.onload=b}else{window.onload=function(){a();b()}}}; doc.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js';</script>
-	<script>if (doc.querySelector && doc.addEventListener) { (function() { if (navigator.userAgent.match(/IEMobile\/10\.0/)) { var msViewportStyle = doc.createElement("style"); msViewportStyle.appendChild( doc.createTextNode("@-ms-viewport{width:auto!important}") ); doc.getElementsByTagName("head")[0].appendChild(msViewportStyle); } })(); }</script>
+	<script>var doc = window.document; function addLoadEvent(b){var a=window.onload;if(typeof window.onload!=="function"){window.onload=b}else{window.onload=function(){a();b()}}}; doc.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js';
+		if (doc.querySelector && doc.addEventListener) { (function() { if (navigator.userAgent.match(/IEMobile\/10\.0/)) { var msViewportStyle = doc.createElement("style"); msViewportStyle.appendChild( doc.createTextNode("@-ms-viewport{width:auto!important}") ); doc.getElementsByTagName("head")[0].appendChild(msViewportStyle); } })(); }
+	</script>
+	<!-- <script>if (doc.querySelector && doc.addEventListener) { (function() { if (navigator.userAgent.match(/IEMobile\/10\.0/)) { var msViewportStyle = doc.createElement("style"); msViewportStyle.appendChild( doc.createTextNode("@-ms-viewport{width:auto!important}") ); doc.getElementsByTagName("head")[0].appendChild(msViewportStyle); } })(); }</script> -->
 
 	<!-- <script type="text/javascript" src="includes/func.js"></script> -->
 
@@ -48,7 +50,7 @@
 <header class="site-wrapper site-header" role="banner">
 	<div class="site-wrapper fluid">
 		<div class="logo">Sportsnet</div>
-		<h1 class="brand-title">Sportsnet Teams and Leagues Reference Guide</h1>
+		<h1 class="brand-title">Teams and Leagues Reference Guide</h1>
 	</div>
 </header>
 
@@ -76,7 +78,7 @@
 
 	<?php /* START: NHL */ ?>
 	<section class="region" id="nhl">
-		<h2 class="sg-heading"><?= $content['leagues']['nhl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['nhl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG's)</h2>
 
 		<?php include "includes/nhl-page.php"; ?>
 		
@@ -85,7 +87,7 @@
 
 	<?php /* START: NBA */ ?>
 	<section class="region" id="nba">
-		<h2 class="sg-heading"><?= $content['leagues']['nba'] ?> - <?= $content['titles']['titleMore'] ?> (SVG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['nba'] ?> - <?= $content['titles']['titleMore'] ?> (SVG's)</h2>
 
 		<?php include "includes/nba-page-svg.php"; ?>
 		<?php /* include "includes/nba-page.php"; */ ?>
@@ -95,7 +97,7 @@
 
 	<?php /* START: MLB */ ?>
 	<section class="region" id="mlb">
-		<h2 class="sg-heading"><?= $content['leagues']['mlb'] ?> - <?= $content['titles']['titleMore'] ?> (PNG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['mlb'] ?> - <?= $content['titles']['titleMore'] ?> (PNG's)</h2>
 
 		<?php include "includes/mlb-page.php"; ?>
 
@@ -104,7 +106,7 @@
 
 	<?php /* START: NFL */ ?>
 	<section class="region" id="nfl">
-		<h2 class="sg-heading"><?= $content['leagues']['nfl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['nfl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG's)</h2>
 
 		<?php include "includes/nfl-page.php"; ?>
 
@@ -113,7 +115,7 @@
 
 	<?php /* START: CFL */ ?>
 	<section class="region" id="cfl">
-		<h2 class="sg-heading"><?= $content['leagues']['cfl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG)</h2>
+		<h2 class="sg-heading"><?= $content['leagues']['cfl'] ?> - <?= $content['titles']['titleMore'] ?> (PNG's)</h2>
 
 		<?php include "includes/cfl-page.php"; ?>
 
@@ -171,7 +173,7 @@ function toggled(id) {
 </script>
 
 <?php /* START: development workflow */ ?>
-<link rel="stylesheet" href="/development/media/css/dev/debug.css" media="all">
+<!-- <link rel="stylesheet" href="/development/media/css/dev/debug.css" media="all">
 <div id="devMenu">    
     <h6>Window Width: <span id="width"></span> px</h6>
     <div id="debug-features"> for debug output of features </div>
@@ -181,6 +183,6 @@ function toggled(id) {
     function widthSetter() { document.getElementById("width").innerHTML = window.innerWidth; }
     widthSetter();
     window.addEventListener("resize", widthSetter);
-</script>
+</script> -->
 </body>
 </html>
