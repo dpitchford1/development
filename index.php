@@ -1,4 +1,5 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/development/init.php'); ini_set('display_errors', 1); ?>
+<?php // require_once($_SERVER['DOCUMENT_ROOT'].'/development/init.php'); ini_set('display_errors', 1); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/global-vars.php'); ini_set('display_errors', 1);?>
 <!DOCTYPE HTML>
 <html dir="ltr" lang="en-CA">
 <!--[if IE]><![endif]-->

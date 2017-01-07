@@ -1,4 +1,7 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/development/init.php'); ini_set('display_errors', 1); ?>
+
+
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/global-vars.php'); ini_set('display_errors', 1);?>
+
 <!DOCTYPE HTML>
 <html dir="ltr" lang="en-CA">
 <!--[if IE]><![endif]-->
@@ -12,7 +15,15 @@
 <body class="page-body development" id="page-body" lang="en">
 
 <div class="site-wrapper">
-
+<p>
+host: <?php echo $_SERVER['HTTP_HOST'] ?><br>
+document root: <?php echo $_SERVER['DOCUMENT_ROOT'] ?><br>
+global inc path: <?php // echo $path_inc; ?><br>
+media directory: <?php // echo $mediaDIR; ?><br>
+root media: <?php // echo $rootMedia; ?><br>
+fonts css: <?php // echo $fontsCSS; ?><br>
+url of page: <?php // echo $url; ?><br><br>
+</p>
 
 	<?php /* site header start */ ?>
 	<?php include $inc_local . "header.php"; ?>
@@ -28,8 +39,7 @@
 				
 				<h3 class="sg-heading">Fonts</h3>
 				
-<!-- Avenir Light
----------------------------------------------- -->
+<!-- Avenir Light ******************* -->
 				<h4 class="sg-subheading">Avenir Light</h4>
 				<div class="font-block" style="font-family:'Avenir LT W01 35 Light';">
 					<h5 class="font">Avenir® 35 Light</h5>
@@ -40,7 +50,7 @@
 				
 
 <!-- Bebas Neue
----------------------------------------------- -->
+************************************** -->
 				<h4 class="sg-subheading">Bebas Neue</h4>
 				<div class="font-block" style="font-family:'bebas_neueregular';">
 					<h5 class="font">Bebas Neue Regular</h5>
@@ -51,7 +61,7 @@
 				
 				
 <!-- Franchise Bold
----------------------------------------------- -->
+************************************** -->
 				<h4 class="sg-subheading">Franchise Bold</h4>
 				<div class="font-block" style="font-family:'Franchise Bold';">
 					<h5 class="font">Franchise Bold</h5>
@@ -62,7 +72,7 @@
 
 
 <!-- Futura
----------------------------------------------- -->
+************************************** -->
 				<h4 class="sg-subheading">Futura</h4>
 				
 				<div class="font-block" style="font-family:'Futura W01 Bold';">
@@ -118,7 +128,7 @@
 				
 				
 <!-- Helvetica Neue
----------------------------------------------- -->
+************************************** -->
 				<h4 class="sg-subheading">Helvetica Neue</h4>
 				<div class="font-block" style="font-family:'Neue Helvetica 35 Thin';">
 					<h5 class="font">Neue Helvetica 35 Thin</h5>
@@ -129,7 +139,7 @@
 
 
 <!-- Helvetica Rounded
----------------------------------------------- -->
+************************************** -->
 				<h4 class="sg-subheading">Helvetica Rounded</h4>
 				<div class="font-block" style="font-family:'HelveticaW01-RoundedBd';">
 					<h5 class="font">Helvetica® Rounded Bold</h5>
@@ -144,7 +154,7 @@
 				
 				
 <!-- copyright
----------------------------------------------- -->		
+************************************** -->		
 				<h3 class="sg-heading">Licensing</h3>
 				<p>/*
 				This CSS resource incorporates links to font software which is the valuable copyrighted
@@ -176,7 +186,7 @@
 		</main>
 	
 		<?php /* start aside */ ?>
-		<?php include $inc_local . "aside-fonts.php"; ?>
+		<?php // include $inc_local . "aside-fonts.php"; ?>
 		
 	
 	</div><!-- end main content wrapper -->

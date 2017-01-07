@@ -1,4 +1,5 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/development/init.php'); ini_set('display_errors', 1); ?>
+<?php // require_once($_SERVER['DOCUMENT_ROOT'].'/development/init.php'); ini_set('display_errors', 1); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/global-vars.php'); ini_set('display_errors', 1);?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <!--[if IE]>
 <meta http-equiv="imagetoolbar" content="false" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta http-equiv="cleartype" content="on" />
